@@ -1,0 +1,11 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-backup.json
+.obsidian/hotkeys.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# large binaries if not wanted (uncomment as needed)
+# *.pdf
