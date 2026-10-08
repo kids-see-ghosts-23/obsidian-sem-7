@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Everforest Clarity",
+  "theme": "obsidian",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "baseFontSizeAction": true,
+  "accentColor": "#ffffff",
+  "baseFontSize": 15,
+  "showRibbon": true,
+  "showViewHeader": true
+}

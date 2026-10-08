@@ -1,0 +1,1206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IKS Full Syllabus Guide</title>
+<style>
+:root{
+  --bg:#f7f5f0; --card:#ffffff; --ink:#1f2328; --muted:#5c6470; --line:#e4e0d6;
+  --accent:#c2410c; --accent-soft:#fff1e8; --ok:#15803d; --ok-soft:#ecfdf3;
+  --blue:#1d4ed8; --blue-soft:#eef3ff; --star:#d97706; --tip:#fef9c3; --tip-ink:#713f12;
+  --code:#f3f1ea; --note:#f0f7ff; --note-line:#bfd5f5;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#15171a; --card:#1e2125; --ink:#e8e6e1; --muted:#a2a8b1; --line:#2f343a;
+    --accent:#fb923c; --accent-soft:#2b1d14; --ok:#4ade80; --ok-soft:#14261b;
+    --blue:#93b4ff; --blue-soft:#1a2236; --star:#fbbf24; --tip:#2d2812; --tip-ink:#fde68a;
+    --code:#262a2f; --note:#18212e; --note-line:#2c3d57;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:20px 16px 80px}
+header h1{font-size:1.7rem;margin:.2em 0 .1em;line-height:1.25}
+header p{margin:.2em 0;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:14px 0;font-size:.92rem}
+.legend b{color:var(--star)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+button{font:inherit;font-size:.9rem;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+nav.toc{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin}
+nav.toc a{white-space:nowrap;text-decoration:none;color:var(--ink);font-size:.82rem;padding:5px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+.unit{margin:40px 0 0;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--line);padding-bottom:4px}
+h2{margin:30px 0 6px;font-size:1.3rem;padding-left:10px;border-left:5px solid var(--accent);scroll-margin-top:56px}
+h2 .stars{font-size:.95rem;margin-left:6px}
+.sub{color:var(--muted);margin:0 0 10px;font-size:.92rem}
+.notes{background:var(--note);border:1px solid var(--note-line);border-radius:14px;padding:12px 16px;margin:12px 0}
+.notes h3{margin:.2em 0 .4em;font-size:1rem}
+.notes p{margin:.4em 0}
+.notes ul,.notes ol{margin:.3em 0 .5em;padding-left:1.3em}
+.q{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:14px 0}
+.q.top{border-left:5px solid var(--star)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.78rem;margin-bottom:6px}
+.pill{padding:2px 8px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-weight:600}
+.pill.exp{background:var(--accent-soft);color:var(--accent)}
+.stars{color:var(--star);font-size:.95rem;letter-spacing:1px}
+.qt{font-weight:700;font-size:1.05rem;margin:2px 0 8px}
+.ans{border-top:1px dashed var(--line);padding-top:8px}
+.ans p{margin:.4em 0}
+.ans ul,.ans ol{margin:.3em 0 .5em;padding-left:1.3em}
+.ans li{margin:.15em 0}
+.tip{background:var(--tip);color:var(--tip-ink);border-radius:10px;padding:8px 12px;font-size:.9rem;margin-top:10px}
+.mem{background:var(--ok-soft);color:var(--ok);border-radius:10px;padding:8px 12px;font-size:.9rem;margin-top:8px;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:.92rem;margin:6px 0}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--code)}
+.tablebox{overflow-x:auto}
+.mcq{display:grid;gap:10px}
+.mcq .q{margin:0}
+.correct{color:var(--ok);font-weight:700}
+.tree{overflow-x:auto;padding:6px 0}
+.tree ul{padding-top:16px;position:relative;display:flex;justify-content:center;margin:0;padding-left:0}
+.tree li{list-style:none;text-align:center;position:relative;padding:16px 4px 0}
+.tree li::before,.tree li::after{content:"";position:absolute;top:0;right:50%;border-top:2px solid var(--muted);width:50%;height:16px}
+.tree li::after{right:auto;left:50%;border-left:2px solid var(--muted)}
+.tree li:only-child::before,.tree li:only-child::after{display:none}
+.tree li:only-child{padding-top:0}
+.tree li:first-child::before,.tree li:last-child::after{border:0 none}
+.tree li:last-child::before{border-right:2px solid var(--muted);border-radius:0 6px 0 0}
+.tree li:first-child::after{border-radius:6px 0 0 0}
+.tree ul ul::before{content:"";position:absolute;top:0;left:50%;border-left:2px solid var(--muted);height:16px}
+.tree .n{display:inline-block;border:2px solid var(--accent);background:var(--accent-soft);border-radius:8px;padding:4px 8px;font-size:.8rem;font-weight:700;min-width:70px}
+.tree .leaf{display:inline-block;border:1px solid var(--line);background:var(--code);border-radius:8px;padding:4px 6px;font-size:.72rem;text-align:left;max-width:150px;font-weight:400}
+.tree>ul{min-width:620px}
+.tree.small>ul{min-width:520px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:.9rem;margin:6px 0}
+.flow span.b{border:2px solid var(--accent);background:var(--accent-soft);border-radius:8px;padding:3px 8px;font-weight:600}
+body.practice .ans{filter:blur(6px);cursor:pointer;user-select:none;transition:filter .2s}
+body.practice .ans.show{filter:none;user-select:auto}
+body.onlytop .q:not(.top){display:none}
+body.onlytop .notes{display:none}
+.rev{columns:2 260px;column-gap:20px}
+.rev div{break-inside:avoid;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:0 0 10px;font-size:.9rem}
+.rev b{color:var(--accent)}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:.92rem}
+.plan ol{margin:.3em 0;padding-left:1.3em}
+footer{color:var(--muted);font-size:.8rem;margin-top:30px;text-align:center}
+@media (max-width:560px){ header h1{font-size:1.35rem} .q,.notes{padding:12px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>IKS (HS271TA): Full Syllabus Guide in Simple Language</h1>
+  <p><b>Unit 1</b> (complete) + <b>Unit 2 till Linguistics</b>: Pāṇini's work on Sanskrit grammar, Phonetics, Aṣṭādhyāyī's vyākaraṇa.</p>
+  <p>Every topic has <b>simple notes</b> first, then <b>all the questions</b> that can come from it: CIE 2025 PYQs plus other likely questions, all answered.</p>
+</header>
+
+<div class="legend">
+  <span><b>⭐⭐⭐</b> Must do: asked before or a sure-shot</span>
+  <span><b>⭐⭐</b> Important: very likely</span>
+  <span><b>⭐</b> Good to know / 1-mark level</span>
+  <span><span class="pill">PYQ</span> asked in CIE 2025</span>
+  <span><span class="pill exp">Likely</span> from syllabus, not asked yet</span>
+</div>
+
+<div class="plan"><b>📌 If you have less time, study in this order:</b>
+<ol>
+<li>Six schools of philosophy + Nyāya/Sāṅkhya/Yoga questions</li>
+<li>Vedāṅgas + Vedic corpus</li>
+<li>IKS corpus diagram</li>
+<li>Traditional knowledge: scope, threats, kinds, traditional vs western</li>
+<li>Pāṇini + Aṣṭādhyāyī + phonetics</li>
+<li>Historicity and perception</li>
+</ol></div>
+
+<div class="controls">
+  <button id="practice">🧠 Practice mode (hide answers)</button>
+  <button id="onlytop">⭐⭐⭐ Show only must-do questions</button>
+</div>
+
+<nav class="toc">
+  <a href="#prologue">1.1 Prologue</a>
+  <a href="#history">1.2 Historicity</a>
+  <a href="#tk">1.3 Trad. Knowledge</a>
+  <a href="#scope">1.4 Nature &amp; Scope</a>
+  <a href="#kinds">1.5 Kinds</a>
+  <a href="#threats">1.6 Threats</a>
+  <a href="#transition">1.7 Trad → Western</a>
+  <a href="#corpus">1.8 IKS Corpus</a>
+  <a href="#vedic">1.9 Vedic Corpus</a>
+  <a href="#vedanga">1.10 Vedāṅgas</a>
+  <a href="#phil">1.11 Philosophy</a>
+  <a href="#panini">2.1 Pāṇini</a>
+  <a href="#ashta">2.2 Aṣṭādhyāyī</a>
+  <a href="#phon">2.3 Phonetics</a>
+  <a href="#mcq">1-Mark MCQs</a>
+  <a href="#rev">Last-min revision</a>
+</nav>
+
+<div class="unit">Unit 1: Introduction to Indian Knowledge Systems</div>
+
+<!-- ============ 1.1 PROLOGUE ============ -->
+<h2 id="prologue">1.1 Perception and Prologue <span class="stars">⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<ul>
+<li><b>IKS (Indian Knowledge Systems)</b> is all the knowledge and practices India developed over thousands of years. It covers philosophy, maths, medicine (Ayurveda), arts, architecture, farming and understanding nature.</li>
+<li>It was passed from generation to generation and helped people live in <b>harmony with nature and society</b>.</li>
+<li>Under <b>colonial education</b>, Indian knowledge was pushed aside and Western ideas took over schools and colleges. Students lost touch with their roots.</li>
+<li><b>NEP 2020</b> wants to bring IKS back at all levels of education: interdisciplinary learning, Indian languages, and traditional wisdom for sustainable development.</li>
+<li>Its success depends on how <b>students perceive</b> IKS, which is why this topic is called "perception".</li>
+<li><b>Old + new together</b> is the idea: traditional farming with modern tools, or Ayurveda with modern healthcare.</li>
+</ul>
+</div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">What is IKS? Why do we need to study it today?</div>
+<div class="ans">
+<p><b>IKS</b> is the knowledge India built up over thousands of years in philosophy, science, maths, medicine, arts, architecture and agriculture. It was passed down through generations.</p>
+<p><b>Why study it today:</b></p>
+<ul>
+<li>It reconnects us with our roots, which colonial education cut off.</li>
+<li>It gives <b>sustainable</b> solutions, such as organic farming and water conservation.</li>
+<li>It supports health and wellness through Yoga and Ayurveda.</li>
+<li>It can be combined with modern science for innovation. Pāṇini's grammar, for example, is useful for computers.</li>
+<li>NEP 2020 makes it part of education.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐</span></div>
+<div class="qt">What is the role of NEP 2020 in reviving IKS?</div>
+<div class="ans">
+<ul>
+<li>It recognises the gap created by colonial education.</li>
+<li>It brings IKS into the curriculum at all levels.</li>
+<li>It encourages <b>interdisciplinary learning</b> and <b>Indian languages</b>.</li>
+<li>It treats traditional wisdom as important for <b>sustainable development</b> and <b>cultural preservation</b>.</li>
+</ul>
+</div></div>
+
+<!-- ============ 1.2 HISTORICITY ============ -->
+<h2 id="history">1.2 Historicity of IKS <span class="stars">⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p>"Historicity" means <b>how old IKS is and how it developed over time</b>. Think of it as a timeline:</p>
+<div class="tablebox"><table>
+<tr><th>Stage</th><th>What happened</th></tr>
+<tr><td>Vedic period (~1500–500 BCE)</td><td>4 Vedas composed. Upaniṣads discuss Ātman (self) and Brahman (ultimate reality).</td></tr>
+<tr><td>Epics</td><td>Rāmāyaṇa and Mahābhārata teach morals. The Bhagavad Gītā (part of the Mahābhārata) is a philosophy text.</td></tr>
+<tr><td>Classical works</td><td>Kālidāsa's Śākuntalam (literature), Patañjali's Yoga Sūtras (well-being).</td></tr>
+<tr><td>Philosophy</td><td>6 schools: Nyāya, Vaiśeṣika, Sāṅkhya, Yoga, Mīmāṃsā, Vedānta.</td></tr>
+<tr><td>Maths</td><td>Āryabhaṭa, Brahmagupta, Bhāskarācārya: zero, decimal system, trigonometry. Brahmagupta gave rules for quadratic equations.</td></tr>
+<tr><td>Astronomy</td><td>Āryabhaṭa: Earth rotates, eclipses explained, Earth's circumference. Varāhamihira's Bṛhat Saṃhitā mixes astronomy and weather.</td></tr>
+<tr><td>Medicine</td><td>Charaka Saṃhitā (internal medicine), Suśruta Saṃhitā (surgery).</td></tr>
+<tr><td>Universities</td><td><b>Takṣaśilā</b> (~600 BCE: medicine, law, military science). <b>Nālandā</b> (~5th c. CE, library <b>Dharmaganja</b>, students from China, Korea, Central Asia).</td></tr>
+<tr><td>Manuscripts</td><td>Palm leaves and birch bark kept in temples and monasteries. Scripts: Brāhmī, Kharoṣṭhī, Devanāgarī.</td></tr>
+<tr><td>Architecture texts</td><td>Mānasāra, Mayamata, Samarāṅgaṇa-sūtradhāra.</td></tr>
+</table></div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3–5M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Write a note on the historicity of Indian Knowledge Systems.</div>
+<div class="ans">
+<p>IKS is one of the oldest knowledge traditions in the world. Its journey looks like this:</p>
+<ul>
+<li><b>Vedic roots:</b> it starts with the 4 Vedas (~1500–500 BCE). The Upaniṣads asked deep questions about the self (Ātman) and reality (Brahman).</li>
+<li><b>Epics and classics:</b> the Rāmāyaṇa and Mahābhārata taught values. The Gītā gave philosophy, and Patañjali's Yoga Sūtras gave a path to mental well-being.</li>
+<li><b>Philosophy:</b> six schools developed logic, atomic theory, mind–matter ideas and spirituality.</li>
+<li><b>Science and maths:</b> Āryabhaṭa (Earth's rotation, eclipses), Brahmagupta (quadratic equations, zero), Bhāskarācārya. Medicine came through Charaka and Suśruta.</li>
+<li><b>Education centres:</b> Takṣaśilā and Nālandā attracted foreign students. Nālandā had a huge library, Dharmaganja.</li>
+<li><b>Preservation:</b> knowledge was saved on palm-leaf and birch-bark manuscripts in Brāhmī, Kharoṣṭhī and Devanāgarī.</li>
+</ul>
+<p>This shows that IKS was a living, organised system of knowledge across many fields, not just religion.</p>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐</span></div>
+<div class="qt">Write a short note on Nālandā and Takṣaśilā.</div>
+<div class="ans">
+<ul>
+<li><b>Takṣaśilā</b> (~600 BCE) is one of the earliest universities. It taught medicine, law and military science.</li>
+<li><b>Nālandā</b> (~5th century CE) was a global hub of education. Its huge library was called <b>Dharmaganja</b>, and scholars came from China, Korea and Central Asia.</li>
+</ul>
+</div></div>
+
+<!-- ============ 1.3 TK ============ -->
+<h2 id="tk">1.3 Indian Traditional Knowledge <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<ul>
+<li><b>Traditional knowledge (TK)</b>, also called indigenous knowledge, is the knowledge, know-how, skills and practices that local communities developed and passed from one generation to the next.</li>
+<li>It is often part of the community's <b>cultural or spiritual identity</b>.</li>
+<li><b>Fields:</b> agriculture, science, technology, ecology, medicine, biodiversity.</li>
+<li>It includes the knowledge itself and <b>cultural expressions</b> like signs and symbols.</li>
+<li><b>Examples:</b> Ayurveda, Yoga, Unani, Siddha and Naturopathy are recognised in India. So are indigenous farming methods and the use of herbs and spices.</li>
+<li><b>How it is expressed:</b> mostly <b>orally</b>, through stories, songs, folklore, proverbs, beliefs, rituals, dances, paintings and carvings. It belongs to the <b>group</b>, not to one person.</li>
+<li>International bodies like the <b>UN and WIPO</b> have recognised TK.</li>
+</ul>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">What is traditional knowledge? How is it passed on / expressed?</div>
+<div class="ans">
+<p><b>Meaning:</b> Traditional knowledge is the knowledge, skills and practices that a community develops from long experience and hands down from generation to generation. Examples are Ayurveda, Yoga, indigenous farming methods and herbal remedies.</p>
+<p><b>How it is passed on / expressed:</b></p>
+<ul>
+<li><b>Orally:</b> elders teach the young by word of mouth.</li>
+<li>Through <b>stories, songs, folklore and proverbs</b>.</li>
+<li>Through <b>rituals, beliefs and cultural values</b>.</li>
+<li>Through <b>arts</b>: dance, painting, carving.</li>
+<li>Through <b>practice</b>: learning by doing, for example in farming or crafts.</li>
+</ul>
+<p>It belongs to the whole community, and it keeps adapting to the local culture and environment.</p>
+</div></div>
+
+<!-- ============ 1.4 NATURE & SCOPE ============ -->
+<h2 id="scope">1.4 Nature and Scope of Traditional Knowledge <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p><b>Nature</b> means what TK is like (its characteristics). <b>Scope</b> means where it is useful (its areas and its use today).</p>
+<div class="tablebox"><table>
+<tr><th>Nature (characteristics)</th><th>Scope (where it is used)</th></tr>
+<tr><td>Passed down generations, mostly oral</td><td>Health: Ayurveda, Yoga, Siddha, Unani</td></tr>
+<tr><td>Based on long experience and trial</td><td>Agriculture: organic farming, crop rotation, neem pesticide</td></tr>
+<tr><td>Belongs to the community</td><td>Environment: sacred groves, water harvesting</td></tr>
+<tr><td>Holistic: nature + health + society + spirit</td><td>Arts and culture: music, dance, crafts, 64 Kalās</td></tr>
+<tr><td>Local and adapted to its environment</td><td>Education: NEP 2020</td></tr>
+<tr><td>Dynamic: keeps changing</td><td>Technology: Pāṇini's grammar for computers/NLP, herbal products</td></tr>
+</table></div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 3M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Describe the characteristics and scope of Indian traditional knowledge in the modern context.</div>
+<div class="ans">
+<p><b>What it is:</b> TK is the knowledge, skills and practices that communities built up from experience and passed down, mostly by word of mouth.</p>
+<p><b>Characteristics:</b></p>
+<ul>
+<li><b>Passed down generations</b> through stories, songs, rituals and folk arts.</li>
+<li><b>Experience-based</b> and suited to the local soil, climate and culture.</li>
+<li><b>Community-owned</b>, not owned by one person.</li>
+<li><b>Holistic</b>: it connects health, nature, society and spirituality.</li>
+<li><b>Living and dynamic</b>: it keeps adapting.</li>
+</ul>
+<p><b>Scope today:</b></p>
+<ul>
+<li><b>Health:</b> Ayurveda and Yoga are recognised, and yoga is practised worldwide.</li>
+<li><b>Agriculture:</b> organic farming and neem pesticide make farming sustainable.</li>
+<li><b>Environment:</b> sacred groves protect biodiversity.</li>
+<li><b>Education:</b> NEP 2020 brings IKS into the curriculum.</li>
+<li><b>Technology:</b> Pāṇini's rule-based grammar helps in computer language processing.</li>
+</ul>
+<p>In short, old wisdom combined with modern science gives sustainable solutions.</p>
+</div>
+<div class="tip">✍️ For 3 marks: definition (1 line) + 3 characteristics + 3 scope points with an example each.</div>
+</div>
+
+<!-- ============ 1.5 KINDS ============ -->
+<h2 id="kinds">1.5 Kinds of Traditional Knowledge <span class="stars">⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<div class="tree small"><ul><li><span class="n">Traditional Knowledge</span>
+<ul>
+<li><span class="n">Cultural</span></li>
+<li><span class="n">Artistic</span></li>
+<li><span class="n">Medicinal</span></li>
+<li><span class="n">Biodiversity / Natural resources</span></li>
+<li><span class="n">Agricultural</span></li>
+<li><span class="n">Sacred</span></li>
+</ul></li></ul></div>
+<div class="mem">🧠 Trick: "<b>CAM BAS</b>" → Cultural, Artistic, Medicinal, Biodiversity, Agricultural, Sacred</div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">List and explain the different kinds of traditional knowledge.</div>
+<div class="ans">
+<ol>
+<li><b>Cultural:</b> customs, festivals, rituals, folklore. Example: festivals linked to harvest seasons.</li>
+<li><b>Artistic:</b> music (rāga), dance, painting, handicrafts. Example: Madhubani painting.</li>
+<li><b>Medicinal:</b> healing systems and herbs. Example: Ayurveda, turmeric for wounds.</li>
+<li><b>Biodiversity / Natural resources:</b> knowledge of local plants, animals, forests and their uses. Example: tribal knowledge of forest herbs.</li>
+<li><b>Agricultural:</b> seed saving, crop rotation, natural manure and pest control. Example: neem as a pesticide.</li>
+<li><b>Sacred:</b> spiritual knowledge, sacred places, sacred groves.</li>
+</ol>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Differentiate between agricultural and ecological traditional knowledge.</div>
+<div class="ans">
+<div class="tablebox"><table>
+<tr><th></th><th>Agricultural TK</th><th>Ecological TK</th></tr>
+<tr><td>Focus</td><td>How to <b>grow food</b> (crops and animals)</td><td>How to <b>protect nature</b> as a whole</td></tr>
+<tr><td>Goal</td><td>Good yield without harming the soil</td><td>Balance between people, forests, water and animals</td></tr>
+<tr><td>Examples</td><td>Crop rotation, mixed cropping, cow-dung manure, neem pesticide, seed saving</td><td>Sacred groves, Bishnoi community protecting trees and animals, stepwells and tanks</td></tr>
+</table></div>
+<p>In one line: agricultural TK is about the <b>farm</b>, ecological TK is about the <b>whole environment</b>.</p>
+</div></div>
+
+<!-- ============ 1.6 THREATS ============ -->
+<h2 id="threats">1.6 Threats to TK and the Need to Protect It <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p>TK has been exploited for centuries, first by <b>colonisation</b>, then by <b>capitalism</b> (MNCs) and <b>consumerism</b>.</p>
+<ul>
+<li><b>Language threat:</b> TK is stored in local languages and Sanskrit. When the language dies, the knowledge dies too.</li>
+<li><b>External pressures:</b> migration, environmental damage, modern lifestyles and globalisation break the chain of passing knowledge down.</li>
+<li><b>Biopiracy:</b> commercial use and patenting of natural products or genetic material without permission or benefit-sharing. Example: the <b>turmeric</b> patent.</li>
+</ul>
+<p><b>Why protect it:</b> culture and identity, livelihood, health benefits and ecological benefits.</p>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Explain any two threats to traditional knowledge.</div>
+<div class="ans">
+<ol>
+<li><b>Biopiracy:</b> companies patent and sell natural products or knowledge that local people have used for centuries, without permission and without sharing profits. <i>Example:</i> a US patent was granted on the wound-healing use of <b>turmeric</b>, even though Ayurveda has used it for thousands of years. It was cancelled after India challenged it.</li>
+<li><b>Language loss:</b> much TK is stored in local languages and Sanskrit, for example Ayurveda texts. When people stop using these languages, the knowledge inside them is lost too.</li>
+</ol>
+<p><i>Third one (backup):</i> <b>External pressures</b> such as migration, globalisation and modern lifestyles mean young people no longer learn the traditional ways.</p>
+</div>
+<div class="tip">✍️ Always give one example (turmeric, neem or basmati). It makes the answer look like your own.</div>
+</div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Why do we need to protect traditional knowledge?</div>
+<div class="ans">
+<ul>
+<li><b>Identity:</b> it keeps a community's culture, language and identity alive.</li>
+<li><b>Livelihood:</b> many tribal and rural people earn their living from it.</li>
+<li><b>Health:</b> traditional medicine is cheap and reaches a huge population.</li>
+<li><b>Ecology:</b> practices like sacred groves conserve forests and biodiversity.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 1–2M</span><span class="stars">⭐</span></div>
+<div class="qt">What is biopiracy? Give an example.</div>
+<div class="ans"><p>Biopiracy is when someone commercially uses or patents natural biological material, or the traditional knowledge about it, without the permission of the community that developed it. <b>Example:</b> the US patent on turmeric's wound-healing use, which was later cancelled.</p></div></div>
+
+<!-- ============ 1.7 TRANSITION ============ -->
+<h2 id="transition">1.7 Transition from Traditional to Western Knowledge <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<div class="flow"><span class="b">Gurukula / Nālandā / Takṣaśilā</span> → <span class="b">British rule: English education</span> → <span class="b">Divide between IKS and Western science</span> → <span class="b">Today: NEP 2020 brings them together</span></div>
+<ul>
+<li><b>Earlier:</b> Gurukula and temple-based learning. Education was holistic, mixing philosophy, science, arts and ethics. Knowledge was sacred (<b>vidyā</b>) and aimed at self-realisation and social harmony, not money. It was passed on orally and through Sanskrit texts.</li>
+<li><b>British period:</b> English language, new curricula and modern institutions. The focus moved to <b>empirical, utilitarian, job-oriented</b> learning.</li>
+<li><b>Result:</b> a gap opened between IKS and Western science.</li>
+<li><b>Good side:</b> Indian heritage got documented and became known globally.</li>
+<li><b>Now:</b> both are being combined again.</li>
+</ul>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Mention one key difference between traditional Indian and Western systems of knowledge.</div>
+<div class="ans">
+<p><b>Key difference (write this one):</b> Indian traditional knowledge is <b>holistic</b>. It treats knowledge as sacred (vidyā) and aims at self-realisation and harmony with society and nature. Western knowledge is <b>empirical and specialised</b>. It relies on experiments and evidence and is mostly aimed at material progress and jobs.</p>
+<div class="tablebox"><table>
+<tr><th>Point</th><th>Traditional Indian</th><th>Western</th></tr>
+<tr><td>Aim</td><td>Self-realisation and harmony</td><td>Material and job-oriented progress</td></tr>
+<tr><td>Approach</td><td>Holistic: science, ethics and spirit together</td><td>Separate subjects, experiment-based</td></tr>
+<tr><td>Teaching</td><td>Gurukula, guru–śiṣya, oral</td><td>Schools and universities, written textbooks</td></tr>
+<tr><td>Ownership</td><td>Community</td><td>Individual (patents)</td></tr>
+</table></div>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3–5M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Explain the transition from traditional to Western knowledge in India.</div>
+<div class="ans">
+<ul>
+<li><b>Before:</b> learning happened in Gurukulas and centres like Nālandā and Takṣaśilā. It was holistic, covering philosophy, science, arts and ethics in the framework of Sanātana Dharma. Knowledge was seen as sacred (vidyā) and passed on orally and through Sanskrit texts. Ayurveda, astronomy, maths, metallurgy and linguistics were all kept alive this way.</li>
+<li><b>Colonial change:</b> the British brought English education, new syllabi and modern institutions. The focus moved from moral and spiritual learning to practical, job-oriented learning.</li>
+<li><b>Effect:</b> Indian knowledge was pushed aside, and a divide formed between IKS and Western science.</li>
+<li><b>Positive side:</b> Indian texts got documented and reached the world.</li>
+<li><b>Now:</b> modern education, through NEP 2020, is trying to combine IKS with modern scientific research and innovation.</li>
+</ul>
+</div></div>
+
+<!-- ============ 1.8 CORPUS ============ -->
+<h2 id="corpus">1.8 The IKS Corpus: A Classification Framework <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p>"Corpus" means the <b>whole collection</b> of IKS. It is divided into <b>Literary</b> (written) and <b>Non-Literary</b> (oral / practised).</p>
+<ul>
+<li><b>Sanātana Dharma corpus:</b>
+  <ul>
+  <li><b>Core</b> = Vedas and Vedāṅgas (the 14 Vidyāsthānas) plus works of religious leaders and philosophers.</li>
+  <li><b>Other</b> = maths, astronomy, engineering, architecture, alchemy, aesthetics, Kāvyas, health, psychology, administration, code of living. Mostly in Sanskrit, later retold in regional languages.</li>
+  <li>Example: maths used in astronomy for Yuga cycles shows that science and metaphysics were linked.</li>
+  </ul></li>
+<li><b>Other Dhārmic literature</b> (Buddhist and Jain, ~500 BCE onward):
+  <ul>
+  <li><b>Buddhist:</b> maths, shipbuilding, maritime activity, alchemy. <b>Rasaratnākara</b> by <b>Nāgārjuna</b> (1st c. CE) is an early alchemy text.</li>
+  <li><b>Jain:</b> maths as a core subject (<b>Gaṇitānuyoga</b>). <b>Tattvārtha Sūtra</b>. They even estimated the number of species as <b>2<sup>96</sup></b>.</li>
+  </ul></li>
+<li><b>Regional:</b> literature in all major Indian languages.</li>
+<li><b>Non-literary:</b> oral traditions such as the <b>64 Kalās</b> (music, dance, painting, sculpture, crafts), health traditions, food and life practices, folklore.</li>
+<li><b>Sciences in the corpus:</b> Vṛkṣa Āyurveda (plant science), metalworking, shipbuilding, dams, watershed management, cosmetics, perfumes, dyes, town planning.</li>
+<li><b>Health:</b> Charaka Saṃhitā, Suśruta Saṃhitā, Aṣṭāṅga Hṛdaya.</li>
+<li><b>Nītiśāstras</b> (ethics and governance): <b>Rāja-nīti</b> (public administration) and <b>Sāmānya-nīti</b> (personal ethics and morality).</li>
+</ul>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 3M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Draw a neat framework for classification of the IKS Corpus.</div>
+<div class="ans">
+<div class="tree"><ul><li><span class="n">IKS Corpus</span>
+ <ul>
+  <li><span class="n">Literary (written)</span>
+   <ul>
+    <li><span class="n">Sanātana Dharma</span>
+      <ul>
+        <li><span class="n">Core</span><ul><li><span class="leaf">• 14 Vidyāsthānas<br>• Works of religious leaders &amp; philosophers</span></li></ul></li>
+        <li><span class="n">Other</span><ul><li><span class="leaf">• Basic &amp; applied sciences<br>• Engineering, architecture, alchemy<br>• Kāvyas, arts<br>• Health, psychology<br>• Administration, code of living</span></li></ul></li>
+      </ul>
+    </li>
+    <li><span class="n">Other Dhārmic</span><ul><li><span class="leaf">• Buddhist<br>• Jain</span></li></ul></li>
+    <li><span class="n">Regional</span><ul><li><span class="leaf">Literature in all major Indian languages</span></li></ul></li>
+   </ul>
+  </li>
+  <li><span class="n">Non-Literary</span>
+   <ul><li><span class="n">Oral traditions</span><ul><li><span class="leaf">• 64 Kalās<br>• Art forms<br>• Health<br>• Food &amp; life practices<br>• Folklore</span></li></ul></li></ul>
+  </li>
+ </ul>
+</li></ul></div>
+<p><b>Explanation:</b> IKS is split into two parts. The <b>literary</b> part is everything written down: the Vedas and Vedāṅgas (core), science and arts texts (other), Buddhist and Jain texts, and regional-language literature. The <b>non-literary</b> part is knowledge passed on orally or by practice, such as the 64 Kalās, folk arts, health practices and food habits.</p>
+</div>
+<div class="tip">✍️ In the exam, draw boxes with arrows like the one above. Marks are mainly for the diagram, so add one line under each box.</div>
+</div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Differentiate between the literary and non-literary parts of the IKS corpus.</div>
+<div class="ans">
+<div class="tablebox"><table>
+<tr><th>Literary</th><th>Non-literary</th></tr>
+<tr><td>Written texts</td><td>Oral / practised, not written</td></tr>
+<tr><td>Vedas, Vedāṅgas, science texts, Buddhist and Jain works, regional literature</td><td>64 Kalās, folk arts, health practices, food habits, folklore</td></tr>
+<tr><td>Preserved in manuscripts</td><td>Preserved by passing from person to person</td></tr>
+</table></div>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Write a note on Other Dhārmic (Buddhist and Jain) literature in the IKS corpus.</div>
+<div class="ans">
+<ul>
+<li>Produced mainly between <b>500 BCE and the early centuries CE</b>.</li>
+<li><b>Buddhist:</b> used maths and also covered practical sciences like maritime activity, shipbuilding and alchemy. Example: <b>Rasaratnākara</b> by <b>Nāgārjuna</b> (1st c. CE), an early alchemy text.</li>
+<li><b>Jain:</b> treated maths as a core subject (<b>Gaṇitānuyoga</b>). Works like the <b>Tattvārtha Sūtra</b> tried to put numbers on nature, even estimating the number of species as <b>2<sup>96</sup></b>.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">What are the 14 Vidyāsthānas (Chaturdaśa Vidyā)? How do they map to modern subjects?</div>
+<div class="ans">
+<p><b>4 Vedas + 6 Vedāṅgas + 4 Upāṅgas</b> (Purāṇa, Nyāya, Mīmāṃsā, Dharmaśāstra) = <b>14</b>. They form the <b>core</b> of the Sanātana Dharma corpus.</p>
+<div class="tablebox"><table>
+<tr><th>Modern subject</th><th>Chaturdaśa Vidyā</th></tr>
+<tr><td>Mathematics</td><td>Jyotiṣa and Kalpa</td></tr>
+<tr><td>Science</td><td>Atharva Veda (physics), Āyurveda (biology, chemistry)</td></tr>
+<tr><td>Economics</td><td>Arthaśāstra</td></tr>
+<tr><td>Architecture</td><td>Jyotiṣa, Kalpa (fire altars), Āgama Śāstra</td></tr>
+<tr><td>Astronomy</td><td>Jyotiṣa</td></tr>
+<tr><td>History, Geography</td><td>Purāṇas</td></tr>
+<tr><td>Languages</td><td>Śikṣā, Vyākaraṇa, Chandas, Nirukta</td></tr>
+<tr><td>Art / Music / Sports</td><td>Śilpa and Āgama Śāstra / Gāndharva Veda / Dhanur Veda</td></tr>
+</table></div>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐</span></div>
+<div class="qt">What are Nītiśāstras? Name their two types.</div>
+<div class="ans"><p>Nītiśāstras are texts that guide <b>ethical conduct and governance</b>. There are two types:</p>
+<ol><li><b>Rāja-nīti:</b> principles of public administration and ruling.</li>
+<li><b>Sāmānya-nīti:</b> general ethics and morality for everyone.</li></ol></div></div>
+
+<!-- ============ 1.9 VEDIC ============ -->
+<h2 id="vedic">1.9 Vedic Corpus <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p><b>Veda</b> = knowledge, from the root <b>vid</b>. The root has 4 meanings, and all of them fit the Vedas: <b>to know</b> (jñāne), <b>to think / discuss</b> (vicāraṇe), <b>to exist</b> (sattāyām), and <b>to gain</b> (lābhe).</p>
+<p>There are 4 Vedas, together called <b>Chaturveda</b>. They were passed on <b>orally</b> with great accuracy, and the Ṛg Veda is dated around 1600 BCE.</p>
+<p><b>Each Veda has 4 parts:</b></p>
+<div class="flow"><span class="b">Saṃhitā</span> hymns/mantras → <span class="b">Brāhmaṇa</span> explanation of rituals → <span class="b">Āraṇyaka</span> philosophy behind rituals → <span class="b">Upaniṣad</span> teacher–student talks, pure philosophy</div>
+<div class="tablebox"><table>
+<tr><th>Veda</th><th>Key facts to remember</th></tr>
+<tr><td><b>Ṛg Veda</b><br>(oldest, "praise")</td><td>10 Maṇḍalas, 1028 hymns (sūktas), ~10,552 verses. Maṇḍala → Anuvāka → Sūkta. Famous sūktas: <b>Puruṣa</b> (10.90), <b>Nāsadīya</b> (10.129, creation), <b>Hiraṇyagarbha</b> (10.121), Śrī, Bhū, Devī. 21 śākhās, 5 survive, 2 popular: <b>Śākala, Bāṣkala</b>. Aitareya Upaniṣad has the mahāvākya <i>"Prajñānam Brahma"</i>.</td></tr>
+<tr><td><b>Yajur Veda</b><br>("book of rituals")</td><td>Prose mantras chanted during yajña. <b>Śukla</b> ("bright": mantra and Brāhmaṇa kept separate, easier) and <b>Kṛṣṇa</b> ("dark": both mixed, harder). 101 śākhās, 6 survive: Kṛṣṇa (Taittirīya, Maitrāyaṇī, Kaṭha, Kapiṣṭhala), Śukla (Kāṇva, Mādhyandina).</td></tr>
+<tr><td><b>Sāma Veda</b><br>("book of songs")</td><td>Ṛg verses set to music. <b>Shortest</b>: 1549 verses. Root of Indian classical music and dance. Upaniṣads: <b>Chāndogya, Kena</b>. 1000 recensions, 3 survive: Kauthuma, Jaiminīya, Rāṇāyanīya. Parts: Ārcika and Gāna.</td></tr>
+<tr><td><b>Atharva Veda</b><br>("Veda of daily life / magic formulas")</td><td>730 hymns, ~6000 mantras, 20 books. Medicine, cures for disease, herbs. Example: treating an open fracture and wrapping it with the Rohiṇī plant. Upaniṣads: <b>Muṇḍaka, Māṇḍūkya, Praśna</b>.</td></tr>
+</table></div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 3M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">How does the Vedic Corpus form the foundation of Indian knowledge traditions?</div>
+<div class="ans">
+<p><b>Veda</b> means "knowledge" (from the root <i>vid</i>, to know). There are 4 Vedas: Ṛg, Yajur, Sāma and Atharva. Each has 4 layers: Saṃhitā, Brāhmaṇa, Āraṇyaka and Upaniṣad.</p>
+<p><b>Why they are the foundation:</b></p>
+<ul>
+<li><b>Language sciences:</b> to protect the Vedas exactly, the Vedāṅgas were created. This gave us phonetics, grammar and etymology.</li>
+<li><b>Maths and astronomy:</b> the Śulba Sūtras (geometry for fire altars) and Jyotiṣa grew from Vedic rituals.</li>
+<li><b>Philosophy:</b> all six āstika schools accept the Vedas. Vedānta comes straight from the Upaniṣads.</li>
+<li><b>Arts and medicine:</b> the Sāma Veda is the root of Indian music. The Atharva Veda has early medicine.</li>
+<li><b>Values:</b> "Satyam vada, dharmam chara" (speak truth, follow dharma) comes from the Upaniṣads.</li>
+</ul>
+<p>So almost every Indian knowledge stream starts from or is linked to the Vedas.</p>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 4–5M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Briefly describe the four Vedas.</div>
+<div class="ans">
+<ul>
+<li><b>Ṛg Veda:</b> the oldest. A collection of 1028 hymns praising deities, in 10 Maṇḍalas. It discusses creation and cosmology (Nāsadīya Sūkta) and is still used in ceremonies.</li>
+<li><b>Yajur Veda:</b> the "book of rituals". Prose mantras a priest chants during yajña. It has two branches: Śukla (clear, separated) and Kṛṣṇa (mixed).</li>
+<li><b>Sāma Veda:</b> the "book of songs". Ṛg verses set to tunes. The shortest Veda (1549 verses) and the root of Indian music.</li>
+<li><b>Atharva Veda:</b> the "Veda of everyday life". 730 hymns in 20 books, with spells, medicine and herbal cures. It is closer to the daily life of common people.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">What are the four parts (text types) of each Veda?</div>
+<div class="ans">
+<ol>
+<li><b>Saṃhitā:</b> the oldest layer. Mantras, hymns and prayers.</li>
+<li><b>Brāhmaṇa:</b> commentary explaining the hymns and rituals.</li>
+<li><b>Āraṇyaka:</b> "forest texts". The philosophy behind the rituals.</li>
+<li><b>Upaniṣad:</b> conversations between teacher and student about the self and Brahman. This is the philosophical message of the Vedas.</li>
+</ol>
+<div class="mem">🧠 "<b>S-B-A-U</b>" → Song, Book of rituals, Āraṇya (forest), Understanding</div>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐</span></div>
+<div class="qt">What is the meaning of the word "Veda"? / Differentiate Śukla and Kṛṣṇa Yajur Veda.</div>
+<div class="ans">
+<p><b>Veda</b> comes from the root <i>vid</i>, meaning to know. It means knowledge. The root's four meanings (to know, to think, to exist, to gain) all describe the Vedas.</p>
+<p><b>Śukla vs Kṛṣṇa:</b> in Śukla ("bright") Yajur Veda the mantras and the Brāhmaṇa (explanation) are kept <b>separate</b>, so it is easier to understand. In Kṛṣṇa ("dark") they are <b>mixed together</b>, so it is harder.</p>
+</div></div>
+
+<!-- ============ 1.10 VEDANGA ============ -->
+<h2 id="vedanga">1.10 Vedāṅgas (Limbs of the Vedas) <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p><b>Vedāṅga</b> = "limb of the Veda". Just as limbs support the body, these 6 subjects help us <b>pronounce, understand, interpret and use</b> the Vedas correctly. They are the last treatises of Vedic literature.</p>
+<div class="tablebox"><table>
+<tr><th>Vedāṅga</th><th>Subject</th><th>Body part</th><th>Key points</th></tr>
+<tr><td><b>Śikṣā</b></td><td>Phonetics</td><td>Nose 👃 (life-breath of mantras)</td><td>Correct pronunciation and accent. A wrong sound changes the meaning and result. Śikṣāvallī lists 6: Varṇa, Svara, Mātrā, Balam, Sāma, Santāna.</td></tr>
+<tr><td><b>Chandas</b></td><td>Meter</td><td>Feet / legs 🦶</td><td>Counts pādas and syllables. <b>Gāyatrī</b> = 3 × 8 = 24 syllables. <b>Anuṣṭubh</b> = 4 × 8 = 32 (the typical śloka).</td></tr>
+<tr><td><b>Vyākaraṇa</b></td><td>Grammar</td><td>Mouth / face 👄</td><td>Pāṇini's Aṣṭādhyāyī. 14 Maheśvara sūtras (from Śiva's ḍamaru). Commentary: Patañjali's Mahābhāṣya (also Vararuchi).</td></tr>
+<tr><td><b>Nirukta</b></td><td>Etymology</td><td>Ears 👂</td><td>Meaning and origin of Vedic words. <b>Yāska</b> (~600 BCE) wrote on the <b>Nighaṇṭu</b> (glossary of hard words). Idea: <b>all names come from verbs</b>.</td></tr>
+<tr><td><b>Jyotiṣa</b></td><td>Astronomy</td><td>Eyes 👁️</td><td>Timing of rituals, cosmic rhythm. Varāhamihira's <b>Pañca Siddhāntikā</b> (5 siddhāntas: Pitāmaha, Vasiṣṭha, Romaka, Pauliśa, Sūrya). Bhāskarācārya's <b>Pañcāṅga</b>: Tithi, Vāra, Nakṣatra, Yoga, Karaṇa.</td></tr>
+<tr><td><b>Kalpa</b></td><td>Ritual manual</td><td>Hands ✋</td><td>How to do rituals: which mantra, how many priests, what vessel. Sages: Āpastamba, Baudhāyana. 4 sūtras: <b>Śrauta</b> (big sacrifices), <b>Gṛhya</b> (home ceremonies), <b>Dharma</b> (social laws), <b>Śulba</b> (altar measurement / geometry).</td></tr>
+</table></div>
+<div class="mem">🧠 "<b>Shiva Chants Very Nice Jyoti Kalpa</b>" → Śikṣā, Chandas, Vyākaraṇa, Nirukta, Jyotiṣa, Kalpa</div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 3M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Name the six Vedāṅgas.</div>
+<div class="ans">
+<p>Vedāṅga = "limbs of the Veda". They are the 6 helper subjects for studying the Vedas:</p>
+<ol>
+<li><b>Śikṣā</b>: phonetics (nose)</li>
+<li><b>Chandas</b>: meter (feet)</li>
+<li><b>Vyākaraṇa</b>: grammar (mouth)</li>
+<li><b>Nirukta</b>: etymology (ears)</li>
+<li><b>Jyotiṣa</b>: astronomy (eyes)</li>
+<li><b>Kalpa</b>: rituals (hands)</li>
+</ol>
+</div>
+<div class="tip">✍️ For 3 marks, write the name + what it deals with + body part. It takes 30 seconds and looks complete.</div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 5M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Explain the six Vedāṅgas in brief.</div>
+<div class="ans">
+<ul>
+<li><b>Śikṣā (phonetics):</b> teaches how to pronounce Vedic sounds correctly, with the right accent and length. A small mistake in sound can change the meaning. It is called the nose of the Veda.</li>
+<li><b>Chandas (meter):</b> tells how many lines (pādas) and syllables a verse has. Example: Gāyatrī has 3 lines × 8 syllables = 24.</li>
+<li><b>Vyākaraṇa (grammar):</b> rules for building words and sentences. Pāṇini's Aṣṭādhyāyī is the main work. It is called the mouth of the Veda.</li>
+<li><b>Nirukta (etymology):</b> explains where a word comes from and what it really means. Yāska worked on the Nighaṇṭu. It says all nouns come from verbs.</li>
+<li><b>Jyotiṣa (astronomy):</b> finds the right time for rituals by studying the sun, moon and stars. Varāhamihira's Pañca Siddhāntikā. The Pañcāṅga calendar.</li>
+<li><b>Kalpa (rituals):</b> a step-by-step manual for rituals. It has 4 sūtras: Śrauta, Gṛhya, Dharma and Śulba (geometry of altars).</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Differentiate between Vedas and Vedāṅgas.</div>
+<div class="ans">
+<div class="tablebox"><table>
+<tr><th>Point</th><th>Vedas</th><th>Vedāṅgas</th></tr>
+<tr><td>Purpose</td><td>Main sacred texts: origin of the world, reason for existence</td><td>Helper studies that keep the Vedic tradition correct</td></tr>
+<tr><td>Number</td><td>4 (Ṛg, Yajur, Sāma, Atharva)</td><td>6 (Śikṣā, Chandas, Vyākaraṇa, Nirukta, Jyotiṣa, Kalpa)</td></tr>
+<tr><td>Content</td><td>Hymns, incantations, rituals</td><td>Meter, grammar, phonetics, word meaning, astronomy</td></tr>
+<tr><td>Time</td><td>Oldest (~1500–1200 BCE)</td><td>Last treatises of Vedic literature</td></tr>
+</table></div>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">What are the four types of Kalpa Sūtras?</div>
+<div class="ans"><ol>
+<li><b>Śrauta Sūtras:</b> big public Vedic sacrifices</li>
+<li><b>Gṛhya Sūtras:</b> household ceremonies (marriage, naming, etc.)</li>
+<li><b>Dharma Sūtras:</b> religious and social laws</li>
+<li><b>Śulba Sūtras:</b> measurement and geometry for building fire altars</li>
+</ol></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Write short notes on Nirukta / Chandas / Jyotiṣa (any one can come).</div>
+<div class="ans">
+<p><b>Nirukta:</b> the "ears" of the Veda. It explains the origin and meaning of Vedic words. Yāska (~600 BCE) wrote a commentary on the <b>Nighaṇṭu</b>, a glossary of difficult Vedic words. Main idea: <b>all names come from verbs</b>, so words are linked to actions.</p>
+<p><b>Chandas:</b> the "feet" of the Veda. It measures a verse by its pādas and the syllables in each pāda. Gāyatrī = 3 × 8 = 24 syllables. Anuṣṭubh = 4 × 8 = 32, the common śloka meter.</p>
+<p><b>Jyotiṣa:</b> the "eyes" of the Veda. Astronomy used to fix the time of rituals. Varāhamihira's <b>Pañca Siddhāntikā</b> has 5 systems. Bhāskarācārya described the <b>Pañcāṅga</b> with 5 parts: Tithi (lunar day), Vāra (weekday), Nakṣatra (star), Yoga and Karaṇa (half tithi).</p>
+</div></div>
+
+<!-- ============ 1.11 PHILOSOPHY ============ -->
+<h2 id="phil">1.11 Indian Philosophical Systems <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<ul>
+<li><b>Origin:</b> philosophy starts in the <b>Ṛg Veda</b> (Nāsadīya, Puruṣa, Vāk sūktas talk about creation and the self). It grows in the <b>Upaniṣads</b>.</li>
+<li>Later it split into independent schools called <b>darśanas</b>.</li>
+<li><b>Āstika</b> accept the Vedas as a valid source of knowledge (6 schools). <b>Nāstika</b> reject the Vedas (Cārvāka, Bauddha, Jaina).</li>
+</ul>
+<div class="tree small"><ul><li><span class="n">Indian Philosophy</span>
+<ul>
+<li><span class="n">Āstika (accept Vedas)</span><ul><li><span class="leaf">Nyāya · Vaiśeṣika<br>Sāṅkhya · Yoga<br>Mīmāṃsā · Vedānta</span></li></ul></li>
+<li><span class="n">Nāstika (reject Vedas)</span><ul><li><span class="leaf">Cārvāka<br>Bauddha (Buddhist)<br>Jaina</span></li></ul></li>
+</ul></li></ul></div>
+<div class="tablebox"><table>
+<tr><th>School</th><th>Founder</th><th>Text</th><th>One-line idea</th></tr>
+<tr><td>Cārvāka</td><td>Bṛhaspati</td><td>Bṛhaspati Sūtra</td><td>Only perception is valid. Materialist ("lokāyata").</td></tr>
+<tr><td>Jaina</td><td>Mahāvīra</td><td>Āgama</td><td>Ahiṃsā, anekāntavāda (many viewpoints)</td></tr>
+<tr><td>Bauddha</td><td>Gautama Buddha</td><td>Tripiṭaka</td><td>4 Noble Truths, 8-fold path, end suffering</td></tr>
+<tr><td>Sāṅkhya</td><td>Kapila</td><td>Sāṅkhya Sūtra</td><td>Puruṣa + Prakṛti (consciousness and matter)</td></tr>
+<tr><td>Yoga</td><td>Patañjali</td><td>Yoga Sūtra</td><td>Meditation, control of mind</td></tr>
+<tr><td>Vaiśeṣika</td><td>Kaṇāda</td><td>Vaiśeṣika Sūtra</td><td>Atoms are the building blocks</td></tr>
+<tr><td>Nyāya</td><td>Gautama</td><td>Nyāya Sūtra</td><td>Logic and analysis</td></tr>
+<tr><td>Mīmāṃsā</td><td>Jaimini</td><td>Mīmāṃsā Sūtra</td><td>Interpretation of the Vedas, rituals</td></tr>
+<tr><td>Vedānta</td><td>Bādarāyaṇa</td><td>Vedānta (Brahma) Sūtra</td><td>Essence of the Vedas: Ātman = Brahman</td></tr>
+</table></div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · asked TWICE (3M + 2M)</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">List the six classical (āstika / orthodox) schools of Indian philosophy.</div>
+<div class="ans">
+<p><b>Āstika</b> schools accept the Vedas as a valid source of knowledge. There are six, in 3 pairs:</p>
+<div class="tablebox"><table>
+<tr><th>School</th><th>Founder</th><th>Main idea</th></tr>
+<tr><td><b>Nyāya</b></td><td>Gautama (Akṣapāda)</td><td>Logic: how to get valid knowledge</td></tr>
+<tr><td><b>Vaiśeṣika</b></td><td>Kaṇāda</td><td>Everything is made of atoms</td></tr>
+<tr><td><b>Sāṅkhya</b></td><td>Kapila</td><td>Puruṣa (consciousness) + Prakṛti (matter)</td></tr>
+<tr><td><b>Yoga</b></td><td>Patañjali</td><td>Control the mind through 8 limbs</td></tr>
+<tr><td><b>Pūrva Mīmāṃsā</b></td><td>Jaimini</td><td>Vedic rituals and duty</td></tr>
+<tr><td><b>Vedānta</b></td><td>Bādarāyaṇa</td><td>Ātman = Brahman (Upaniṣads)</td></tr>
+</table></div>
+</div>
+<div class="mem">🧠 Pairs: <b>N-V, S-Y, M-V</b> → "<b>N</b>ever <b>V</b>ex <b>S</b>mart <b>Y</b>oung <b>M</b>en <b>V</b>ainly"</div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Differentiate between Āstika and Nāstika schools.</div>
+<div class="ans">
+<p><b>Āstika</b> schools <b>accept the Vedas</b> as a valid source of knowledge: Nyāya, Vaiśeṣika, Sāṅkhya, Yoga, Mīmāṃsā, Vedānta.</p>
+<p><b>Nāstika</b> schools <b>do not accept the Vedas</b> as valid: Cārvāka, Buddhism, Jainism.</p>
+<p>Note: āstika/nāstika here is about <b>accepting the Vedas</b>, not about believing in God. Sāṅkhya, for example, is āstika but doesn't need God.</p>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">State the two types of perception (pratyakṣa) recognised in Nyāya philosophy.</div>
+<div class="ans">
+<ol>
+<li><b>Nirvikalpaka (indeterminate) perception:</b> the first bare awareness of an object, with no name or details yet. Example: you just notice "something" is there.</li>
+<li><b>Savikalpaka (determinate) perception:</b> clear perception with name and qualities. Example: "This is a red pot."</li>
+</ol>
+<p><i>Also good to mention:</i> Nyāya also divides perception into <b>Laukika</b> (ordinary, through the senses) and <b>Alaukika</b> (extraordinary).</p>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Mention one key feature that differentiates Nyāya from Sāṅkhya philosophy.</div>
+<div class="ans">
+<p><b>Nyāya</b> is mainly about <b>logic and valid knowledge</b>. It explains how to know the truth using 4 pramāṇas (perception, inference, comparison, testimony).</p>
+<p><b>Sāṅkhya</b> is about <b>dualism</b>. Everything comes from two realities, <b>Puruṣa</b> (consciousness) and <b>Prakṛti</b> (matter). Liberation comes when you realise you are Puruṣa, not Prakṛti. It is non-theistic.</p>
+<p>In one line: Nyāya = <b>how we know</b> (logic). Sāṅkhya = <b>what exists</b> (Puruṣa + Prakṛti).</p>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 3M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Mention any four Yoga Sūtras of Patañjali.</div>
+<div class="ans">
+<p>Patañjali's <b>Yoga Sūtras</b> (~2nd c. BCE) has 196 short sūtras in <b>4 pādas (chapters)</b>:</p>
+<ol>
+<li><b>Samādhi Pāda:</b> what yoga is, and deep concentration</li>
+<li><b>Sādhana Pāda:</b> the practice, including the 8 limbs</li>
+<li><b>Vibhūti Pāda:</b> powers gained through practice</li>
+<li><b>Kaivalya Pāda:</b> final liberation (freedom)</li>
+</ol>
+<p><b>Four famous sūtras:</b></p>
+<ul>
+<li><i>"Atha yogānuśāsanam"</i> (1.1): now begins the teaching of yoga.</li>
+<li><i>"Yogaś citta-vṛtti-nirodhaḥ"</i> (1.2): yoga is calming the waves of the mind.</li>
+<li><i>"Tadā draṣṭuḥ svarūpe'vasthānam"</i> (1.3): then the seer rests in its true self.</li>
+<li><i>"Sthira-sukham āsanam"</i> (2.46): a posture should be steady and comfortable.</li>
+</ul>
+</div>
+<div class="tip">✍️ Write the 4 pādas AND 2–3 sūtras with meaning. That's safe whichever way the prof marks it.</div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">What are the eight limbs (Aṣṭāṅga) of Yoga?</div>
+<div class="ans">
+<ol>
+<li><b>Yama:</b> rules for dealing with others (non-violence, truth)</li>
+<li><b>Niyama:</b> self-discipline (cleanliness, contentment)</li>
+<li><b>Āsana:</b> posture</li>
+<li><b>Prāṇāyāma:</b> breath control</li>
+<li><b>Pratyāhāra:</b> pulling the senses inward</li>
+<li><b>Dhāraṇā:</b> concentration</li>
+<li><b>Dhyāna:</b> meditation</li>
+<li><b>Samādhi:</b> complete absorption</li>
+</ol>
+<p>Goal: a quiet mind and <b>kaivalya</b> (freedom / detachment).</p>
+<div class="mem">🧠 "<b>Y</b>ou <b>N</b>eed <b>A</b> <b>P</b>roper <b>P</b>lan <b>D</b>aily <b>D</b>uring <b>S</b>tudies"</div>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 5M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Explain the six āstika schools of Indian philosophy in brief.</div>
+<div class="ans">
+<ul>
+<li><b>Sāṅkhya (Kapila):</b> the oldest. Reality = <b>Puruṣa</b> (self) + <b>Prakṛti</b> (matter). It is dualist. Prakṛti has 3 qualities (steadiness, activity, dullness). Liberation comes when you see that the self and matter are different.</li>
+<li><b>Yoga (Patañjali):</b> accepts Sāṅkhya's ideas but adds <b>God</b> (more theistic). Gives an 8-limbed path to quiet the mind and reach <b>kaivalya</b>.</li>
+<li><b>Nyāya (Gautama):</b> a school of <b>logic</b>. Valid knowledge is needed to end suffering. It accepts 4 sources: perception, inference, comparison and testimony, and gives tests for valid and invalid knowledge.</li>
+<li><b>Vaiśeṣika (Kaṇāda):</b> <b>atomic</b> theory: all objects are made of atoms. Accepts only 2 sources of knowledge (perception and inference). Later merged with Nyāya.</li>
+<li><b>Pūrva Mīmāṃsā (Jaimini):</b> upholds the <b>authority of the Vedas</b> and Vedic rituals. Liberation comes through right action as the Vedas prescribe.</li>
+<li><b>Vedānta / Uttara Mīmāṃsā (Bādarāyaṇa):</b> based on the <b>Upaniṣads</b>. Focuses on meditation and self-knowledge rather than ritual. Sub-schools: Advaita, Viśiṣṭādvaita, Dvaita.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Differentiate between Sāṅkhya and Yoga. / Between Nyāya and Vaiśeṣika.</div>
+<div class="ans">
+<p><b>Sāṅkhya vs Yoga:</b> both accept Puruṣa and Prakṛti. Sāṅkhya is <b>theory</b> and doesn't need God. Yoga is the <b>practical method</b> (8 limbs) and adds <b>God (Īśvara)</b>, so it is more theistic.</p>
+<p><b>Nyāya vs Vaiśeṣika:</b> Nyāya focuses on <b>logic</b> and accepts <b>4</b> pramāṇas. Vaiśeṣika focuses on <b>atoms / physical reality</b> and accepts only <b>2</b> pramāṇas (perception, inference). Later they merged.</p>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Write a short note on Cārvāka philosophy.</div>
+<div class="ans">
+<ul>
+<li>The first and most extreme <b>nāstika</b> school. Also called <b>Lokāyata</b> ("what appeals to the masses") or <b>Bārhaspatya</b>, after its founder Bṛhaspati.</li>
+<li>Accepts <b>only direct perception (pratyakṣa)</b> as valid knowledge. Anything you can't see is not true knowledge.</li>
+<li>So there is no supernatural God. The <b>king</b>, who can punish and reward and can be seen, should be treated as God.</li>
+<li>Cāṇakya's Arthaśāstra calls Bṛhaspati the foremost teacher of Arthaśāstra.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Write short notes on Buddhist and Jain philosophy.</div>
+<div class="ans">
+<p><b>Buddhism:</b> based on Gautama Buddha's teachings. It focuses on living morally to end suffering (dukkha). It is non-theistic and rejects blind faith in the Vedas. Core teachings are the <b>Four Noble Truths</b> and the <b>Noble Eightfold Path</b>.</p>
+<p><b>Jainism:</b> based on 24 Tīrthaṅkaras. Ṛṣabhadeva was the first, and Pārśvanātha and Mahāvīra (6th c. BCE) are historical figures. Key ideas: <b>Ahiṃsā</b> (non-violence), <b>Anekāntavāda</b> (truth has many sides, no single view is complete), self-control, and liberation through ethical living. Only a <b>Kevalī</b> knows the full truth.</p>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Name the sub-schools of Vedānta and their main idea.</div>
+<div class="ans">
+<ul>
+<li><b>Advaita</b> (non-dualism, Śaṅkara): the individual soul (Ātman) and Brahman are one.</li>
+<li><b>Viśiṣṭādvaita</b> (qualified non-dualism, Rāmānuja): God (Viṣṇu) has qualities. The world and souls are real but are inseparable parts of Brahman.</li>
+<li><b>Dvaita</b> (dualism, Madhva): God, soul and matter are three separate realities.</li>
+</ul>
+</div></div>
+
+<div class="unit">Unit 2 (till syllabus): Linguistics</div>
+
+<!-- ============ 2.1 PANINI ============ -->
+<h2 id="panini">2.1 Linguistics: Pāṇini's Work on Sanskrit Grammar <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<ul>
+<li><b>Linguistics</b> = the scientific study of language: speech sounds, grammar structures, meaning and syntax.</li>
+<li><b>Pāṇini</b> was born in <b>Gandhāra</b> and lived around the 5th century BCE. He is the <b>father of linguistics</b>.</li>
+<li>His main work is the <b>Aṣṭādhyāyī</b>, with about <b>3983 sūtras</b> covering all the patterns of Sanskrit.</li>
+<li>Students used to <b>memorise</b> the whole thing, so it was an oral tradition.</li>
+<li>He created a <b>metalanguage</b> (a language for describing language) that captures both sounds and grammar exactly.</li>
+<li>His style is very short and compact, like the modern <b>Backus–Naur Form (BNF)</b> used in computer science. His analysis of word structure was ahead of any Western theory before the 20th century.</li>
+<li><b>Why he wrote it:</b> to preserve the correct interpretation of the Vedas and other texts.</li>
+<li><b>Tri-Muni (three sages):</b> Pāṇini (sūtras), <b>Kātyāyana</b> (Vārttikas, 4th c. BCE), <b>Patañjali</b> (Mahābhāṣya, 2nd c. BCE).</li>
+<li><b>Pāṇini's grammar has 4 parts:</b>
+  <ol>
+  <li><b>Śiva Sūtras / Maheśvara Sūtras:</b> 14 lines listing all sounds (phonology). Said to come from the sound of Naṭarāja's ḍamaru.</li>
+  <li><b>Aṣṭādhyāyī:</b> the main rules for word and sentence formation (morphology and syntax).</li>
+  <li><b>Dhātupāṭha:</b> a list of verb roots, grouped into classes.</li>
+  <li><b>Gaṇapāṭha:</b> lists of noun-stem classes.</li>
+  </ol></li>
+</ul>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3–5M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Explain Pāṇini's contribution to linguistics / Sanskrit grammar.</div>
+<div class="ans">
+<ul>
+<li>Pāṇini (Gandhāra, ~5th c. BCE) is called the <b>father of linguistics</b>.</li>
+<li>He wrote the <b>Aṣṭādhyāyī</b>, a complete set of about <b>3983 rules</b> that describes the whole Sanskrit language.</li>
+<li>He built a whole system in <b>4 parts</b>: Śiva Sūtras (sounds), Aṣṭādhyāyī (rules), Dhātupāṭha (verb roots) and Gaṇapāṭha (noun groups).</li>
+<li>He made a special <b>metalanguage</b> with short codes, so thousands of forms fit into a few rules.</li>
+<li>His method is <b>algorithmic</b>: take a root, add a suffix, apply rules step by step, get the final word. It is very similar to <b>BNF / context-free grammar</b> in computer science, which is why it is studied for NLP and AI.</li>
+<li>It made Sanskrit <b>precise and unambiguous</b>, and new words can be created whenever needed.</li>
+<li>Later grammarians (Kātyāyana, Patañjali) built on it, and it shaped linguistics in India and abroad.</li>
+</ul>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Who are the Tri-Muni of Sanskrit grammar?</div>
+<div class="ans">
+<ol>
+<li><b>Pāṇini:</b> wrote the Aṣṭādhyāyī (the rules)</li>
+<li><b>Kātyāyana</b> (~4th c. BCE): wrote <b>Vārttikas</b> that clarify and add to Pāṇini's rules</li>
+<li><b>Patañjali</b> (~2nd c. BCE): wrote the <b>Mahābhāṣya</b>, the "great commentary"</li>
+</ol>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Name the four components of Pāṇini's grammar system.</div>
+<div class="ans">
+<ol>
+<li><b>Śiva Sūtras (Maheśvara Sūtras):</b> 14 short lines that list and group all Sanskrit sounds (phonology).</li>
+<li><b>Aṣṭādhyāyī:</b> the core rules for forming words and sentences.</li>
+<li><b>Dhātupāṭha:</b> a dictionary of verb roots, classified by meaning and use.</li>
+<li><b>Gaṇapāṭha:</b> lists of groups of noun stems that follow the same rule.</li>
+</ol>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐</span></div>
+<div class="qt">What are the Maheśvara Sūtras?</div>
+<div class="ans"><p>They are <b>14 short sūtras</b> at the start of Pāṇini's grammar that list all the sounds of Sanskrit in a special order. Tradition says they came from the beats of Lord Śiva's (Naṭarāja's) <b>ḍamaru</b>. They let Pāṇini refer to a whole group of sounds with one short code, so they are the base of Vyākaraṇa.</p></div></div>
+
+<!-- ============ 2.2 ASHTADHYAYI ============ -->
+<h2 id="ashta">2.2 Aṣṭādhyāyī's Vyākaraṇa (How the Grammar Works) <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p><b>Structure:</b> Aṣṭa (8) + adhyāya (chapter). <b>8 chapters × 4 pādas (quarters) = 32 sections</b>, with about <b>3983 sūtras</b>.</p>
+<p><b>Big idea:</b> language is a collection of words, and Sanskrit words are <b>made by rules</b>, not memorised.</p>
+<div class="flow"><span class="b">Dhātu (verb root)</span> + <span class="b">Pratyaya (suffix)</span> → <span class="b">Kriyā-pada (verb form)</span></div>
+<div class="flow"><span class="b">Prātipadika (noun stem)</span> + <span class="b">Pratyaya (suffix)</span> → <span class="b">Nāma-pada (noun form)</span></div>
+<p>A verb can be turned into a noun with a suffix (do → doer, kṛ → kartā), and a noun can be turned into a verb (putra → putrīyati, "wants a son"). Examples: karoti, kartā, putrīyati, rāmaḥ, ramate.</p>
+<ul>
+<li><b>Step-by-step and recursive:</b> at each step, a rule applies if its condition matches. This continues until no rule applies, and you get the final correct word.</li>
+<li><b>Modular:</b> base + suffix combinations make patterns across the whole vocabulary.</li>
+<li><b>Indicators:</b> Pāṇini attaches marker letters to roots. Example: the root is listed as <b>"ḍukṛñ"</b>; remove "ḍu" and "ñ" to get <b>kṛ</b> (to do). <i>Karma</i> also comes from kṛ.</li>
+<li><b>Counting forms:</b> nouns: 7 cases × 3 numbers (singular, dual, plural) = <b>21 suffixes</b>. Verbs: 3 persons × 3 numbers = <b>9</b> per tense.</li>
+<li>Learn one root's pattern and you can use it for about <b>2200 verb roots</b>.</li>
+<li><b>Dynamic vocabulary:</b> new valid words can always be made by following the rules, which keeps Sanskrit adaptable over centuries.</li>
+<li><b>Modern significance:</b> it works like a <b>formal generative grammar</b>: rule-driven, logical and algorithmic. That makes it suitable for computers, computational linguistics and AI. It is the world's oldest and most complete descriptive model of a language.</li>
+</ul>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1 · 2M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Briefly provide the organisation of "Aṣṭādhyāyī". How many rules are there in it?</div>
+<div class="ans">
+<ul>
+<li><b>Aṣṭa</b> = eight, <b>adhyāya</b> = chapter, so it is the "book of 8 chapters".</li>
+<li>Each chapter has <b>4 pādas (quarters)</b>, so 8 × 4 = <b>32 sections</b>.</li>
+<li>In total there are about <b>3,983 sūtras (rules)</b>, roughly 4,000.</li>
+<li>The rules are very short and work like formulas. A word from one rule carries over into the next rules (anuvṛtti), which keeps it compact.</li>
+</ul>
+</div>
+<div class="mem">🧠 8 chapters × 4 pādas = 32 · ~3983 sūtras</div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3–5M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Explain word generation in Sanskrit according to Pāṇini, with an example.</div>
+<div class="ans">
+<p>In Sanskrit, words are <b>generated by rules</b>, like a formula:</p>
+<p><b>Verb:</b> dhātu (root) + pratyaya (suffix) → kriyā-pada<br>
+<b>Noun:</b> prātipadika (stem) + pratyaya → nāma-pada</p>
+<p><b>Example with the root kṛ (to do):</b></p>
+<div class="tablebox"><table>
+<tr><th>kṛ (do)</th><th>paṭh (read)</th><th>gam (go)</th><th>Meaning</th></tr>
+<tr><td>karoti</td><td>paṭhati</td><td>gacchati</td><td>does</td></tr>
+<tr><td>kurvan</td><td>paṭhan</td><td>gacchan</td><td>doing</td></tr>
+<tr><td>kartā</td><td>paṭhitā</td><td>gantā</td><td>doer</td></tr>
+<tr><td>kṛtvā</td><td>paṭhitvā</td><td>gatvā</td><td>having done</td></tr>
+<tr><td>karotu</td><td>paṭhatu</td><td>gacchatu</td><td>please do</td></tr>
+<tr><td>kartavyam</td><td>paṭhitavyam</td><td>gantavyam</td><td>must be done</td></tr>
+<tr><td>kartum</td><td>paṭhitum</td><td>gantum</td><td>to do</td></tr>
+<tr><td>kṛtam</td><td>paṭhitam</td><td>gatam</td><td>done</td></tr>
+</table></div>
+<p>The same pattern works for all three roots. Learn it once and you can use it for about <b>2200 roots</b>.</p>
+<p><b>Noun example:</b> Rāma + su → <b>Rāmaḥ</b>. 7 cases × 3 numbers = <b>21 forms</b> of one noun.</p>
+<p>So the process is: take a root, add a suffix, apply the rules, and get a valid word. It is <b>algorithmic</b>, like a computer program.</p>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Why is Sanskrit called a rule-based language? What is the modern significance of the Aṣṭādhyāyī?</div>
+<div class="ans">
+<p><b>Rule-based:</b></p>
+<ul>
+<li>Every word is formed by rules: a root plus suffixes.</li>
+<li>If you apply the right rules, you always get the correct word. There is no ambiguity.</li>
+<li>Derivation is step-by-step and recursive: apply a rule when its condition matches, and stop when no rule applies.</li>
+</ul>
+<p><b>Modern significance:</b></p>
+<ul>
+<li>It is like a <b>formal generative grammar</b> (CFG / BNF).</li>
+<li>Logical and algorithmic, so it is suitable for <b>computer processing, NLP and AI</b>.</li>
+<li><b>Dynamic vocabulary:</b> new words can be made as needed, which matters for word creation and dictionaries.</li>
+<li>It is the oldest and most complete descriptive model of any language.</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Explain sentence formation and compound words (samāsa) using Pāṇini's approach. Compare with CFG.</div>
+<div class="ans">
+<p><b>Sentence:</b> <i>Rāmaḥ phalam khādati</i> ("Rāma eats the fruit")</p>
+<ul>
+<li>Rāmaḥ = noun stem + sup suffix → nominative singular (subject)</li>
+<li>Phalam = noun stem + sup suffix → accusative singular (object)</li>
+<li>Khādati = dhātu + tiṅ suffix → present tense, 3rd person singular (verb)</li>
+</ul>
+<p><b>As CFG:</b> S → NP VP · NP → N SUFFIX · VP → V NP · N → rāma | phala · V → khādati</p>
+<p><b>Samāsa (compound):</b> two words join, and one depends on the other. Example: <b>Rāja-putraḥ</b> = king's son (tatpuruṣa). CFG: COMPOUND → N N.</p>
+<div class="tablebox"><table>
+<tr><th>Pāṇini</th><th>CFG (computer science)</th></tr>
+<tr><td>Sūtra (rule)</td><td>Production rule</td></tr>
+<tr><td>Categories: Dhātu, Prātipadika, Sup, Tiṅ</td><td>Non-terminals: NP, VP</td></tr>
+<tr><td>Sounds, roots</td><td>Terminals</td></tr>
+<tr><td>Rules carry forward (anuvṛtti), recursive</td><td>Recursive expansion</td></tr>
+<tr><td>Paribhāṣā sūtras (rules about rules)</td><td>Meta-grammar (not in a simple CFG)</td></tr>
+<tr><td>Generates <i>and</i> transforms</td><td>Only generates</td></tr>
+</table></div>
+</div></div>
+
+<!-- ============ 2.3 PHONETICS ============ -->
+<h2 id="phon">2.3 Phonetics (Śikṣā): Sounds of Sanskrit <span class="stars">⭐⭐⭐</span></h2>
+<div class="notes">
+<h3>📘 Notes in simple words</h3>
+<p><b>Importance of communication</b> (Mahāsubhāṣitasaṃgraha): <i>"idam andhaṃ tamaḥ kṛtsnaṃ jāyeta bhuvanatrayam, yadi śabdāhvayaṃ jyotir ā saṃsārān na dīpyate"</i>. Meaning: if the light called <b>śabda</b> (word/sound) did not shine, all three worlds would be in darkness.</p>
+<ul>
+<li>Communication is key for trade, science and technology, and social progress. Language is central to everything humans do.</li>
+<li><b>Language processing has 2 sides (2 × 2):</b> <b>Sound</b> → listening and speaking (phonetics). <b>Script</b> → reading and writing (syntax and grammar).</li>
+<li><b>Three Vedāṅgas focus on language:</b> Śikṣā (phonetics), Nirukta (etymology), Vyākaraṇa (grammar).</li>
+</ul>
+<p><b>Sthāna = place where a sound is produced:</b></p>
+<div class="tablebox"><table>
+<tr><th>Place</th><th>Sounds</th></tr>
+<tr><td>Kaṇṭha (throat)</td><td>अ, क ख ग घ ङ, ह, visarga (अः)</td></tr>
+<tr><td>Tālu (palate)</td><td>इ, च छ ज झ ञ, य, श</td></tr>
+<tr><td>Mūrdhā (upper palate / roof)</td><td>ऋ, ट ठ ड ढ ण, र, ष</td></tr>
+<tr><td>Danta (teeth)</td><td>ऌ, त थ द ध न, ल, स</td></tr>
+<tr><td>Oṣṭha (lips)</td><td>उ, प फ ब भ म</td></tr>
+<tr><td>Nāsikā (nose, nasal effort)</td><td>ङ ञ ण न म</td></tr>
+</table></div>
+<p><b>Prayatna = effort used while speaking:</b></p>
+<div class="tree small"><ul><li><span class="n">Articulatory effort</span>
+<ul>
+<li><span class="n">Vowels</span><ul><li><span class="leaf">• Short / Long / Elongated<br>• Nasal / Non-nasal<br>• Pitch: Udātta, Anudātta, Svarita</span></li></ul></li>
+<li><span class="n">Consonants</span><ul><li><span class="leaf">• Alpa-prāṇa (mild breath)<br>• Mahā-prāṇa (strong breath)</span></li></ul></li>
+</ul></li></ul></div>
+</div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 3–5M</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Explain the place (sthāna) and effort (prayatna) of pronunciation in Sanskrit phonetics.</div>
+<div class="ans">
+<p>Sanskrit phonetics classifies every sound by <b>where</b> it is made (sthāna) and <b>how</b> it is made (prayatna).</p>
+<p><b>1. Sthāna (6 places):</b></p>
+<ul>
+<li><b>Throat (kaṇṭha):</b> a, k-group, h</li>
+<li><b>Palate (tālu):</b> i, c-group, y, ś</li>
+<li><b>Upper palate (mūrdhā):</b> ṛ, ṭ-group, r, ṣ</li>
+<li><b>Teeth (danta):</b> ḷ, t-group, l, s</li>
+<li><b>Lips (oṣṭha):</b> u, p-group</li>
+<li><b>Nose (nāsikā):</b> ṅ, ñ, ṇ, n, m</li>
+</ul>
+<p><b>2. Prayatna (effort):</b></p>
+<ul>
+<li><b>Vowels:</b> by length (short, long, elongated), by nasality (nasal, non-nasal), and by pitch (udātta high, anudātta low, svarita mixed).</li>
+<li><b>Consonants:</b> <b>alpa-prāṇa</b> (less breath: k, g) and <b>mahā-prāṇa</b> (more breath: kh, gh).</li>
+</ul>
+<p><b>Why it matters:</b> in Vedic chanting, a change of sound changes the meaning and the result, so pronunciation had to be exact.</p>
+</div></div>
+
+<div class="q top"><div class="meta"><span class="pill exp">Likely · 2–3M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Why was phonetics (Śikṣā) so important in the Vedic tradition?</div>
+<div class="ans">
+<ul>
+<li>The Vedas were passed on <b>orally</b>, so exact pronunciation was the only way to protect them.</li>
+<li>A small change in sound, accent or length can change the <b>meaning and effect</b> of a mantra.</li>
+<li>Preserving the Vedas was seen as a sacred duty.</li>
+<li>The Śikṣāvallī lists 6 aspects of correct recitation: <b>Varṇa</b> (letter), <b>Svara</b> (tone), <b>Mātrā</b> (length), <b>Balam</b> (force), <b>Sāma</b> (evenness), <b>Santāna</b> (continuity).</li>
+</ul>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐⭐</span></div>
+<div class="qt">What is linguistics? Explain the dimensions of language processing.</div>
+<div class="ans">
+<p><b>Linguistics</b> is the scientific study of language. It gives a system for understanding speech sounds, grammar, word forms, meaning and syntax.</p>
+<p><b>Dimensions of language processing (2 × 2):</b></p>
+<ul>
+<li><b>Sound:</b> listening and speaking, handled by <b>phonetics</b>.</li>
+<li><b>Script:</b> reading and writing, handled by <b>syntax and grammar</b>.</li>
+</ul>
+<p>Linguistics covers both sound and script.</p>
+</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Likely · 2M</span><span class="stars">⭐</span></div>
+<div class="qt">Explain the importance of communication as per the Sanskrit verse in your notes.</div>
+<div class="ans"><p>The verse says that if the light called <b>śabda</b> (word) did not shine, all three worlds would be in darkness. In other words, without language there is no knowledge or progress. Communication is key to trade, science and technology, and social progress, and processing language well is what makes communication work.</p></div></div>
+
+<!-- ===================== MCQ ===================== -->
+<h2 id="mcq">⚡ 1-Mark MCQs and One-Liners (whole syllabus)</h2>
+<p class="sub">PYQs first, then practice ones from the same topics.</p>
+<div class="mcq">
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">"Vedānta" means: a. End of the Vedas b. Beginning of philosophy c. Art of debate d. Ritual performance</div>
+<div class="ans"><span class="correct">a. End or culmination of the Vedas</span>: Veda + anta (end), based on the Upaniṣads.</div></div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1</span><span class="stars">⭐⭐⭐</span></div>
+<div class="qt">Letters य् व् ल् (y, v, l) are ____ in nature.</div>
+<div class="ans"><span class="correct">c. Both nasal and non-nasal</span>: y, v, l can be said with a nasal sound (yँ vँ lँ) or without it.</div></div>
+
+<div class="q top"><div class="meta"><span class="pill">PYQ · CIE-1</span><span class="stars">⭐⭐</span></div>
+<div class="qt">"Satyam vada, dharmam chara" comes from:</div>
+<div class="ans"><span class="correct">a. Taittirīya Upaniṣad</span> (Śikṣāvallī)</div></div>
+
+<div class="q"><div class="meta"><span class="pill">PYQ · CIE-1</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Dharma in the IKS context signifies:</div>
+<div class="ans"><span class="correct">b. Duty, righteousness</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill">PYQ · CIE-1</span><span class="stars">⭐</span></div>
+<div class="qt">The Pañchakośa model of education deals with:</div>
+<div class="ans"><span class="correct">a. Layers of consciousness and holistic development</span> (5 layers: body, breath, mind, intellect, bliss)</div></div>
+
+<div class="q"><div class="meta"><span class="pill">PYQ · CIE-1</span><span class="stars">⭐</span></div>
+<div class="qt">The Rāga system in Indian music is based on:</div>
+<div class="ans"><span class="correct">a. Mathematical scales and emotional expressions</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill">PYQ · CIE-1 &amp; CIE-2</span><span class="stars">⭐⭐</span></div>
+<div class="qt">Who explained eclipses and Earth's rotation? / Āryabhaṭa proposed that Earth:</div>
+<div class="ans"><span class="correct">Āryabhaṭa</span> / <span class="correct">Rotates on its axis</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill">PYQ · CIE-2</span><span class="stars">⭐⭐</span></div>
+<div class="qt">The Chandasūtras are fundamentally related to:</div>
+<div class="ans"><span class="correct">b. Meter of poetry</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Which is the oldest Veda? / Which is the shortest Veda?</div>
+<div class="ans"><span class="correct">Ṛg Veda</span> / <span class="correct">Sāma Veda</span> (1549 verses)</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">The Veda known as the "book of rituals" is:</div>
+<div class="ans"><span class="correct">Yajur Veda</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">The Veda that deals with medicine and daily life:</div>
+<div class="ans"><span class="correct">Atharva Veda</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">How many Maṇḍalas and hymns does the Ṛg Veda have?</div>
+<div class="ans"><span class="correct">10 Maṇḍalas, 1028 hymns</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Which Vedāṅga is called the "eye" of the Veda? / the "nose"? / the "ear"?</div>
+<div class="ans"><span class="correct">Jyotiṣa</span> / <span class="correct">Śikṣā</span> / <span class="correct">Nirukta</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">The Nighaṇṭu and the Nirukta are associated with:</div>
+<div class="ans"><span class="correct">Yāska</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Number of syllables in the Gāyatrī meter:</div>
+<div class="ans"><span class="correct">24</span> (3 pādas × 8)</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Śulba Sūtras deal with:</div>
+<div class="ans"><span class="correct">Measurement / geometry of fire altars</span> (part of Kalpa)</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Founder of the Vaiśeṣika (atomic) school:</div>
+<div class="ans"><span class="correct">Kaṇāda</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Which school accepts only perception as valid knowledge?</div>
+<div class="ans"><span class="correct">Cārvāka (Lokāyata)</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Anekāntavāda belongs to which philosophy?</div>
+<div class="ans"><span class="correct">Jainism</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Number of pramāṇas accepted by Nyāya:</div>
+<div class="ans"><span class="correct">4</span>: perception, inference, comparison, testimony (Vaiśeṣika accepts 2)</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Number of sūtras in the Aṣṭādhyāyī / number of Maheśvara Sūtras:</div>
+<div class="ans"><span class="correct">~3983</span> / <span class="correct">14</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Mahābhāṣya was written by:</div>
+<div class="ans"><span class="correct">Patañjali</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Pāṇini was born in:</div>
+<div class="ans"><span class="correct">Gandhāra</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">The sounds प फ ब भ म are produced at the:</div>
+<div class="ans"><span class="correct">Lips (oṣṭha)</span></div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">Rasaratnākara (alchemy) was written by:</div>
+<div class="ans"><span class="correct">Nāgārjuna</span> (Buddhist, 1st c. CE)</div></div>
+
+<div class="q"><div class="meta"><span class="pill exp">Practice</span><span class="stars">⭐</span></div>
+<div class="qt">The library of Nālandā was called:</div>
+<div class="ans"><span class="correct">Dharmaganja</span></div></div>
+
+</div>
+
+<!-- ===================== QUICK REVISION ===================== -->
+<h2 id="rev">⚡ Last-Minute Revision (numbers &amp; names)</h2>
+<div class="rev">
+<div><b>Veda</b> = knowledge, root <i>vid</i> (know, think, exist, gain). 4 parts: Saṃhitā, Brāhmaṇa, Āraṇyaka, Upaniṣad</div>
+<div><b>Ṛg:</b> 10 Maṇḍalas, 1028 hymns, ~10,552 verses · Puruṣa 10.90, Nāsadīya 10.129</div>
+<div><b>Yajur:</b> Śukla (separate) / Kṛṣṇa (mixed) · 101 → 6 śākhās</div>
+<div><b>Sāma:</b> 1549 verses, music · Chāndogya, Kena</div>
+<div><b>Atharva:</b> 730 hymns, 20 books, ~6000 mantras · Muṇḍaka, Māṇḍūkya, Praśna</div>
+<div><b>Vedāṅgas:</b> Śikṣā-nose, Chandas-feet, Vyākaraṇa-mouth, Nirukta-ears, Jyotiṣa-eyes, Kalpa-hands</div>
+<div><b>Kalpa:</b> Śrauta, Gṛhya, Dharma, Śulba</div>
+<div><b>Gāyatrī</b> 24 · <b>Anuṣṭubh</b> 32</div>
+<div><b>Pañcāṅga:</b> Tithi, Vāra, Nakṣatra, Yoga, Karaṇa</div>
+<div><b>Pañca Siddhāntikā</b> (Varāhamihira): Pitāmaha, Vasiṣṭha, Romaka, Pauliśa, Sūrya</div>
+<div><b>14 Vidyāsthānas</b> = 4 Vedas + 6 Vedāṅgas + 4 Upāṅgas</div>
+<div><b>IKS corpus:</b> Literary (Sanātana core/other, Other Dhārmic, Regional) + Non-literary (oral, 64 Kalās)</div>
+<div><b>Nītiśāstra:</b> Rāja-nīti + Sāmānya-nīti</div>
+<div><b>Jain:</b> Gaṇitānuyoga, Tattvārtha Sūtra, 2<sup>96</sup> species · <b>Buddhist:</b> Nāgārjuna, Rasaratnākara</div>
+<div><b>TK types:</b> Cultural, Artistic, Medicinal, Biodiversity, Agricultural, Sacred</div>
+<div><b>Threats:</b> Language, External pressures, Biopiracy (turmeric)</div>
+<div><b>Āstika 6:</b> Nyāya-Gautama, Vaiśeṣika-Kaṇāda, Sāṅkhya-Kapila, Yoga-Patañjali, Mīmāṃsā-Jaimini, Vedānta-Bādarāyaṇa</div>
+<div><b>Nāstika 3:</b> Cārvāka (Bṛhaspati), Bauddha, Jaina</div>
+<div><b>Nyāya perception:</b> Nirvikalpaka / Savikalpaka · 4 pramāṇas</div>
+<div><b>Yoga Sūtra:</b> 4 pādas: Samādhi, Sādhana, Vibhūti, Kaivalya · 8 limbs</div>
+<div><b>Vedānta:</b> Advaita, Viśiṣṭādvaita, Dvaita</div>
+<div><b>Pāṇini:</b> Gandhāra, father of linguistics, ~3983 sūtras, 8 × 4 = 32 pādas, like BNF</div>
+<div><b>4 parts:</b> Śiva Sūtras (14), Aṣṭādhyāyī, Dhātupāṭha, Gaṇapāṭha</div>
+<div><b>Tri-Muni:</b> Pāṇini, Kātyāyana (Vārttika), Patañjali (Mahābhāṣya)</div>
+<div><b>Word:</b> Dhātu + Pratyaya → Kriyāpada · Prātipadika + Pratyaya → Nāmapada · 21 noun forms, 9 verb forms</div>
+<div><b>Sthāna:</b> Throat, Palate, Upper palate, Teeth, Lips, Nose</div>
+<div><b>Prayatna:</b> vowels (length, nasal, pitch) · consonants (alpa/mahā-prāṇa)</div>
+<div><b>Universities:</b> Takṣaśilā (~600 BCE), Nālandā (~5th c. CE, Dharmaganja)</div>
+</div>
+
+<footer>Made from your Unit 1 &amp; Unit 2 notes and CIE-1 / CIE-2 (2025) papers. All the best! 📚</footer>
+</div>
+
+<script>
+(function(){
+  var b=document.body, p=document.getElementById('practice'), t=document.getElementById('onlytop');
+  p.addEventListener('click',function(){
+    b.classList.toggle('practice'); p.classList.toggle('on');
+    document.querySelectorAll('.ans.show').forEach(function(a){a.classList.remove('show')});
+  });
+  t.addEventListener('click',function(){ b.classList.toggle('onlytop'); t.classList.toggle('on'); });
+  document.querySelectorAll('.ans').forEach(function(a){
+    a.addEventListener('click',function(){ if(b.classList.contains('practice')) a.classList.toggle('show'); });
+  });
+})();
+</script>
+</body>
+</html>

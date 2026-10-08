@@ -1,0 +1,90 @@
+{
+  "publish:open-in-live-site": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "share-note:copy-link": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "text-extractor:extract-to-new-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "text-extractor:extract-to-clipboard": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
+  ],
+  "obsidian-media-db-plugin:open-media-db-search-modal": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "any-ai-cli:open-panel": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "End"
+    }
+  ],
+  "obsidian-prozen:zenmode": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Home"
+    }
+  ],
+  "tab-group-arrangement:arrange-evenly": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "End"
+    }
+  ],
+  "obsidian-statusbar-pomo:start-satusbar-pomo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "obsidian-statusbar-pomo:quit-satusbar-pomo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageDown"
+    }
+  ],
+  "obsidian-statusbar-pomo:pause-satusbar-pomo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "End"
+    }
+  ]
+}

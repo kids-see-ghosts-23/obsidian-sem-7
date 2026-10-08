@@ -1,0 +1,5 @@
+- [ ] 4 vedas
+- [ ] 6 vedangas
+- [ ] 6 schools
+- [ ] paninis work
+- [ ] 

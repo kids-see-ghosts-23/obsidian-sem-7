@@ -1,0 +1,388 @@
+{
+  "main": {
+    "id": "0607feb78f594891",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d4e88e316dedde7",
+        "type": "tabs",
+        "dimension": 49.66487935656836,
+        "children": [
+          {
+            "id": "eefd65886add8679",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "iks/Notes/IKS - unit 1 notes.pdf",
+                "page": 1,
+                "left": -10,
+                "top": 846,
+                "zoom": 1.5621850433380366
+              },
+              "icon": "lucide-file-text",
+              "title": "IKS - unit 1 notes"
+            }
+          },
+          {
+            "id": "81a9408bcccfab13",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "iks/Notes/IKS Unit 2 Notes.pdf",
+                "page": 1,
+                "left": -10,
+                "top": 846,
+                "zoom": 1.5615555107797705
+              },
+              "icon": "lucide-file-text",
+              "title": "IKS Unit 2 Notes"
+            }
+          },
+          {
+            "id": "40afcebf5dee9f13",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-08 17.39.03.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-08 17.39.03.excalidraw"
+            }
+          },
+          {
+            "id": "42602364d951f2e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "arvr/VRAR CIE-1 Notes.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VRAR CIE-1 Notes"
+            }
+          },
+          {
+            "id": "dd88e6f787b46551",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "arvr/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
+                "page": 22,
+                "left": -18,
+                "top": 675,
+                "zoom": 0.8685458429841229
+              },
+              "icon": "lucide-file-text",
+              "title": "AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "daa4565785aed8ba",
+        "type": "tabs",
+        "dimension": 50.33512064343163,
+        "children": [
+          {
+            "id": "f1a719bed48f02df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vrar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vrar"
+            }
+          },
+          {
+            "id": "34c695581e712f75",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "arvr/ARVR - 1 & 2.pdf",
+                "page": 3,
+                "left": -19,
+                "top": 328,
+                "zoom": 0.8797322083411266
+              },
+              "icon": "lucide-file-text",
+              "title": "ARVR - 1 & 2"
+            }
+          },
+          {
+            "id": "4289bfb12efd3890",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "arvr/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
+                "page": 1,
+                "left": -19,
+                "top": 845,
+                "zoom": 0.8811517333031956
+              },
+              "icon": "lucide-file-text",
+              "title": "IS372IA_Virtual Reality and Augmented Reality_copy"
+            }
+          },
+          {
+            "id": "0ce79896993a62a4",
+            "type": "leaf",
+            "state": {
+              "type": "terminal-view",
+              "state": {
+                "tabs": [
+                  {
+                    "name": "Terminal 3",
+                    "color": "",
+                    "cwd": "C:\\Users\\karan\\OneDrive\\Desktop\\sem 7",
+                    "bufferSerial": "Microsoft Windows [Version 10.0.26100.9168]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\karan\\OneDrive\\Desktop\\sem 7>freebuff\u001b[1B\u001b[46D\u001b[?1049h\u001b[H\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191mfatal: not a git repository (or any of the parent directories): .git\u001b[38;2;255;255;255m             \r\n  \u001b[38;2;172;179;191mfatal: not a git repository (or any of the parent directories): .git\u001b[38;2;255;255;255m             \r\n  \u001b[38;2;34;197;94m$ \u001b[38;2;241;245;249;1mgh auth status 2>&1 | head -10\u001b[38;2;255;255;255;22m                                                 \r\n  \u001b[38;2;172;179;191mYou are not logged into any GitHub hosts. To log in, run: gh auth login\u001b[38;2;255;255;255m          \r\n                                                                                   \r\n  \u001b[38;2;241;245;249m[response interrupted]\u001b[38;2;255;255;255m                                                           \r\n                                                                          \u001b[38;2;172;179;191;2m⎘\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m△▽\u001b[38;2;255;255;255;22m   \r\n                                                                                   \r\n \u001b[48;2;158;252;98m \u001b[49m \u001b[38;2;172;179;191;2m[22:47]\u001b[38;2;255;255;255;22m                                                                         \r\n \u001b[48;2;158;252;98m \u001b[49m \u001b[38;2;241;245;249;3mcontinue\u001b[38;2;172;179;191;23;2m ⎘\u001b[38;2;255;255;255;22m                                                                      \r\n                                                                                   \r\n  \u001b[38;2;34;197;94m$ \u001b[38;2;241;245;249;1mls -la\u001b[38;2;255;255;255;22m                                                                         \r\n  \u001b[38;2;172;179;191mtotal 36\u001b[38;2;255;255;255m                                                                         \r\n  \u001b[38;2;172;179;191mdrwxr-xr-x 1 karan 197609    0 Oct  8 20:03 .\u001b[38;2;255;255;255m                                    \r\n  \u001b[38;2;172;179;191mdrwxr-xr-x 1 karan 197609    0 Oct  8 17:27 ..\u001b[38;2;255;255;255m                                   \r\n  \u001b[38;2;172;179;191mdrwxr-xr-x 1 karan 197609    0 Oct  8 17:29 .obsidian\u001b[38;2;255;255;255m                            \r\n  \u001b[38;2;172;179;191mdrwxr-xr-x 1 karan 197609    0 Oct  8 17:39 Excalidraw\u001b[38;2;255;255;255m                           \r\n  \u001b[38;2;163;174;208;4mShow 5 more lines\u001b[38;2;255;255;255;24m                                                                \r\n  \u001b[38;2;34;197;94m$ \u001b[38;2;241;245;249;1mgh auth login --web --hostname github.com 2>&1 | head -20\u001b[38;2;172;179;191;22;2m (1m timeout)\u001b[38;2;255;255;255;22m         \r\n  \u001b[38;2;172;179;191mCommand timed out after 60 seconds\u001b[38;2;255;255;255m                                               \r\n  \u001b[38;2;34;197;94m$ \u001b[38;2;241;245;249;1mgh auth status 2>&1\u001b[38;2;172;179;191;22;2m (10s timeout)\u001b[38;2;255;255;255;22m                                              \r\n  \u001b[38;2;172;179;191mYou are not logged into any GitHub hosts. To log in, run: gh auth login\u001b[38;2;255;255;255m          \r\n                                                                                   \r\n  \u001b[38;2;241;245;249mThe \u001b[38;2;255;133;52;48;2;55;65;81;1m gh \u001b[38;2;241;245;249;49;22m auth login timed out — the browser flow likely worked but needs a \u001b[38;2;255;255;255m      \r\n  \u001b[38;2;241;245;249mmoment. Let me check the actual auth state, and in parallel initialize the \u001b[38;2;255;255;255m      \r\n  \u001b[38;2;241;245;249mrepo.\u001b[38;2;255;255;255m                                                                            \r\n                                                                                   \r\n  \u001b[38;2;172;179;191m╭────────────────────────────────────────────────────────────────────────────╮\u001b[38;2;255;255;255m   \r\n  \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;241;245;249;1mNew model\u001b[38;2;255;255;255;22m                                                               \u001b[38;2;172;179;191mAd\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m   \r\n  \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191mGet GPT-6.1 Sol from $8/mo.\u001b[38;2;255;255;255m                                 \u001b[38;2;172;179;191;4mfreebuff.com ↗\u001b[38;2;255;255;255;24m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m   \r\n  \u001b[38;2;172;179;191m╰────────────────────────────────────────────────────────────────────────────╯\u001b[38;2;255;255;255m   \r\n                                                                                   \r\n  \u001b[38;2;34;197;94m$ \u001b[38;2;241;245;249;1mgh auth status 2>&1\u001b[38;2;172;179;191;22;2m (10s timeout)\u001b[38;2;255;255;255;22m                                              \r\n  \u001b[38;2;172;179;191mYou are not logged into any GitHub hosts. To log in, run: gh auth login\u001b[38;2;255;255;255m          \r\n  \u001b[38;2;34;197;94m$ \u001b[38;2;241;245;249;1mgit init && git add -A && git status --short\u001b[38;2;255;255;255;22m                                   \r\n \u001b[38;2;172;179;191m╭───────────────────────────────────────────────────────────────────────────────╮\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;241;245;249;1mNew model\u001b[38;2;255;255;255;22m                                                                \u001b[38;2;172;179;191m  Ad\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191mGet GPT-6.1 Sol from $8/mo.\u001b[38;2;255;255;255m                                                   \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;16;19;26;48;2;172;179;191;1m See plans \u001b[38;2;255;255;255;49;22m \u001b[38;2;172;179;191;4mfreebuff.com\u001b[38;2;255;255;255;24m                                                      \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m╰───────────────────────────────────────────────────────────────────────────────╯\u001b[38;2;255;255;255m \r\n\u001b[48;2;40;69;42m \u001b[38;2;195;202;224mw\u001b[38;2;205;211;230;1mo\u001b[38;2;227;230;241mr\u001b[38;2;228;231;241mk\u001b[38;2;89;109;170;22;2mi\u001b[38;2;110;127;181mn\u001b[38;2;131;146;192mg\u001b[38;2;142;155;197;22m.\u001b[38;2;163;174;208m.\u001b[38;2;174;183;213m.\u001b[38;2;255;255;255m                                                         \u001b[38;2;163;174;208m1m 12s\u001b[38;2;255;255;255m   \u001b[38;2;163;174;208m■ Es\u001b[48;2;32;35;39mc\u001b[38;2;255;255;255m \r\n\u001b[38;2;241;245;249;49m╭─────────────────────────────────────────────────────────────────────────────────╮\r\n│\u001b[38;2;255;255;255m                                                                                 \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191mAdd to the current task (/ for commands)\u001b[38;2;255;255;255m                                       \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m                                                                                 \u001b[38;2;241;245;249m│\r\n╰─────────────────────────────────────────────────────────────────────────────────╯\r\n\u001b[38;2;255;255;255m \u001b[38;2;158;252;98mSolar Pro 4\u001b[38;2;172;179;191m · ~\\OneDrive\\Desktop\\sem 7 · \u001b[38;2;158;252;98m/model\u001b[38;2;172;179;191m to change · Chat: make a repo \u001b[38;2;255;255;255m    \r\n \u001b[38;2;172;179;191mnamed sem 7 and push all of this into that repo\u001b[38;2;255;255;255m                                   \r\n \u001b[38;2;241;245;249m←\u001b[38;2;172;179;191m for history · \u001b[38;2;241;245;249m?\u001b[38;2;172;179;191m for help\u001b[38;2;255;255;255m                                                        \u001b[8A\u001b[72D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
+                  }
+                ],
+                "activeIndex": 0
+              },
+              "icon": "zap",
+              "title": "Terminal"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8158880cad2f652",
+    "type": "split",
+    "children": [
+      {
+        "id": "51d0fc7da9c21bf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02eff99f5ec236ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "22d63e53b3bf8b92",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "28de800b7963785c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "0d6829b117dbcc17",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "da3d1368037f4a66",
+    "type": "split",
+    "children": [
+      {
+        "id": "0981a1bef7518118",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eccd14a08c252115",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "be9e54fb60e76900",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "efa5e8e8c47b233f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ad0208ee9fab0859",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "62beab276d1f7056",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "new-3d-graph:Open 3d graph": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "surfing:surfing-bookmark-manager": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "lean-terminal:Open terminal": false,
+      "google-blogger:Blogger Publish": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "0ce79896993a62a4",
+  "lastOpenFiles": [
+    "vrar.md",
+    "arvr/ARVR - 1 & 2.pdf",
+    "arvr/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
+    "arvr/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
+    "arvr/pyqs/21IS72_copy.pdf",
+    "arvr/VRAR PYQ CIE-1.md",
+    "arvr/VRAR CIE-1 Notes.md",
+    "Excalidraw/Drawing 2026-10-08 17.39.03.excalidraw.md",
+    "iks todo.md",
+    "iks/IKS_CIE1_PYQ.md",
+    "iks/IKS_CIE1.md",
+    "iks/Notes/IKS - unit 1 notes.pdf",
+    "iks/Notes/IKS Unit 2 Notes.pdf",
+    "iks/introduction-to-indian-knowledge-system-TB.pdf",
+    "arvr/pyqs/IKS_PYQ_Study_Guide_1.html",
+    "arvr/pyqs",
+    "arvr/New folder",
+    "pasted images/Pasted Image 20261008173934_533.png",
+    "pasted images/Pasted Image 20261008173922_212.png",
+    "hpe-networking-prep.md",
+    "telstra-ase-interview-prep.md",
+    "buzzwords.md",
+    "fast/07-binary-trees.md",
+    "fast/06-linked-lists.md",
+    "Projects/MICROCLIMATE.md",
+    "pending.md",
+    "hpe.md",
+    "fast/03-operating-systems.md",
+    "Pasted Image 20260924205002_707.png",
+    "interviews/hpe.md",
+    "Pasted image 20261001002352.png",
+    "fast/04-computer-networks.md",
+    "short.md",
+    "hsbc/hsbc-old.md",
+    "hsbc/hsbc q bank.md",
+    "hsbc/hsbc exp.md",
+    "pendinganswers.md",
+    "hsbc q bank.md",
+    "Excalidraw/Drawing 2026-09-24 20.21.00.excal
