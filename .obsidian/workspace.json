@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iks/IKS_CIE1_PYQ.md",
+                "file": "microservices/cie 1 - notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IKS_CIE1_PYQ"
+              "title": "cie 1 - notes"
+            }
+          },
+          {
+            "id": "88bec392d832874a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "microservices/cie 1 - notes.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cie 1 - notes"
             }
           },
           {
@@ -46,7 +60,7 @@
                 "file": "microservices/notes/unit2.pdf",
                 "page": 8,
                 "left": -183,
-                "top": 719,
+                "top": 756,
                 "zoom": 1
               },
               "icon": "lucide-file-text",
@@ -54,20 +68,33 @@
             }
           },
           {
-            "id": "1bdb23f1f2bb54af",
+            "id": "7ac0cb7b0bcb3fb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices cie 1.md",
+                "file": "devops/unit 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "microservices cie 1"
+              "title": "unit 2"
+            }
+          },
+          {
+            "id": "43b329e4bcb1f226",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/board.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "board"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -264,14 +291,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "40afcebf5dee9f13",
+  "active": "02eff99f5ec236ad",
   "lastOpenFiles": [
-    "microservices/notes/unit1.pdf",
+    "devops/unit 1.md",
+    "devops/unit 2.md",
+    "Excalidraw/board.md",
+    "pasted images/Pasted Image 20261011210404_612.png",
+    "microservices/cie 1 - notes.md",
     "microservices/notes/unit2.pdf",
+    "microservices/notes/unit1.pdf",
+    "microservices/CIE-1 PYQ.md",
     "iks/IKS_CIE1_PYQ.md",
-    "Excalidraw/Drawing 2026-10-08 17.39.03.excalidraw.md",
     "devops",
-    "microservices cie 1.md",
     "pasted images/Pasted Image 20261011111159_405.png",
     "vrar/pyqs/pyq cie 1.md",
     "vrar/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
@@ -304,8 +335,6 @@
     "fast/06-linked-lists.md",
     "Projects/MICROCLIMATE.md",
     "pending.md",
-    "hpe.md",
-    "fast/03-operating-systems.md",
     "Pasted Image 20260924205002_707.png",
     "Pasted image 20261001002352.png",
     "Pasted Image 20260924221811_169.png",

@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/g7r2n4tc#abxVin3f2dEjIQ3YKtiuu0Yl2ZgWpnzBumIL7qlMCzQ
+share_updated: 2026-10-11T18:13:42+05:30
+---
 # UNIT 1
 ## Toward a microservices architecture
 
