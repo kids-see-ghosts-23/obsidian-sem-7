@@ -14,20 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "microservices/cie 1 - notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cie 1 - notes"
-            }
-          },
-          {
-            "id": "88bec392d832874a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microservices/cie 1 - notes.md",
                 "mode": "preview",
                 "source": false
               },
@@ -42,9 +28,9 @@
               "type": "pdf",
               "state": {
                 "file": "microservices/notes/unit1.pdf",
-                "page": 24,
+                "page": 17,
                 "left": -183,
-                "top": 558,
+                "top": 628,
                 "zoom": 1
               },
               "icon": "lucide-file-text",
@@ -59,26 +45,12 @@
               "state": {
                 "file": "microservices/notes/unit2.pdf",
                 "page": 8,
-                "left": -183,
+                "left": -70,
                 "top": 756,
                 "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "unit2"
-            }
-          },
-          {
-            "id": "7ac0cb7b0bcb3fb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devops/unit 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "unit 2"
             }
           },
           {
@@ -92,9 +64,57 @@
               "icon": "excalidraw-icon",
               "title": "board"
             }
+          },
+          {
+            "id": "ce11bd2d7f419f64",
+            "type": "leaf",
+            "state": {
+              "type": "terminal-view",
+              "state": {
+                "tabs": [
+                  {
+                    "name": "Terminal 1",
+                    "color": "",
+                    "cwd": "C:\\Users\\karan\\OneDrive\\Desktop\\sem 7",
+                    "bufferSerial": "Microsoft Windows [Version 10.0.26100.9168]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\karan\\OneDrive\\Desktop\\sem 7>freebuff\u001b[1B\u001b[46D\u001b[?1049h\u001b[H\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191mdata spaces), while physical sharing of database clusters is acceptable as long as logical isolation holds. Supporting patterns include the data \u001b[38;2;255;255;255m         \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191mdelegate \u001b[38;2;255;255;255m                                                                                                                                                 \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191mpattern, data lakes, sagas, Event Sourcing, and CQRS.\u001b[38;2;255;255;255m                                                                                                     \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191m52:|   Event Sourcing, CQRS                                     |\u001b[38;2;255;255;255m                                                                                         \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191m209:### 6. Event Sourcing and CQRS\u001b[38;2;255;255;255m                                                                                                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208;4mShow 66 more lines\u001b[38;2;255;255;255;24m                                                                                                                                        \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                                                            \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191m╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;241;245;249;1mLooooooong running AI agents\u001b[38;2;255;255;255;22m                                                                                                                      \u001b[38;2;172;179;191mAd\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191mBuild and run AI agents that don't time out on Trigger.dev\u001b[38;2;255;255;255m                                                                             \u001b[38;2;172;179;191;4mtrigger.dev ↗\u001b[38;2;255;255;255;24m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;172;179;191m╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                                                            \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mAll six questions are answered in \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/microservices-architecture-answers.md \u001b[38;2;241;245;249;49;22m, with content drawn from the notes in \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/cie 1 - \u001b[38;2;255;255;255;49;22m     \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;255;133;52;48;2;55;65;81;1mnotes.md \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/CIE-1 PYQ.md \u001b[38;2;241;245;249;49;22m, and the extracted text from \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/notes/unit1.pdf \u001b[38;2;241;245;249;49;22m and \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/notes/unit2.pdf \u001b[38;2;241;245;249;49;22m.\u001b[38;2;255;255;255m                 \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                                                            \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mVerification I ran:\u001b[38;2;255;255;255m                                                                                                                                       \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mNo emojis found in the output file.\u001b[38;2;255;255;255m                                                                                                                     \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mAll six requested questions are present as top-level sections.\u001b[38;2;255;255;255m                                                                                          \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mCoverage check confirmed the key concepts are present: Up and Running model with diagram, SEED(S), Universal Sizing Formula, delegate service, data \u001b[38;2;255;255;255m    \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mlake, sagas, Event Sourcing, CQRS, CAP theorem, rolling snapshots, data ownership, logical isolation, physical database cluster sharing, transactional \u001b[38;2;255;255;255m   \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249moutbox, and CDC/Debezium.\u001b[38;2;255;255;255m                                                                                                                                 \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                                                            \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mChecks that could not be run:\u001b[38;2;255;255;255m                                                                                                                             \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mI could not verify the PDF content by reading it directly in text form beyond extraction, and I could not run a Markdown linter/render check because \u001b[38;2;255;255;255m   \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mno such tool was available in the environment.\u001b[38;2;255;255;255m                                                                                                            \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                                                            \u001b[38;2;154;158;163;48;2;37;37;39m▄\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mNote on one accuracy fix:\u001b[38;2;255;255;255m                                                                                                                                 \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mIn the final file, the transactional outbox pattern is attributed to Debezium as a CDC engine, which matches the notes. I verified that attribution \u001b[38;2;255;255;255m    \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mis present and consistent in section 5 and the summary table.\u001b[38;2;255;255;255m                                                                                             \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                                                                            \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mStatus:\u001b[38;2;255;255;255m                                                                                                                                                   \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mDeliverable file exists at the requested location and format.\u001b[38;2;255;255;255m                                                                                           \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mContent matches the notes for all six prompts.\u001b[38;2;255;255;255m                                                                                                          \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mEpsilon: the answer is complete and consistent with the provided source notes.\u001b[38;2;255;255;255m                                                                          \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                                                          \u001b[38;2;172;179;191;2m⎘\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;163;174;208;2m2m 14s\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m△▽\u001b[38;2;255;255;255;22m   \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m \u001b[38;2;172;179;191m╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;241;245;249;1mKeep going\u001b[38;2;255;255;255;22m                                                                                                                                         \u001b[38;2;172;179;191m  Ad\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m$10 = 1,000 Freebucks.\u001b[38;2;255;255;255m                                                                                                                                  \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;16;19;26;48;2;172;179;191;1m Top up \u001b[38;2;255;255;255;49;22m \u001b[38;2;172;179;191;4mfreebuff.com\u001b[38;2;255;255;255;24m                                                                                                                                   \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\u001b[38;2;255;255;255m \r\n\u001b[48;2;40;69;42m \u001b[38;2;163;174;208m20m left · 64.9K (13%)\u001b[38;2;255;255;255m                           \u001b[48;2;32;35;39m                                                                                             \u001b[38;2;163;174;208m✕ End session\u001b[38;2;255;255;255m \r\n\u001b[38;2;241;245;249;49m╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮\r\n│\u001b[38;2;255;255;255m                                                                                                                                                           \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191mEnter a coding task or / for commands\u001b[38;2;255;255;255m                                                                                                                    \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m                                                                                                                                                           \u001b[38;2;241;245;249m│\r\n╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\r\n\u001b[38;2;255;255;255m \u001b[38;2;158;252;98mSolar Pro 4\u001b[38;2;172;179;191m · ~\\OneDrive\\Desktop\\sem 7 · \u001b[38;2;158;252;98m/model\u001b[38;2;172;179;191m to change · Chat: Demonstrate the detailed \"Up and Running\" Microservices Model with neat diagram.Deseribe \u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191mthe cons...\u001b[38;2;255;255;255m                                                                                                                                                 \r\n \u001b[38;2;241;245;249m←\u001b[38;2;172;179;191m for history · \u001b[38;2;241;245;249m?\u001b[38;2;172;179;191m for help\u001b[38;2;255;255;255m                                                                                                                                  \u001b[8A\u001b[106D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
+                  }
+                ],
+                "activeIndex": 0
+              },
+              "icon": "zap",
+              "title": "Terminal"
+            }
+          },
+          {
+            "id": "174779da30d66905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "microservices/pyq cie 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pyq cie 1"
+            }
+          },
+          {
+            "id": "3d97a28a45a63d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "microservices/pyq cie 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pyq cie 1"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -291,16 +311,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "02eff99f5ec236ad",
+  "active": "3483cb3f145bc983",
   "lastOpenFiles": [
-    "devops/unit 1.md",
-    "devops/unit 2.md",
-    "Excalidraw/board.md",
-    "pasted images/Pasted Image 20261011210404_612.png",
-    "microservices/cie 1 - notes.md",
-    "microservices/notes/unit2.pdf",
-    "microservices/notes/unit1.pdf",
     "microservices/CIE-1 PYQ.md",
+    "microservices/pyq cie 1.md",
+    "Excalidraw/board.md",
+    "microservices/cie 1 - notes.md",
+    "microservices/notes/unit1.pdf",
+    "microservices/notes/unit2.pdf",
+    "devops/unit 2.md",
+    "devops/unit 1.md",
+    "pasted images/Pasted Image 20261011210404_612.png",
     "iks/IKS_CIE1_PYQ.md",
     "devops",
     "pasted images/Pasted Image 20261011111159_405.png",
@@ -334,7 +355,6 @@
     "fast/07-binary-trees.md",
     "fast/06-linked-lists.md",
     "Projects/MICROCLIMATE.md",
-    "pending.md",
     "Pasted Image 20260924205002_707.png",
     "Pasted image 20261001002352.png",
     "Pasted Image 20260924221811_169.png",
