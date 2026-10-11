@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/r3kkm9jg#v/mrC50zbvyA7Y2ppBP2TDPfBARS1r9TXV5xeeS/n4Y
+share_updated: 2026-10-09T06:21:31+05:30
+---
 # Simple C# Programs for Unity
 
 Three ready-to-attach `MonoBehaviour` scripts: mouse rotation, continuous Y-axis rotation, and smooth arrow-key movement.

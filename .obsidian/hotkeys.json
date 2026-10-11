@@ -86,5 +86,21 @@
       ],
       "key": "End"
     }
+  ],
+  "git-obsi-sync:sync-now": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "obsidian-linter:lint-file": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Delete"
+    }
   ]
 }

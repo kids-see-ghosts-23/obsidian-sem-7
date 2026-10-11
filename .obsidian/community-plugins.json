@@ -15,12 +15,13 @@
   "tab-group-arrangement",
   "unitade",
   "text-extractor",
-  "surfing",
   "quip",
   "omglol-statuslog-publish",
   "google-blogger",
   "pdf-plus",
   "docxer",
   "copilot",
-  "github-sync"
+  "git-obsi-sync",
+  "obsidian-git",
+  "obsidian-linter"
 ]

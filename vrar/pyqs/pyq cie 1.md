@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/fep21ahs#bm1wx3ybskiQ2ryaBD9HOe+bomCn0VOl40H7FfCz1RE
+share_updated: 2026-10-09T06:23:08+05:30
+---
 ## PART A (QUIZ)
 ### 1.1 Define Virtual Reality. How does virtual reality differ from augmented reality?
 
@@ -145,8 +149,6 @@ A VR system works as a **closed-loop, real-time interaction cycle**: the user ac
 
 **Key mechanism:** Combines stereoscopic video/audio feeds from the remote site with teleoperated robotic hardware and haptic force feedback, so the operator sees, hears and feels the remote environment as if they were there.
 
-    JPG
-
 **Example — Robotic Remote Surgery (e.g. Da Vinci Surgical System):** A surgeon sits at a console in one room (or city) and manipulates 3-D controls. The system replicates the surgeon's micro-movements in real time on the patient using robotic arms, while feeding back immersive high-definition 3-D visual and haptic (force) feedback. The surgeon is effectively "present" at the operating table despite being elsewhere.
 
 ### 3a. Discuss the key windows in the Unity editor and illustrate how their layout and size can be adjusted to enhance the workflow.
@@ -162,7 +164,6 @@ A VR system works as a **closed-loop, real-time interaction cycle**: the user ac
 | **Inspector Window** | Shows and lets you edit the properties, components and attached scripts of the currently selected GameObject. |
 | **Console Window** | Shows errors, warnings and debug logs (`Debug.Log`). |
 
-    JPG
 
 #### Workflow Customization:
 
@@ -170,21 +171,17 @@ A VR system works as a **closed-loop, real-time interaction cycle**: the user ac
 - **Resizing:** Hover over a divider between split panels and drag to resize.
 - **Preset layouts:** Use the layout dropdown (top-right) to switch among built-in arrangements like *Tall*, *2 by 3*, *4 Split*, or save your own custom layout for a particular task (level design, animation, debugging, etc.).
 
-    JPG
 ### 3b. Explain the four basic tracker performance parameters that have to be considered regardless of the technology used.
 
 1. **Accuracy:** How close the tracker’s reported position/orientation is to the true physical location (error range / resolution).
 
-        JPG
 2. **Jitter (noise / precision):** Rapid, unwanted high-frequency fluctuations in the output when the tracked target is actually stationary.
 
-        JPG
 3. **Latency (update delay / lag):** Total time between the physical movement of the object and the corresponding update appearing in the system — high latency breaks presence and causes sickness.
 
-        JPG
 4. **Update rate (sampling rate / frequency):** Number of position/orientation measurements the tracker produces per second (Hz) — higher rates give smoother tracking but demand more processing.
 
-        JPG
+
 ### 4. Develop a program that enables an object to move smoothly in response to arrow-key inputs.
 
 Below is a complete Unity C# script that moves the object smoothly with the arrow keys — frame-rate independent (uses `Time.deltaTime`), diagonal-safe (normalised) and with gradual acceleration (Lerp smoothing).

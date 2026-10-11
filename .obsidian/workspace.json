@@ -6,136 +6,68 @@
       {
         "id": "5d4e88e316dedde7",
         "type": "tabs",
-        "dimension": 49.66487935656836,
         "children": [
-          {
-            "id": "eefd65886add8679",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "iks/Notes/IKS - unit 1 notes.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 846,
-                "zoom": 1.5621850433380366
-              },
-              "icon": "lucide-file-text",
-              "title": "IKS - unit 1 notes"
-            }
-          },
-          {
-            "id": "81a9408bcccfab13",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "iks/Notes/IKS Unit 2 Notes.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 846,
-                "zoom": 1.5615555107797705
-              },
-              "icon": "lucide-file-text",
-              "title": "IKS Unit 2 Notes"
-            }
-          },
           {
             "id": "40afcebf5dee9f13",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-10-08 17.39.03.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-08 17.39.03.excalidraw"
-            }
-          },
-          {
-            "id": "42602364d951f2e7",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "arvr/VRAR CIE-1 Notes.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VRAR CIE-1 Notes"
-            }
-          },
-          {
-            "id": "dd88e6f787b46551",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "arvr/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
-                "page": 22,
-                "left": -21,
-                "top": 685,
-                "zoom": 0.7437475288253012
-              },
-              "icon": "lucide-file-text",
-              "title": "AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes"
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "daa4565785aed8ba",
-        "type": "tabs",
-        "dimension": 50.33512064343163,
-        "children": [
-          {
-            "id": "f1a719bed48f02df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vrar.md",
+                "file": "iks/IKS_CIE1_PYQ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vrar"
+              "title": "IKS_CIE1_PYQ"
             }
           },
           {
-            "id": "34c695581e712f75",
+            "id": "d568e41f397ad1ca",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "arvr/ARVR - 1 & 2.pdf",
-                "page": 3,
-                "left": -19,
-                "top": 328,
-                "zoom": 0.8797322083411266
+                "file": "microservices/notes/unit1.pdf",
+                "page": 24,
+                "left": -183,
+                "top": 558,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
-              "title": "ARVR - 1 & 2"
+              "title": "unit1"
             }
           },
           {
-            "id": "402ba45472ab091a",
+            "id": "42f4309d6e9a3547",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "microservices/notes/unit2.pdf",
+                "page": 8,
+                "left": -183,
+                "top": 719,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "unit2"
+            }
+          },
+          {
+            "id": "1bdb23f1f2bb54af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "arvr/sample progs.md",
+                "file": "microservices cie 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sample progs"
+              "title": "microservices cie 1"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,8 +131,8 @@
             "state": {
               "type": "surfing-tab-tree",
               "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
+              "icon": "lucide-ghost",
+              "title": "surfing-tab-tree"
             }
           }
         ]
@@ -290,16 +222,27 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "3483cb3f145bc983",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
@@ -312,37 +255,46 @@
       "new-3d-graph:Open 3d graph": false,
       "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "surfing:surfing-bookmark-manager": false,
       "obsidian-media-db-plugin:Add new Media DB entry": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
       "lean-terminal:Open terminal": false,
       "google-blogger:Blogger Publish": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false,
-      "github-sync:Sync with Remote": false
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "402ba45472ab091a",
+  "active": "40afcebf5dee9f13",
   "lastOpenFiles": [
-    "arvr/ARVR - 1 & 2.pdf",
-    "arvr/sample progs.md",
-    "arvr/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
-    "vrar.md",
-    "arvr/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
-    "arvr/pyqs/21IS72_copy.pdf",
-    "arvr/VRAR PYQ CIE-1.md",
-    "arvr/VRAR CIE-1 Notes.md",
-    "Excalidraw/Drawing 2026-10-08 17.39.03.excalidraw.md",
-    "iks todo.md",
+    "microservices/notes/unit1.pdf",
+    "microservices/notes/unit2.pdf",
     "iks/IKS_CIE1_PYQ.md",
+    "Excalidraw/Drawing 2026-10-08 17.39.03.excalidraw.md",
+    "devops",
+    "microservices cie 1.md",
+    "pasted images/Pasted Image 20261011111159_405.png",
+    "vrar/pyqs/pyq cie 1.md",
+    "vrar/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
+    "vrar/pyqs/IKS_PYQ_Study_Guide_1.html",
+    "vrar/pyqs/21IS72_copy.pdf",
+    "vrar/vrar.md",
+    "vrar/VRAR PYQ CIE-1.md",
+    "vrar/VRAR CIE-1 Notes.md",
+    "vrar/sample progs.md",
+    "vrar/pyqs",
+    "vrar/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
+    "vrar/ARVR - 1 & 2.pdf",
+    "vrar",
+    "arvr/vrar.md",
+    "pasted images/Pasted Image 20261009163153_560.png",
+    "Pasted Image 20261009163153_560.png",
+    "arvr/pyqs/pyq cie 1.md",
+    "arvr/sample progs.md",
+    "vrar.md",
+    "arvr/VRAR CIE-1 Notes.md",
+    "arvr/VRAR PYQ CIE-1.md",
+    "iks todo.md",
     "iks/IKS_CIE1.md",
-    "iks/Notes/IKS - unit 1 notes.pdf",
-    "iks/Notes/IKS Unit 2 Notes.pdf",
-    "iks/introduction-to-indian-knowledge-system-TB.pdf",
-    "arvr/pyqs/IKS_PYQ_Study_Guide_1.html",
-    "arvr/pyqs",
-    "arvr/New folder",
     "pasted images/Pasted Image 20261008173934_533.png",
     "pasted images/Pasted Image 20261008173922_212.png",
     "hpe-networking-prep.md",
@@ -355,15 +307,7 @@
     "hpe.md",
     "fast/03-operating-systems.md",
     "Pasted Image 20260924205002_707.png",
-    "interviews/hpe.md",
     "Pasted image 20261001002352.png",
-    "fast/04-computer-networks.md",
-    "short.md",
-    "hsbc/hsbc-old.md",
-    "hsbc/hsbc q bank.md",
-    "hsbc/hsbc exp.md",
-    "pendinganswers.md",
-    "hsbc q bank.md",
     "Pasted Image 20260924221811_169.png",
     "Pasted Image 20260924221343_020.png"
   ]
