@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "40afcebf5dee9f13",
+            "id": "e192af137f5feddb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/cie 1 - notes.md",
-                "mode": "preview",
+                "file": "microservices/cie 1/cie 1 - notes.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -22,39 +22,41 @@
             }
           },
           {
-            "id": "d568e41f397ad1ca",
+            "id": "7fb97a6008930263",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "microservices/notes/unit1.pdf",
-                "page": 17,
-                "left": -183,
-                "top": 628,
-                "zoom": 1
+                "file": "microservices/cie 1/microservices-quick-revision.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "unit1"
+              "icon": "lucide-file",
+              "title": "microservices-quick-revision"
             }
           },
           {
-            "id": "42f4309d6e9a3547",
+            "id": "ed348688a560bdd1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "terminal-view",
               "state": {
-                "file": "microservices/notes/unit2.pdf",
-                "page": 8,
-                "left": -70,
-                "top": 756,
-                "zoom": 1
+                "tabs": [
+                  {
+                    "name": "Terminal 3",
+                    "color": "",
+                    "cwd": "/home/karan/Downloads/sem-7/obsidian-sem-7",
+                    "bufferSerial": "\r\n\u001b[36;1mobsidian-sem-7\u001b[0m \u001b[36;3mmain\u001b[0m \u001b[36m ? \u001b[1m❯\u001b[0m opencode\u001b[1B\u001b[34D\u001b[?1049h\u001b[H\u001b[97;48;5;236m   \u001b[37;1mMicroservices CIE2 study \u001b[38;5;249mn\u001b[38;5;245mo\u001b[38;5;241mt\u001b[38;5;238me\u001b[38;5;248;49;22m + \u001b[97m                                                                                                                                                              \r\n  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2280\u001b[97m   \u001b[36m---\u001b[97m                                                                                                        \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2281\u001b[97m                                                                                                              \u001b[49m  \u001b[48;5;236m  \u001b[37;1mMicroservices CIE2 study notes\u001b[97;22m          \u001b[37;1ms CIE2 study notes\u001b[97;22m          \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m   \u001b[48;5;238m \u001b[38;5;248m2282\u001b[31m -\u001b[97m \u001b[37;48;5;236;1m## Final checklist before the exam\u001b[97;22m                                                                         \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m   \u001b[48;5;237m \u001b[38;5;248m2282\u001b[32m +\u001b[97m \u001b[37;48;5;236;1;4m# Final Checklist Before the Exam\u001b[97;22;24m                                                                          \u001b[49m  \u001b[48;5;236m  \u001b[37;1mContext\u001b[97;22m                                                             \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2283\u001b[97m                                                                                                              \u001b[49m  \u001b[48;5;236m  \u001b[38;5;248m94,834 tokens\u001b[97m                           \u001b[38;5;248ms\u001b[97m                           \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2284\u001b[97m   \u001b[34m- \u001b[37mBe able to define: DevOps, immutable infrastructure, drift, IaC, Terraform, HCL, pipeline, GitOps, \u001b[97m      \u001b[49m  \u001b[48;5;236m  \u001b[38;5;248m47% used\u001b[97m                                                            \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m           \u001b[37mVPC, CIDR, subnet, NAT gateway, security group, EKS, pod, Argo CD, Helm.\u001b[97m                                   \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2285\u001b[97m   \u001b[34m- \u001b[37mKnow the nine key decisions of Chapter 6 and the two of Chapter 7.\u001b[97m                                       \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2286\u001b[97m   \u001b[34m- \u001b[37mBe able to draw: target pipeline (Figure 6-1), pipeline steps (Figure 6-11), network module reuse (\u001b[97m      \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m           \u001b[37mFigure 7-1), subnet design across two AZs (Figure 7-2).\u001b[97m                                                    \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m                                                                                                                      \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[38;5;248m→\u001b[97m \u001b[38;5;248mExplored: 1 read\u001b[97m                                                                                                    \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[38;5;101m+\u001b[97m \u001b[38;5;101mThought · 4.0s\u001b[97m                                                                                                      \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[37mDone. Notes created at:\u001b[97m                                                                                               \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[32mmicroservices/cie 2/cie2notes.md\u001b[97m                                                                                      \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[37mWhat is inside:\u001b[97m                                                                                                       \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mPart 1 - Unit 3 (Chapters 6 and 7)\u001b[97;22m                                                                                  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mDevOps principles: immutable infrastructure, IaC, Terraform, CI/CD, all key decisions\u001b[97m                             \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mIaC environment setup: GitHub, Terraform install\u001b[97m                                                                  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mAWS configuration: IAM \u001b[32mops-account\u001b[37m, Ops-Accounts group, policies, CLI, S3 state backend\u001b[97m                           \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mIaC pipeline: sandbox repo, Terraform concepts, \u001b[32mmain.tf\u001b[37m, \u001b[32mfmt\u001b[37m/\u001b[32minit\u001b[37m/\u001b[32mvalidate\u001b[37m/\u001b[32mplan\u001b[37m, secrets, workflow, trigger, \u001b[97m     \u001b[48;5;236m                                                                      \r\n\u001b[49m         \u001b[37mapply, artifacts, testing\u001b[97m                                                                                         \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mMicroservices infrastructure: VPC, four subnets, internet and NAT gateways, EKS, GitOps and Argo CD\u001b[97m               \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mImplementation: module repositories, network module, Kubernetes module, Argo CD module, verification, cleanup\u001b[97m     \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mPart 2 - Unit 3 revision\u001b[22m: definitions table, comparison tables, command cheat sheet, file map, 13 likely questions\u001b[97m  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[37mwith answer outlines\u001b[97m                                                                                                \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mPart 3 - Unit 4 (Chapter 8)\u001b[97;22m                                                                                         \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mThree goals, ten workspace guidelines, Rule of Twos, makefile targets\u001b[97m                                             \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mContainerized setup: Docker4Mac/Windows, VirtualBox, Multipass, memory changes, folder mapping\u001b[97m                    \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mDocker installation and non-root setup, MySQL Compose test\u001b[97m                                                        \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mCassandra with Docker Compose\u001b[97m                                                                                     \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mLocal Kubernetes: options, k3s, MicroK8s, Skaffold limitation\u001b[97m                                                     \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mUnit 4 revision questions and comparison tables\u001b[97m                                                                   \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mAppendix\u001b[22m: a compact Chapter 9 outline, since your listed syllabus stops at the developer workspace but the unit 4 \u001b[97m  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[37mPDF also contains it\u001b[97m                                                                                                \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mFinal checklist\u001b[22m of must-know definitions, diagrams, decisions and commands\u001b[97m                                          \u001b[48;5;236m    \u001b[37m⬖\u001b[97m \u001b[37;1mGetting started\u001b[97;22m                \u001b[38;5;248m✕\u001b[97m    \u001b[37;1mstarted\u001b[97;22m                \u001b[38;5;248m✕\u001b[97m    \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[37mFormatting is plain Markdown with headings, tables and code blocks, no emojis. It matches the style of your existing\u001b[97m  \u001b[48;5;236m      \u001b[38;5;248mOpenCode includes free models so\u001b[97m    \u001b[38;5;248m includes free models so\u001b[97m    \r\n\u001b[49m     \u001b[32mcie 1\u001b[37m notes and renders cleanly in Obsidian.\u001b[97m                                                                          \u001b[48;5;236m      \u001b[38;5;248myou can start immediately.\u001b[97m          \u001b[38;5;248mstart immediately.\u001b[97m          \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[35mBuild\u001b[38;5;248m · DeepSeek V4.1 Flash Free · 3m 56s · 147.8 tok/s\u001b[97m                                                               \u001b[48;5;236m      \u001b[38;5;248mConnect from 75+ providers to \u001b[97m      \u001b[38;5;248mfrom 75+ providers to \u001b[97m      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m      \u001b[38;5;248muse other models, including \u001b[97m        \u001b[38;5;248mr models, including \u001b[97m        \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                      \u001b[49m  \u001b[48;5;236m      \u001b[38;5;248mClaude, GPT, Gemini etc\u001b[97m             \u001b[38;5;248mGPT, Gemini etc\u001b[97m             \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                      \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                      \u001b[49m  \u001b[48;5;236m      \u001b[37mConnect provider\u001b[97m        \u001b[38;5;248m/connect\u001b[97m    \u001b[37mprovider\u001b[97m        \u001b[38;5;248m/connect\u001b[97m    \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m  \u001b[35mBuild\u001b[97m \u001b[38;5;248m·\u001b[97m \u001b[37mDeepSeek V4.1 Flash Free\u001b[97m \u001b[38;5;248mOpenCode\u001b[97m \u001b[38;5;248m·\u001b[97m \u001b[33;1mhigh\u001b[97;22m                                                                    \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[35m╹\u001b[38;5;236m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\u001b[97m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;248m~/Downloads/sem-7/obsidian-sem-7:main\u001b[97m                                                      \u001b[38;5;248m94.8K (47%)\u001b[97m  \u001b[37mctrl+p \u001b[38;5;248mcommands\u001b[97m  \u001b[48;5;236m  \u001b[38;5;248m~/Downloads/sem-7/obsidian-sem-7:main\u001b[97m   \u001b[38;5;248msem-7/obsidian-sem-7:main\u001b[97m   \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                          \u001b[5A\u001b[160D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
+                  }
+                ],
+                "activeIndex": 0
               },
-              "icon": "lucide-file-text",
-              "title": "unit2"
+              "icon": "zap",
+              "title": "Terminal"
             }
           },
           {
-            "id": "43b329e4bcb1f226",
+            "id": "8da8af2dde74673b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -66,69 +68,21 @@
             }
           },
           {
-            "id": "ce11bd2d7f419f64",
-            "type": "leaf",
-            "state": {
-              "type": "terminal-view",
-              "state": {
-                "tabs": [
-                  {
-                    "name": "Terminal 1",
-                    "color": "",
-                    "cwd": "C:\\Users\\karan\\OneDrive\\Desktop\\sem 7",
-                    "bufferSerial": "Microsoft Windows [Version 10.0.26100.9168]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\karan\\OneDrive\\Desktop\\sem 7>freebuff\u001b[1B\u001b[46D\u001b[?1049h\u001b[H\u001b[38;2;255;255;255m  \u001b[38;2;241;245;249mWhat I verified:\u001b[38;2;255;255;255m                                                                                                 \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;255;133;52;48;2;55;65;81;1m devops/devops-lab-answers.md \u001b[38;2;241;245;249;49;22m now has all requested DevOps items as separate sections:\u001b[38;2;255;255;255m                        \u001b[48;2;37;37;39m \u001b[38;2;172;179;191;49mting patterns include the data \u001b[38;2;255;255;255m         \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ1 container image build, including multi-stage build\u001b[38;2;255;255;255m                                                          \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ2 three pods from the Q1 image\u001b[38;2;255;255;255m                                                                                \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ3 delete a pod and check status of running pods\u001b[38;2;255;255;255m                                                               \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ4 list pods with \u001b[38;2;255;133;52;48;2;55;65;81;1m kubectl \u001b[38;2;255;255;255;49;22m                                                                                    \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ5 a one-page profile web app in Python, plus its Dockerfile\u001b[38;2;255;255;255m                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ6 running the image for version control and reflecting code changes\u001b[38;2;255;255;255m                                           \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ7 GitHub vs Docker Hub with two examples\u001b[38;2;255;255;255m                                                                      \u001b[48;2;37;37;39m \u001b[38;2;172;179;191;49m─────────────────────────────────────╮\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ8 i), ii), iii) created as Deployment, Service, and ReplicaSet-backed Pod management for the Q5/Q1 \u001b[38;2;255;255;255m           \u001b[48;2;37;37;39m \u001b[49m                                  \u001b[38;2;172;179;191mAd\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mapplication\u001b[38;2;255;255;255m                                                                                                      \u001b[48;2;37;37;39m \u001b[49m                       \u001b[38;2;172;179;191;4mtrigger.dev ↗\u001b[38;2;255;255;255;24m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ9 Deployments, Pods, and ReplicaSets in detail\u001b[38;2;255;255;255m                                                                \u001b[48;2;37;37;39m \u001b[38;2;172;179;191;49m─────────────────────────────────────╯\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ10 complete functionality of the Kubernetes package manager (Helm)\u001b[38;2;255;255;255m                                            \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;255;133;52;48;2;55;65;81;1m devops/devops-quick-revision.md \u001b[38;2;241;245;249;49;22m consolidates the devops notes\u001b[38;2;255;255;255m                                                \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49mhe notes in \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/cie 1 - \u001b[38;2;255;255;255;49;22m     \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/microservices-quick-revision.md \u001b[38;2;241;245;249;49;22m consolidates the microservices notes\u001b[38;2;255;255;255m                           \u001b[48;2;37;37;39m \u001b[38;2;255;133;52;48;2;55;65;81;1mvices/notes/unit2.pdf \u001b[38;2;241;245;249;49;22m.\u001b[38;2;255;255;255m                 \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mChecks that passed:\u001b[38;2;255;255;255m                                                                                              \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mSection headings for all DevOps questions are present\u001b[38;2;255;255;255m                                                          \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mCode/command artifacts are present: \u001b[38;2;255;133;52;48;2;55;65;81;1m docker image build \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m replicas: 3 \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m kubectl delete pod \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m kubectl get \u001b[38;2;255;255;255;49;22m   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;255;133;52;48;2;55;65;81;1mpods \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m app.py \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m SimpleHTTPRequestHandler \u001b[38;2;241;245;249;49;22m, Helm/Chart/Release content\u001b[38;2;255;255;255m                                          \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49ming Formula, delegate service, data \u001b[38;2;255;255;255m    \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ8 explicitly uses \u001b[38;2;255;133;52;48;2;55;65;81;1m ### i) Deployment \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m ### ii) Service \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m ### iii) ReplicaSet-backed Pod management \u001b[38;2;241;245;249;49;22m and \u001b[38;2;255;255;255m    \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49mabase cluster sharing, transactional \u001b[38;2;255;255;255m   \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mincludes matching manifests for Deployment, Service, and ReplicaSet\u001b[38;2;255;255;255m                                              \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mNo emojis found in the new deliverables\u001b[38;2;255;255;255m                                                                        \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mChecks that could not run cleanly:\u001b[38;2;255;255;255m                                                                               \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49mMarkdown linter/render check because \u001b[38;2;255;255;255m   \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mOne emoji-scan regex errored in this environment; I re-ran a simpler no-emoji check and it reported no \u001b[38;2;255;255;255m        \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249memojis found, so the no-emoji requirement still held.\u001b[38;2;255;255;255m                                                            \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mLimitation:\u001b[38;2;255;255;255m                                                                                                      \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49m notes. I verified that attribution \u001b[38;2;255;255;255m    \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mI interpreted the ambiguous \"Q. 1\" and unfinished \"i) ii) iii)\" in the user prompt using the surrounding lab \u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mquestions, since that is the most natural reading. If you intended Q.1 to mean a different app or want \u001b[38;2;255;255;255m          \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mexplicit i/ii/iii labeling changed, I can adjust.\u001b[38;2;255;255;255m                                                                \u001b[38;2;154;158;163;48;2;37;37;39m▄\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                 \u001b[38;2;172;179;191;2m⎘\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;163;174;208;2m3m 15s\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m△▽\u001b[38;2;255;255;255;22m   \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                                   \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mNot now: we'll ask again in 7 days.\u001b[38;2;255;255;255m                                                                              \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m \u001b[38;2;172;179;191m╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮\u001b[38;2;255;255;255m                       \u001b[38;2;172;179;191;2m⎘\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;163;174;208;2m2m 14s\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m△▽\u001b[38;2;255;255;255;22m   \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;241;245;249;1mKeep going\u001b[38;2;255;255;255;22m                                                                                                \u001b[38;2;172;179;191m  Ad\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m───────────────────────────────────────╮\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m$10 = 1,000 Freebucks.\u001b[38;2;255;255;255m                                                                                         \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m                                   \u001b[38;2;172;179;191m  Ad\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;16;19;26;48;2;172;179;191;1m Top up \u001b[38;2;255;255;255;49;22m \u001b[38;2;172;179;191;4mfreebuff.com\u001b[38;2;255;255;255;24m                                                                                          \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m                                        \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\u001b[38;2;255;255;255m                                        \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n\u001b[48;2;40;69;42m \u001b[38;2;163;174;208m40m left · 90.3K (18%)\u001b[38;2;255;255;255m                                                      \u001b[48;2;32;35;39m                        \u001b[38;2;163;174;208m✕ End session\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191;49m───────────────────────────────────────╯\u001b[38;2;255;255;255m \r\n\u001b[38;2;241;245;249m╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮────────────────────────────────────────╮\r\n│\u001b[38;2;255;255;255m                                                                                                                  \u001b[38;2;241;245;249m│\u001b[38;2;255;255;255m                                        \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191mEnter a coding task or / for commands\u001b[38;2;255;255;255m                                                                           \u001b[38;2;241;245;249m│\u001b[38;2;255;255;255m                                        \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m                                                                                                                  \u001b[38;2;241;245;249m│\u001b[38;2;255;255;255m                                        \u001b[38;2;241;245;249m│\r\n╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯────────────────────────────────────────╯\r\n\u001b[38;2;255;255;255m \u001b[38;2;158;252;98mSolar Pro 4\u001b[38;2;172;179;191m · ~\\OneDrive\\Desktop\\sem 7 · \u001b[38;2;158;252;98m/model\u001b[38;2;172;179;191m to change · Chat: Demonstrate the detailed \"Up and Running\" \u001b[38;2;255;255;255m       \u001b[38;2;172;179;191mrvices Model with neat diagram.Deseribe \u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191mMicroservices Model with neat diagram.Deseribe the cons...\u001b[38;2;255;255;255m                                                                                                  \r\n \u001b[38;2;241;245;249m←\u001b[38;2;172;179;191m for history · \u001b[38;2;241;245;249m?\u001b[38;2;172;179;191m for help\u001b[38;2;255;255;255m                                                                                         \u001b[5A\u001b[75D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
-                  }
-                ],
-                "activeIndex": 0
-              },
-              "icon": "zap",
-              "title": "Terminal"
-            }
-          },
-          {
-            "id": "174779da30d66905",
+            "id": "13a8ec35157f8802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/pyq cie 1.md",
+                "file": "microservices/cie 2/cie2notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pyq cie 1"
-            }
-          },
-          {
-            "id": "3d97a28a45a63d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microservices/pyq cie 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pyq cie 1"
-            }
-          },
-          {
-            "id": "8da8af2dde74673b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microservices/microservices-quick-revision.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "microservices-quick-revision"
+              "title": "cie2notes"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -200,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "da3d1368037f4a66",
@@ -276,6 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "microservices/cie 2/cie2notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -285,7 +241,7 @@
             }
           },
           {
-            "id": "3483cb3f145bc983",
+            "id": "14b86850a0ac8451",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -299,12 +255,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.269287109375
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
       "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -314,29 +268,38 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "new-3d-graph:Open 3d graph": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-media-db-plugin:Add new Media DB entry": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
       "lean-terminal:Open terminal": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
       "google-blogger:Blogger Publish": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8da8af2dde74673b",
+  "active": "13a8ec35157f8802",
   "lastOpenFiles": [
-    "microservices/pyq cie 1.md",
-    "microservices/microservices-quick-revision.md",
+    "Excalidraw/board.md",
+    "microservices/cie 2/cie2notes.md",
+    "microservices/notes/unit1.pdf",
+    "microservices/notes/unit4.pdf",
+    "microservices/notes/unit3.pdf",
+    "microservices/notes/unit2.pdf",
+    "devops/unit4",
+    "devops/unit3",
+    "microservices/cie 1/microservices-quick-revision.md",
+    "microservices/cie 2",
+    "microservices/cie 1/cie 1 - notes.md",
+    "microservices/cie 1",
+    "microservices/cie 1/pyq cie 1.md",
+    "Pasted Image 20261114114636_103.png",
     "devops/devops-quick-revision.md",
     "devops/devops-lab-answers.md",
-    "Excalidraw/board.md",
     "Pasted Image 20261012061430_588.png",
     "microservices/CIE-1 PYQ.md",
-    "microservices/cie 1 - notes.md",
-    "microservices/notes/unit1.pdf",
-    "microservices/notes/unit2.pdf",
     "devops/unit 2.md",
     "devops/unit 1.md",
     "pasted images/Pasted Image 20261011210404_612.png",
@@ -345,16 +308,10 @@
     "pasted images/Pasted Image 20261011111159_405.png",
     "vrar/pyqs/pyq cie 1.md",
     "vrar/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
-    "vrar/pyqs/IKS_PYQ_Study_Guide_1.html",
-    "vrar/pyqs/21IS72_copy.pdf",
     "vrar/vrar.md",
     "vrar/VRAR PYQ CIE-1.md",
     "vrar/VRAR CIE-1 Notes.md",
     "vrar/sample progs.md",
-    "vrar/pyqs",
-    "vrar/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
-    "vrar/ARVR - 1 & 2.pdf",
-    "vrar",
     "arvr/vrar.md",
     "pasted images/Pasted Image 20261009163153_560.png",
     "Pasted Image 20261009163153_560.png",
@@ -368,10 +325,7 @@
     "pasted images/Pasted Image 20261008173934_533.png",
     "pasted images/Pasted Image 20261008173922_212.png",
     "hpe-networking-prep.md",
-    "telstra-ase-interview-prep.md",
-    "buzzwords.md",
     "Pasted Image 20260924205002_707.png",
-    "Pasted image 20261001002352.png",
-    "Pasted Image 20260924221811_169.png"
+    "Pasted image 20261001002352.png"
   ]
 }

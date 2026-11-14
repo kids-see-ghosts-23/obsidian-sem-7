@@ -21,7 +21,7 @@
   "pdf-plus",
   "docxer",
   "copilot",
+  "obsidian-linter",
   "git-obsi-sync",
-  "obsidian-git",
-  "obsidian-linter"
+  "obsidian-git"
 ]
