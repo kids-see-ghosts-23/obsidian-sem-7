@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/ncymn5et#5LPvbJESg+AMQwa5CEVrgtNjbv0gvR72d9Xuq0QHmoE
+share_updated: 2026-11-16T01:22:24+05:30
+---
 # VR & AR (IS372IA) — CIE-2 Detailed Notes
 
 > **Coverage:** Unit II from **Prefabs** to **The Asset Store** + Unit III (**Geometry of Virtual Worlds** and **Motion in Real and Virtual Worlds**).

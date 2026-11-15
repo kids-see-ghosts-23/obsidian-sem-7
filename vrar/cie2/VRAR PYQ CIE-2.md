@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/qux0hrrs#GhFNustg9EsMHOh3WAEHCWqru4a4OWfOqS/8Nt5Tf6g
+share_updated: 2026-11-16T01:24:34+05:30
+---
 # VR & AR (IS372IA) — CIE-2 PYQ Solutions
 
 > **Paper:** CIE-2, Part B (TEST) — Unit II from *Prefabs* + Unit III (*Geometry of Virtual Worlds* and *Motion in Real and Virtual Worlds*).

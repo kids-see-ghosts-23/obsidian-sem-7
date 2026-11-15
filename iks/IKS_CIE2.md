@@ -1,7 +1,11 @@
 ---
 course: HS271TA
 exam: CIE-2
-tags: [IKS, CIE-2]
+tags:
+  - IKS
+  - CIE-2
+share_link: https://share.note.sx/08gguj3y#HZJAcemVnlxWb9wURxWZR753iiZ3bRAcyL74lqvL/Eg
+share_updated: 2026-11-15T22:16:32+05:30
 ---
 # IKS CIE-2 (HS271TA) - Complete Notes
 

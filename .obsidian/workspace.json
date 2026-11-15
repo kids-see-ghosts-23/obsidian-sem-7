@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vrar/cie2/VRAR CIE-2 Notes.md",
+                "file": "vrar/cie2/VRAR PYQ CIE-2.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VRAR CIE-2 Notes"
+              "title": "VRAR PYQ CIE-2"
             }
           },
           {
@@ -36,27 +36,21 @@
             }
           },
           {
-            "id": "ed348688a560bdd1",
+            "id": "8da8af2dde74673b",
             "type": "leaf",
             "state": {
-              "type": "terminal-view",
+              "type": "markdown",
               "state": {
-                "tabs": [
-                  {
-                    "name": "Terminal 3",
-                    "color": "",
-                    "cwd": "/home/karan/Downloads/sem-7/obsidian-sem-7",
-                    "bufferSerial": "\r\n\u001b[36;1mobsidian-sem-7\u001b[0m \u001b[36;3mmain\u001b[0m \u001b[36m ? \u001b[1m❯\u001b[0m \u001b[?2004h"
-                  }
-                ],
-                "activeIndex": 0
+                "file": "iks/IKS_CIE2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "zap",
-              "title": "Terminal"
+              "icon": "lucide-file",
+              "title": "IKS_CIE2"
             }
           },
           {
-            "id": "8da8af2dde74673b",
+            "id": "5b02645b43e91d3e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -67,7 +61,8 @@
               "title": "board"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -173,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -215,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vrar/cie2/VRAR CIE-2 Notes.md",
+                "file": "Excalidraw/board.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -264,14 +260,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62beab276d1f7056",
+  "active": "5b02645b43e91d3e",
   "lastOpenFiles": [
+    "iks/IKS_CIE2.md",
     "Excalidraw/board.md",
     "vrar/cie2/VRAR PYQ CIE-2.md",
     "vrar/cie2/VRAR CIE-2 Notes.md",
     "iks/sedaHxyfX",
     "iks/IKS_CIE2_PYQ.md",
-    "iks/IKS_CIE2.md",
     "microservices/notes/unit3.pdf",
     "microservices/cie 2/cie2notes.md",
     "microservices/cie 1/microservices-quick-revision.md",
