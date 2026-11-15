@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iks/IKS_CIE2.md",
+                "file": "iks/cie 2/IKS_CIE2.md",
                 "mode": "source",
                 "source": false
               },
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/board.md",
+                "file": "iks/cie 2/IKS_CIE2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/board.md",
+                "file": "iks/cie 2/IKS_CIE2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -260,14 +260,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b02645b43e91d3e",
+  "active": "8da8af2dde74673b",
   "lastOpenFiles": [
-    "iks/IKS_CIE2.md",
     "Excalidraw/board.md",
+    "iks/cie 2/IKS_CIE2.md",
+    "iks/cie 2",
+    "iks/cie 1",
     "vrar/cie2/VRAR PYQ CIE-2.md",
     "vrar/cie2/VRAR CIE-2 Notes.md",
     "iks/sedaHxyfX",
-    "iks/IKS_CIE2_PYQ.md",
+    "iks/cie 2/IKS_CIE2_PYQ.md",
     "microservices/notes/unit3.pdf",
     "microservices/cie 2/cie2notes.md",
     "microservices/cie 1/microservices-quick-revision.md",
@@ -280,8 +282,6 @@
     "Pasted Image 20261115120322_225.png",
     "microservices/notes/unit1.pdf",
     "microservices/notes/unit4.pdf",
-    "microservices/notes/unit2.pdf",
-    "devops/unit4",
     "microservices/cie 1/cie 1 - notes.md",
     "microservices/cie 1/pyq cie 1.md",
     "Pasted Image 20261114114636_103.png",
@@ -292,7 +292,7 @@
     "devops/unit 2.md",
     "devops/unit 1.md",
     "pasted images/Pasted Image 20261011210404_612.png",
-    "iks/IKS_CIE1_PYQ.md",
+    "iks/cie 1/IKS_CIE1_PYQ.md",
     "pasted images/Pasted Image 20261011111159_405.png",
     "vrar/pyqs/pyq cie 1.md",
     "vrar/cie 1/VRAR PYQ CIE-1.md",
