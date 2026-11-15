@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VR &amp; AR (IS372IA): Exam Notes</title>
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--tx:#1d1d22;--mu:#62626e;--ac:#5b3fd0;--ac2:#e9e4ff;--gold:#fff3c4;--gt:#7a5a00;--bd:#e2e0d8;--code:#f0eefb;--warn:#fde4e1;--wt:#9a2b1f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15141b;--card:#1f1e29;--tx:#ecebf3;--mu:#a3a2b3;--ac:#a595ff;--ac2:#2d2750;--gold:#3d3410;--gt:#f1d36a;--bd:#34324a;--code:#262438;--warn:#3d1f1c;--wt:#ff9d90}}
+:root[data-theme="dark"]{--bg:#15141b;--card:#1f1e29;--tx:#ecebf3;--mu:#a3a2b3;--ac:#a595ff;--ac2:#2d2750;--gold:#3d3410;--gt:#f1d36a;--bd:#34324a;--code:#262438;--warn:#3d1f1c;--wt:#ff9d90}
+html{scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.7 -apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:32px 20px 8px;max-width:900px;margin:auto}
+h1{font-size:1.9rem;margin:0 0 6px}header p{color:var(--mu);margin:0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--bd);display:flex;gap:6px;overflow-x:auto;padding:10px 16px}
+nav a{white-space:nowrap;text-decoration:none;color:var(--ac);background:var(--ac2);padding:5px 12px;border-radius:99px;font-size:.85rem}
+main{max-width:900px;margin:auto;padding:8px 16px 60px}
+h2{font-size:1.4rem;margin:38px 0 8px;border-left:5px solid var(--ac);padding-left:10px}
+h3{font-size:1.05rem;margin:0 0 6px;color:var(--ac)}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 18px;margin:12px 0}
+.c p{margin:6px 0}
+.tag{display:inline-block;background:var(--gold);color:var(--gt);font-size:.75rem;font-weight:600;padding:2px 9px;border-radius:6px;margin:0 6px 6px 0}
+.tag.no{background:var(--warn);color:var(--wt)}
+.big{background:var(--ac2);border-radius:10px;padding:8px 14px;margin:8px 0;font-size:.95rem}
+ul{margin:6px 0;padding-left:20px}li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{border:1px solid var(--bd);padding:6px 9px;text-align:left;vertical-align:top}th{background:var(--ac2)}
+.w{overflow-x:auto}
+pre{background:var(--code);padding:12px;border-radius:10px;overflow-x:auto;font-size:.85rem;margin:8px 0}
+code{background:var(--code);padding:1px 5px;border-radius:5px;font-size:.9em}pre code{padding:0;background:none}
+.trap{background:var(--warn);color:var(--wt);border-radius:10px;padding:8px 14px;margin:10px 0;font-weight:500}
+.flow{background:var(--ac2);border-radius:10px;padding:10px 14px;font-weight:600;text-align:center;margin:8px 0}
+</style></head><body>
+<header><h1>Virtual &amp; Augmented Reality (IS372IA)</h1><p>Exam notes · Unit 2 (Prefabs, Objects and Scripts, 3D Movement, Asset Store) and Unit 3 (Geometry, Rotation, Viewing, Motion and Physics)</p></header>
+<nav><a href="#u2a">Prefabs</a><a href="#u2b">C# Objects</a><a href="#u2c">Scripts</a><a href="#u2d">3D Movement</a><a href="#u3a">Geometry</a><a href="#u3b">Rotation</a><a href="#u3c">Viewing</a><a href="#u3d">Physics</a><a href="#pyq">Gaps</a></nav>
+<main>
+<p><span class="tag">Gold</span> a previous-year question is answered here. <span class="tag no">Red</span> not in the slides; use class notes.</p>
+
+<h2 id="u2a">Unit 2 · Prefabs</h2>
+<div class="c"><span class="tag">CIE-3 Q1b (4M)</span><h3>Why Unity is popular</h3>
+<p>Unity is an industry-leading engine for 2D, 3D, AR and VR. It gives one integrated environment where you design scenes, manage assets, write scripts and test in real time.</p>
+<ul><li><b>Cross-platform:</b> build once, deploy to Android, iOS, AR devices and VR headsets.</li><li><b>Component-based:</b> a GameObject gets abilities by attaching components (Transform, Renderer, Collider, Scripts).</li><li>Built-in Scene Editor, Asset Management, Physics Engine, Animation and Lighting systems.</li><li><b>Prefabs</b> make objects reusable and consistent, improving productivity and organisation.</li></ul></div>
+
+<div class="c"><h3>What is a Prefab?</h3><p>Think of it as a stamp. A Prefab is a reusable template of a GameObject that stores its components, scripts, properties and child objects in one asset. You use it many times across scenes with the same look and behaviour, and when you change it in one place every instance updates. That keeps things uniform and reduces errors.</p></div>
+
+<div class="c"><span class="tag">CIE-2 Q1.1 (2M)</span><h3>Prefab Asset vs Prefab Instance</h3>
+<p>The <b>asset</b> is the master copy in the Project folder; it defines structure, components and default properties. An <b>instance</b> is a copy of it placed in a Scene. Instances stay linked to the asset, so changing the asset updates all of them, but an instance can also have its own overrides without touching the original.</p>
+<p>A plain GameObject exists only in its current scene; a Prefab is a template you can copy into many scenes.</p></div>
+
+<div class="c"><span class="tag">CIE-2 Q1a (6M)</span><h3>Creating and placing Prefabs</h3>
+<div class="flow">Create GameObject → Add components/scripts → Drag Hierarchy to Project → Prefab Asset → Drag into Scene</div>
+<p>Build the object in the Scene and add what it needs. Dragging it from the Hierarchy into the Project folder makes the Prefab Asset (blue cube icon). Dragging the Prefab back into the Scene makes an instance, as many as you like. To edit, work in the Scene or in <b>Prefab Mode</b> (blue background), then Apply or Revert.</p>
+<p><b>Reuse and organisation:</b> one asset is the single source of truth, so reuse across scenes saves time, keeps objects consistent and keeps large scenes tidy and easy to maintain.</p></div>
+
+<div class="c"><h3>Apply, Revert and Overrides</h3>
+<p>You can change one instance locally and it stays linked. <b>Apply</b> saves those changes back to the asset and so updates every instance (add a component to one, click Apply, all get it). <b>Revert</b> throws the local changes away and restores asset values (a test colour is undone).</p>
+<p><b>Overrides</b> are properties of an instance that differ from its asset, such as transform, components, material or script values. They affect only that instance. Unity shows modified fields in bold or highlighted and lists them in an Overrides dropdown, where you can revert one or use Revert All. Result: local customisation without breaking the link.</p></div>
+
+<div class="c"><h3>Nested Prefabs vs Variants</h3>
+<p><b>Nested:</b> prefabs placed inside other prefabs as children, for complex structures such as a character with equipment or a UI panel; changes to a child propagate up the hierarchy. <b>Variant:</b> a specialised version of an existing prefab that inherits everything and overrides selectively (enemy types, UI styles), so you customise without changing the original.</p></div>
+
+<div class="c"><h3>Runtime instantiation</h3>
+<p>Creating objects while the game runs rather than placing them beforehand, using <code>Instantiate()</code> to make prefab copies. The prefab is usually assigned through a public variable, and you can choose position and rotation. It is triggered by player actions (shooting, collecting), timers or waves (enemy spawners) and game events. Used for enemies, projectiles, power-ups and procedural levels, and works well with object pooling to cut overhead.</p></div>
+
+<div class="c"><h3>UI Prefabs, pros and cons</h3>
+<p>Buttons, panels, menus, dialog boxes and HUD elements are designed once and reused, so a change to colour, font or function updates every copy. They work with Unity's Canvas and Event System.</p>
+<p><b>Advantages:</b> reusability, consistent design, easy maintenance and debugging, faster prototyping, team collaboration. <b>Disadvantages:</b> too many overrides make it hard to tell base from overridden values, nested prefabs complicate debugging, poor organisation and unused prefabs create clutter, and it needs disciplined management.</p>
+<p><b>Example, Enemy prefab:</b> visuals, scripts and physics (health, movement, attack, animation) built once. Changing health or speed in the prefab updates every enemy, and parameters can be tweaked for harder variants.</p></div>
+
+<h2 id="u2b">Chapter 9 · Working with Objects</h2>
+<div class="c"><p>Programming is mostly organising data. Even bool, int, float and string are objects, and objects can contain other objects (a Person has firstName, lastName, birthdate).</p>
+<p>A <b>class</b> is a template for structure and behaviour; an <b>instance</b> is a copy with its own data (the Person class gives john, sarah, mike). Classes use PascalCase, variables camelCase.</p>
+<ul><li><b>Instance variables</b> live in the class block for the object's whole life. <b>Local variables</b> live inside a method and are destroyed when it returns.</li><li>Uninitialised defaults: int and float 0, string null, bool false.</li><li><code>Item item = new Item();</code> creates an instance; <code>item</code> holds a reference. Members are reached with the dot operator.</li><li><b>public</b> members are visible outside and in the Inspector; <b>private</b> (the default) are hidden. This is encapsulation: expose only what is needed.</li><li><b>Methods</b> hold an object's behaviour, are called through an instance (<code>item.LogInfo()</code>), and use member names directly. <b>DRY</b> (Don't Repeat Yourself): write it once in a method so a fix happens in one place.</li></ul>
+<p>A <b>constructor</b> is a special method that initialises a new instance. <code>this</code> means the current instance and fixes name clashes: <code>this.name = name;</code> (field on the left, parameter on the right).</p>
+<pre><code>public Item(string name, int worth, bool canBeSold) {
+  this.name = name; this.worth = worth; this.canBeSold = canBeSold;
+}
+Item item = new Item("Goblin Tooth", 4, true);  // one line instead of four</code></pre>
+<div class="trap">Declaring a custom constructor removes the automatic default one, so <code>new Item()</code> becomes a compiler error.</div>
+<p><b>Static</b> members belong to the class and are shared (for example a counter incremented in the constructor), accessed as <code>Item.NumberOfInstances</code>. A static method has no <code>this</code>, so it can access only static members. Instance members: one copy per object, accessed with <code>item.</code></p></div>
+
+<h2 id="u2c">Chapter 10 · Working with Scripts</h2>
+<div class="c"><p>A script is a class that inherits <b>MonoBehaviour</b>, which gives it Unity powers. Unlike a regular class (made with <code>new</code>), it is created by attaching it to a GameObject, or at runtime with <code>Instantiate()</code>. The <code>using</code> lines pull in namespaces, containers that organise code like folders, so you can write <code>Debug.Log()</code> instead of the full path.</p>
+<span class="tag">CIE-3 Q4 (2M)</span><p><b>Default methods:</b> <code>Start()</code> runs once on startup for set-up; <code>Update()</code> runs every frame for continuous behaviour such as rotation or movement. Variables go at the top of the class.</p>
+<ul><li><b>File name must match the class name</b> exactly (case sensitive, no spaces, .cs). Otherwise the script cannot be attached.</li><li><b>Attach</b> by dragging the script onto the GameObject, or Inspector, Add Component.</li><li>Public variables appear in the Inspector and can differ per GameObject, even edited live; they revert when play stops. Private ones stay hidden.</li><li><b>Vector3</b> holds X, Y, Z for a position or direction. <code>transform</code> and <code>gameObject</code> always exist in a script.</li><li><code>[HideInInspector]</code> hides a public variable (it stays public). <code>[Header("Text")]</code> adds a bold heading to group variables. Attributes can be stacked.</li></ul>
+<pre><code>public class SimpleRotation : MonoBehaviour {
+  public Vector3 rotationPerSecond;
+  void Update() {
+    transform.Rotate(rotationPerSecond * Time.deltaTime);
+  }
+}</code></pre>
+<p><b>Time.deltaTime</b> is the time per frame (1/60 s at 60 FPS). Without it speed depends on frame rate; with it motion is the same on any machine. Setting Y = 45 rotates 45 degrees per second around Y; negative values reverse it.</p></div>
+
+<h2 id="u2d">Advanced 3D Movement</h2>
+<div class="c"><span class="tag">CIE-3 Q3a (10M)</span>
+<p>The aim is a first-person system with momentum, gravity and jumping. Momentum builds in the direction of held WASD keys, fades gradually after release, and builds faster when you reverse. You keep ground velocity in mid air, with reduced air control.</p>
+<p><b>Local vs world space:</b> WASD is relative to where the player faces (local), but <code>CharacterController.Move</code> needs world space. If velocity were stored locally, jumping forward then spinning 180 degrees would send you backward in the air. So detect input locally, convert at once with <code>TransformDirection</code>, and keep one world-space <code>worldVelocity</code>.</p>
+<ul><li><b>Normalise</b> the input so W+D is not faster than W alone.</li><li><b>Dot product</b> compares intended and current direction (1 same, -1 opposite); when negative, multiply acceleration so the player reverses quickly instead of sliding.</li><li><b>ClampMagnitude</b> limits total speed (limiting X and Z separately gives square limits). If an external force (explosion) leaves you overspeed, clamp to the current magnitude so you are not slowed instantly.</li><li><b>Friction</b> acts opposite to velocity only when grounded and (no input or over max speed). <b>Snap-to-zero</b>: if friction exceeds the remaining velocity, set it to 0, else it flips negative and jitters.</li><li><b>Gravity</b> pulls yVelocity down when not grounded, capped at <code>maxGravity</code> (terminal velocity).</li><li><b>Collision flags:</b> Below = grounded, Sides = wall bounce, Above = head bump (zero vertical velocity). A small -1 downward force keeps the controller grounded, and <code>Move()</code> is called only if magnitude is over 0.03 to save work and stop jitter.</li></ul>
+<div class="flow">Input → Friction → Gravity → Jump → Apply Movement</div>
+<div class="trap">Jump sets <code>yVelocity = jumpPower</code> (= not +=) and grounded = false at once, or the next update resets velocity and cancels the jump.</div>
+<pre><code>public class ArrowMove : MonoBehaviour {
+  public float speed = 5f;
+  void Update() {
+    float x = Input.GetAxis("Horizontal"), z = Input.GetAxis("Vertical");
+    Vector3 dir = Vector3.ClampMagnitude(new Vector3(x,0,z), 1f);
+    transform.Translate(dir * speed * Time.deltaTime, Space.World);
+  }
+}</code></pre><p><i>Illustrative code, not in the slides: GetAxis eases between keys and deltaTime keeps speed frame-rate independent.</i></p>
+<span class="tag no">CIE-2 Q1.2 level design in VR</span><span class="tag no">CIE-3 Q3 VR input devices</span></div>
+
+<div class="c"><span class="tag">CIE-2 Q1.4 (2M)</span><h3>Unity Asset Store</h3><p>A repository of thousands of ready 3D models, textures, audio and music, plus editor extensions (visual scripting tools, advanced AI systems) that add features without custom engine code. Free or low-cost assets allow <b>greyboxing</b>: testing gameplay before custom art. Imported through the Package Manager or in-editor window; ratings and reviews show quality and compatibility.</p></div>
+
+<h2 id="u3a">Unit 3 · Geometry of Virtual Worlds</h2>
+<div class="flow">Triangles → Rigid body transforms → Virtual camera → Perspective projection → Pixels</div>
+<div class="c"><span class="tag">CIE-2 Q1b (4M)</span><span class="tag">CIE-3 Q2b (4M)</span><h3>Primitives and triangles</h3>
+<p>The virtual world is a 3D Euclidean space where each point has (x, y, z). Surfaces contain infinitely many points but computers need finite data, so models are built from <b>primitives</b>, finite shapes standing for those points (stored efficiently in a Doubly Connected Edge List).</p>
+<p>The <b>triangle</b>, a planar patch of three vertices, is the simplest 3D primitive. It is easy for algorithms and lets GPUs process huge numbers in parallel, and collision detection is much faster than with splines. Quadrilaterals may shrink file size but greatly raise computation. Moving even a huge mesh only means transforming vertices, since edges and faces connect them and keep the shape.</p></div>
+<div class="c"><h3>Translation and relativity of motion</h3>
+<p>Translation changes position only, not orientation or size (a rigid body transformation). Mathematically, moving an object equals moving the world's coordinate system the opposite way: a viewer moving forward is the world moving backward. The brain struggles to tell "I am moving" from "the world is moving".</p>
+<span class="tag">CIE-2 Q2b (4M)</span><p><b>VR sickness:</b> when visuals suggest the user is moving but the vestibular system (inner ear) feels no motion, or object motion is misread as self-motion. Example: a user sits still in a chair while the headset shows them moving forward; the eyes say moving, the inner ear says still.</p>
+<span class="tag no">CIE-2 Q1.5 vection</span><span class="tag no">CIE-2 Q2a types of vection</span></div>
+
+<h2 id="u3b">Rotation: 2D, 3D, Yaw, Pitch, Roll</h2>
+<div class="c"><p>Rotation changes orientation. Start in 2D: a 2x2 matrix transforms (x, y), and its columns show where the axes go. Types: identity (no change), scale, mirror (flips), shear (slants), singular (determinant 0, shape collapses).</p>
+<p>A <b>valid rotation</b> must not distort: columns of unit length (no stretching), perpendicular columns with dot product 0 (no shearing), determinant +1 (no mirror image).</p>
+<p><b>2D formula</b> (about the origin): <code>x' = x cosθ − y sinθ</code>, <code>y' = x sinθ + y cosθ</code>. For another pivot, translate, rotate, translate back.</p></div>
+<div class="c"><span class="tag">CIE-2 Q3b (4M)</span><span class="tag">CIE-3 Q5 (2M)</span><h3>Degrees of Freedom</h3><p>The number of independent motions: 3 for position (x, y, z) plus 3 for rotation (pitch, yaw, roll) = 6. A 3D rotation matrix starts with 9 components; unit length, perpendicular and no-mirror rules cut it to exactly 3 DOF. The more DOF tracked in VR, the more of the user's real movement is copied into the virtual world.</p></div>
+<div class="c"><span class="tag">CIE-3 Q4b (4M)</span><div class="w"><table><tr><th>Term</th><th>Axis</th><th>Movement</th><th>Example</th></tr><tr><td>Yaw</td><td>Y</td><td>Left/right</td><td>Turning head</td></tr><tr><td>Pitch</td><td>X</td><td>Up/down</td><td>Nodding</td></tr><tr><td>Roll</td><td>Z</td><td>Tilts sideways</td><td>Tilting head</td></tr></table></div>
+<p>Unity stores rotation as <b>quaternions</b> (avoiding gimbal lock); the Inspector shows X = pitch, Y = yaw, Z = roll. Rotation is used for characters, cameras, robotics, flight simulators, and medical simulations (rotating 3D organ models for training).</p>
+<div class="trap">The slide's "axes" card words X/Y/Z differently; for yaw, pitch and roll use the table.</div>
+<span class="tag no">CIE-3 Q1a AR in medical training</span></div>
+<div class="c"><span class="tag">CIE-2 Q4 (10M)</span><h3>Mouse rotation program</h3><pre><code>public class MouseRotate : MonoBehaviour {
+  public float rotationSpeed = 200f;
+  void Update() {
+    float h = Input.GetAxis("Mouse X"), v = Input.GetAxis("Mouse Y");
+    transform.Rotate(Vector3.up, -h * rotationSpeed * Time.deltaTime);
+    transform.Rotate(Vector3.right, v * rotationSpeed * Time.deltaTime);
+  }
+}</code></pre><p>Save as MouseRotate.cs, attach, press Play. <i>Input lines are illustrative, not from the slides.</i></p></div>
+
+<h2 id="u3c">Viewing Transformation and Chaining</h2>
+<div class="c"><span class="tag">CIE-2 Q3a (6M)</span><p>To render, we place a virtual camera (eye) in the world. The eye looks down <b>-Z</b>, X points right, Y up. The camera is defined by <b>Look-At</b>: eye position e, centre c (what it looks at) and up vector u. Vectors: <code>ẑ = −(p−e)/‖p−e‖</code>, <code>x̂ = u × ẑ</code>, <code>ŷ = ẑ × x̂</code>, giving three orthogonal axes.</p></div>
+<div class="c"><span class="tag">CIE-2 Q5 (10M)</span><span class="tag">CIE-3 Q5a (10M)</span><h3>The chain: T = Tvp · Tcan · Teye · Trb</h3>
+<p>Goal: turn a model vertex (x, y, z) into a screen pixel. Matrices are applied right to left.</p>
+<ul><li><b>Trb</b> moves the object to its place in the world.</li><li><b>Teye</b> moves the world into the camera's frame.</li><li><b>Tcan = Tst·Tp</b>: Tp makes the 4th component z, and hardware divides by it so distant objects shrink. Tst scales the viewing frustum (Near n to Far f) into a canonical cube from -1 to +1; anything outside is clipped.</li><li><b>Tvp</b> scales [-1, 1] to the screen (e.g. 1920 x 1080) and shifts the origin to the bottom-left.</li></ul>
+<p>Algorithm: multiply the vertex by Trb, Teye, Tcan, Tvp in turn, or multiply the four once to get T and apply it to every vertex.</p>
+<p><b>Stereo:</b> one centre eye is assumed first. Real eyes are about 64 mm apart (IPD, t). For the left eye shift the world right by t/2, for the right eye left by t/2: <code>Tleft = Tvp Tcan Ttrans(t/2) Teye Trb</code>. The small offset creates parallax, which the brain reads as depth.</p></div>
+
+<h2 id="u3d">Motion and Physics</h2>
+<div class="c"><span class="tag">CIE-2 Q1.3 (2M)</span><p>VR often copies real physics (gravity, collision forces, motion) to feel natural, keep immersion and support interaction; sometimes it is adjusted to reduce motion sickness.</p>
+<ul><li><b>Velocity</b> = rate of change of position (<code>v = dy/dt</code>); <b>acceleration</b> = rate of change of velocity (<code>a = dv/dt</code>). Gravity is 9.8 m/s² down: <code>v = v0 − gt</code>, <code>y = y0 − ½gt²</code>.</li><li>In 3D, speed = √(vx²+vy²+vz²). A rigid body does not deform; its motion is translation plus rotation.</li><li><b>Circular motion:</b> ω = dθ/dt, centripetal acceleration <code>a = rω²</code> toward the centre.</li><li><b>Simulation</b> steps the state forward by a time step Δt: Euler <code>x[k+1] = x[k] + ẋ·Δt</code> is simple; Runge-Kutta is more accurate.</li><li>User input is added as control; it must feel responsive, predictable and natural.</li></ul></div>
+<div class="c"><h3>Collision detection and response</h3>
+<p>Detection finds <i>if and when</i> objects touch (without it, objects ghost through each other); response decides <i>what happens</i>: bounce, slide, stop, vibrate, damage. Detection is two-phase:</p>
+<ul><li><b>Broad phase:</b> quickly removes far-apart pairs using bounding volumes (sphere, AABB, OBB, convex hull; tighter means slower) or spatial partitioning.</li><li><b>Narrow phase:</b> precise tests on the remaining pairs (triangle-triangle, edge and plane, convex hull).</li><li><b>Distance d(A,B)</b> is the smallest gap, 0 if touching; <b>penetrating depth</b> is how deep shapes overlap, used to push them apart and stop sinking.</li><li><b>Discrete</b> checks each frame and may miss fast objects; <b>continuous</b> predicts between frames and prevents <b>tunneling</b>.</li></ul>
+<h3>Mismatched obstacles</h3><div class="w"><table><tr><th>Case</th><th>Issue</th><th>Design</th></tr><tr><td>Real only (table, stairs)</td><td>Dangerous, user cannot see it</td><td>Warn or show it</td></tr><tr><td>Virtual only (wall)</td><td>No physical resistance; stopping the camera mismatches movement</td><td>Balance realism and comfort</td></tr><tr><td>Both match</td><td>Believable and safe; misalignment risks tripping</td><td>Keep aligned</td></tr></table></div></div>
+
+<h2 id="pyq">Not in the slides (use class notes)</h2>
+<div class="c"><ul><li>CIE-2: Q1.2 level design in VR, Q1.5 vection vs real motion, Q2a types of vection</li><li>CIE-3: Q1 AR vs VR, Q2 Mixed Reality applications, Q2a aural representation, Q3 VR input devices, Q4a define VR and key elements, Q1a AR in medical training (mostly)</li></ul></div>
+</main></body></html>

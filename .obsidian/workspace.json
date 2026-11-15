@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e192af137f5feddb",
+            "id": "d4c05e54e55c9748",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/cie 1/cie 1 - notes.md",
-                "mode": "source",
+                "file": "vrar/cie2/VRAR CIE-2 Notes.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cie 1 - notes"
+              "title": "VRAR CIE-2 Notes"
             }
           },
           {
-            "id": "7fb97a6008930263",
+            "id": "da6c7a9ecfa19243",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/cie 1/microservices-quick-revision.md",
+                "file": "vrar/cie2/VRAR PYQ CIE-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "microservices-quick-revision"
+              "title": "VRAR PYQ CIE-2"
             }
           },
           {
@@ -46,7 +46,7 @@
                     "name": "Terminal 3",
                     "color": "",
                     "cwd": "/home/karan/Downloads/sem-7/obsidian-sem-7",
-                    "bufferSerial": "\r\n\u001b[36;1mobsidian-sem-7\u001b[0m \u001b[36;3mmain\u001b[0m \u001b[36m ? \u001b[1m❯\u001b[0m opencode\u001b[1B\u001b[34D\u001b[?1049h\u001b[H\u001b[97;48;5;236m   \u001b[37;1mMicroservices CIE2 study \u001b[38;5;249mn\u001b[38;5;245mo\u001b[38;5;241mt\u001b[38;5;238me\u001b[38;5;248;49;22m + \u001b[97m                                                                                                                                                              \r\n  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2280\u001b[97m   \u001b[36m---\u001b[97m                                                                                                        \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2281\u001b[97m                                                                                                              \u001b[49m  \u001b[48;5;236m  \u001b[37;1mMicroservices CIE2 study notes\u001b[97;22m          \u001b[37;1ms CIE2 study notes\u001b[97;22m          \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m   \u001b[48;5;238m \u001b[38;5;248m2282\u001b[31m -\u001b[97m \u001b[37;48;5;236;1m## Final checklist before the exam\u001b[97;22m                                                                         \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m   \u001b[48;5;237m \u001b[38;5;248m2282\u001b[32m +\u001b[97m \u001b[37;48;5;236;1;4m# Final Checklist Before the Exam\u001b[97;22;24m                                                                          \u001b[49m  \u001b[48;5;236m  \u001b[37;1mContext\u001b[97;22m                                                             \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2283\u001b[97m                                                                                                              \u001b[49m  \u001b[48;5;236m  \u001b[38;5;248m94,834 tokens\u001b[97m                           \u001b[38;5;248ms\u001b[97m                           \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2284\u001b[97m   \u001b[34m- \u001b[37mBe able to define: DevOps, immutable infrastructure, drift, IaC, Terraform, HCL, pipeline, GitOps, \u001b[97m      \u001b[49m  \u001b[48;5;236m  \u001b[38;5;248m47% used\u001b[97m                                                            \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m           \u001b[37mVPC, CIDR, subnet, NAT gateway, security group, EKS, pod, Argo CD, Helm.\u001b[97m                                   \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2285\u001b[97m   \u001b[34m- \u001b[37mKnow the nine key decisions of Chapter 6 and the two of Chapter 7.\u001b[97m                                       \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m    \u001b[38;5;248m2286\u001b[97m   \u001b[34m- \u001b[37mBe able to draw: target pipeline (Figure 6-1), pipeline steps (Figure 6-11), network module reuse (\u001b[97m      \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m           \u001b[37mFigure 7-1), subnet design across two AZs (Figure 7-2).\u001b[97m                                                    \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m                                                                                                                      \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[38;5;248m→\u001b[97m \u001b[38;5;248mExplored: 1 read\u001b[97m                                                                                                    \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[38;5;101m+\u001b[97m \u001b[38;5;101mThought · 4.0s\u001b[97m                                                                                                      \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[37mDone. Notes created at:\u001b[97m                                                                                               \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[32mmicroservices/cie 2/cie2notes.md\u001b[97m                                                                                      \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[37mWhat is inside:\u001b[97m                                                                                                       \u001b[48;5;236m                                                                      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mPart 1 - Unit 3 (Chapters 6 and 7)\u001b[97;22m                                                                                  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mDevOps principles: immutable infrastructure, IaC, Terraform, CI/CD, all key decisions\u001b[97m                             \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mIaC environment setup: GitHub, Terraform install\u001b[97m                                                                  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mAWS configuration: IAM \u001b[32mops-account\u001b[37m, Ops-Accounts group, policies, CLI, S3 state backend\u001b[97m                           \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mIaC pipeline: sandbox repo, Terraform concepts, \u001b[32mmain.tf\u001b[37m, \u001b[32mfmt\u001b[37m/\u001b[32minit\u001b[37m/\u001b[32mvalidate\u001b[37m/\u001b[32mplan\u001b[37m, secrets, workflow, trigger, \u001b[97m     \u001b[48;5;236m                                                                      \r\n\u001b[49m         \u001b[37mapply, artifacts, testing\u001b[97m                                                                                         \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mMicroservices infrastructure: VPC, four subnets, internet and NAT gateways, EKS, GitOps and Argo CD\u001b[97m               \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mImplementation: module repositories, network module, Kubernetes module, Argo CD module, verification, cleanup\u001b[97m     \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mPart 2 - Unit 3 revision\u001b[22m: definitions table, comparison tables, command cheat sheet, file map, 13 likely questions\u001b[97m  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[37mwith answer outlines\u001b[97m                                                                                                \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mPart 3 - Unit 4 (Chapter 8)\u001b[97;22m                                                                                         \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mThree goals, ten workspace guidelines, Rule of Twos, makefile targets\u001b[97m                                             \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mContainerized setup: Docker4Mac/Windows, VirtualBox, Multipass, memory changes, folder mapping\u001b[97m                    \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mDocker installation and non-root setup, MySQL Compose test\u001b[97m                                                        \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mCassandra with Docker Compose\u001b[97m                                                                                     \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mLocal Kubernetes: options, k3s, MicroK8s, Skaffold limitation\u001b[97m                                                     \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[34m- \u001b[37mUnit 4 revision questions and comparison tables\u001b[97m                                                                   \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mAppendix\u001b[22m: a compact Chapter 9 outline, since your listed syllabus stops at the developer workspace but the unit 4 \u001b[97m  \u001b[48;5;236m                                                                      \r\n\u001b[49m       \u001b[37mPDF also contains it\u001b[97m                                                                                                \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[34m- \u001b[37;1mFinal checklist\u001b[22m of must-know definitions, diagrams, decisions and commands\u001b[97m                                          \u001b[48;5;236m    \u001b[37m⬖\u001b[97m \u001b[37;1mGetting started\u001b[97;22m                \u001b[38;5;248m✕\u001b[97m    \u001b[37;1mstarted\u001b[97;22m                \u001b[38;5;248m✕\u001b[97m    \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[37mFormatting is plain Markdown with headings, tables and code blocks, no emojis. It matches the style of your existing\u001b[97m  \u001b[48;5;236m      \u001b[38;5;248mOpenCode includes free models so\u001b[97m    \u001b[38;5;248m includes free models so\u001b[97m    \r\n\u001b[49m     \u001b[32mcie 1\u001b[37m notes and renders cleanly in Obsidian.\u001b[97m                                                                          \u001b[48;5;236m      \u001b[38;5;248myou can start immediately.\u001b[97m          \u001b[38;5;248mstart immediately.\u001b[97m          \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                                                      \r\n\u001b[49m     \u001b[35mBuild\u001b[38;5;248m · DeepSeek V4.1 Flash Free · 3m 56s · 147.8 tok/s\u001b[97m                                                               \u001b[48;5;236m      \u001b[38;5;248mConnect from 75+ providers to \u001b[97m      \u001b[38;5;248mfrom 75+ providers to \u001b[97m      \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m      \u001b[38;5;248muse other models, including \u001b[97m        \u001b[38;5;248mr models, including \u001b[97m        \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                      \u001b[49m  \u001b[48;5;236m      \u001b[38;5;248mClaude, GPT, Gemini etc\u001b[97m             \u001b[38;5;248mGPT, Gemini etc\u001b[97m             \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                      \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                      \u001b[49m  \u001b[48;5;236m      \u001b[37mConnect provider\u001b[97m        \u001b[38;5;248m/connect\u001b[97m    \u001b[37mprovider\u001b[97m        \u001b[38;5;248m/connect\u001b[97m    \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m  \u001b[35mBuild\u001b[97m \u001b[38;5;248m·\u001b[97m \u001b[37mDeepSeek V4.1 Flash Free\u001b[97m \u001b[38;5;248mOpenCode\u001b[97m \u001b[38;5;248m·\u001b[97m \u001b[33;1mhigh\u001b[97;22m                                                                    \u001b[49m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[35m╹\u001b[38;5;236m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\u001b[97m  \u001b[48;5;236m                                                                      \r\n\u001b[49m  \u001b[38;5;248m~/Downloads/sem-7/obsidian-sem-7:main\u001b[97m                                                      \u001b[38;5;248m94.8K (47%)\u001b[97m  \u001b[37mctrl+p \u001b[38;5;248mcommands\u001b[97m  \u001b[48;5;236m  \u001b[38;5;248m~/Downloads/sem-7/obsidian-sem-7:main\u001b[97m   \u001b[38;5;248msem-7/obsidian-sem-7:main\u001b[97m   \r\n\u001b[49m                                                                                                                           \u001b[48;5;236m                                          \u001b[5A\u001b[160D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
+                    "bufferSerial": "\r\n\u001b[36;1mobsidian-sem-7\u001b[0m \u001b[36;3mmain\u001b[0m \u001b[36m ? \u001b[1m❯\u001b[0m \u001b[?2004h"
                   }
                 ],
                 "activeIndex": 0
@@ -66,23 +66,8 @@
               "icon": "excalidraw-icon",
               "title": "board"
             }
-          },
-          {
-            "id": "13a8ec35157f8802",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microservices/cie 2/cie2notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cie2notes"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "da3d1368037f4a66",
@@ -231,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "microservices/cie 2/cie2notes.md",
+                "file": "vrar/cie2/VRAR CIE-2 Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -280,20 +264,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13a8ec35157f8802",
+  "active": "62beab276d1f7056",
   "lastOpenFiles": [
     "Excalidraw/board.md",
+    "vrar/cie2/VRAR PYQ CIE-2.md",
+    "vrar/cie2/VRAR CIE-2 Notes.md",
+    "iks/sedaHxyfX",
+    "iks/IKS_CIE2_PYQ.md",
+    "iks/IKS_CIE2.md",
+    "microservices/notes/unit3.pdf",
     "microservices/cie 2/cie2notes.md",
+    "microservices/cie 1/microservices-quick-revision.md",
+    "vrar/cie2",
+    "vrar/cie 1",
+    "vrar/cie 1/vrar.md",
+    "vrar/cie 1/sample progs.md",
+    "vrar/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
+    "vrar/cie2.html",
+    "Pasted Image 20261115120322_225.png",
     "microservices/notes/unit1.pdf",
     "microservices/notes/unit4.pdf",
-    "microservices/notes/unit3.pdf",
     "microservices/notes/unit2.pdf",
     "devops/unit4",
-    "devops/unit3",
-    "microservices/cie 1/microservices-quick-revision.md",
-    "microservices/cie 2",
     "microservices/cie 1/cie 1 - notes.md",
-    "microservices/cie 1",
     "microservices/cie 1/pyq cie 1.md",
     "Pasted Image 20261114114636_103.png",
     "devops/devops-quick-revision.md",
@@ -304,14 +297,10 @@
     "devops/unit 1.md",
     "pasted images/Pasted Image 20261011210404_612.png",
     "iks/IKS_CIE1_PYQ.md",
-    "devops",
     "pasted images/Pasted Image 20261011111159_405.png",
     "vrar/pyqs/pyq cie 1.md",
-    "vrar/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
-    "vrar/vrar.md",
-    "vrar/VRAR PYQ CIE-1.md",
-    "vrar/VRAR CIE-1 Notes.md",
-    "vrar/sample progs.md",
+    "vrar/cie 1/VRAR PYQ CIE-1.md",
+    "vrar/cie 1/VRAR CIE-1 Notes.md",
     "arvr/vrar.md",
     "pasted images/Pasted Image 20261009163153_560.png",
     "Pasted Image 20261009163153_560.png",
@@ -319,13 +308,8 @@
     "arvr/sample progs.md",
     "vrar.md",
     "arvr/VRAR CIE-1 Notes.md",
-    "arvr/VRAR PYQ CIE-1.md",
-    "iks todo.md",
-    "iks/IKS_CIE1.md",
     "pasted images/Pasted Image 20261008173934_533.png",
     "pasted images/Pasted Image 20261008173922_212.png",
-    "hpe-networking-prep.md",
-    "Pasted Image 20260924205002_707.png",
-    "Pasted image 20261001002352.png"
+    "Pasted Image 20260924205002_707.png"
   ]
 }
