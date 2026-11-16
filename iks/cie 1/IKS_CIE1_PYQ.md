@@ -1,4 +1,5 @@
 ---
+tags: [iks, cie-1, pyq]
 share_link: https://share.note.sx/91bma5ta#1I1GLW2LZ/XcwyybKAgVY1TCo/B7pk3ohQDGXX9HeOA
 share_updated: 2026-10-08T18:06:46+05:30
 ---
@@ -497,3 +498,12 @@ Prepare these in full:
 13. Develop a binary cycle of length 4 and list all binary words of length 4. (3 marks)
 14. Explain the standardized street widths of the Indus-Saraswati civilization and the three generic measures (length, weight, time). (2 marks each)
 15. Advantages of the Katapayadi system and of the Indian numeral system over Roman numerals. (3 marks)
+
+---
+
+## Related notes
+
+- [[IKS MOC]] — subject index and reading order.
+- [[IKS_CIE1]] — full notes for the same syllabus.
+- [[IKS_CIE2]] — next exam: Units II-IV full notes.
+- [[IKS_CIE2_PYQ]] — solved CIE-2 paper.

@@ -1,3 +1,7 @@
+---
+tags: [microservices, cie-1, quick-revision]
+---
+
 # Microservices Quick Revision
 
 ---
@@ -296,3 +300,13 @@ Isolation:
 - Four elements: context, alternatives, choice, impact.
 - Lightweight Architectural Decision Record (LADR) is concise, written in Markdown, and managed in version control like source code.
 - LADR structure: title, status, context, decision, consequences.
+
+---
+
+## Related notes
+
+- [[Microservices MOC]] — subject index and reading order.
+- [[cie 1 - notes]] — full CIE-1 class notes.
+- [[pyq cie 1]] — exam-style answers for the CIE-1 paper.
+- [[cie2notes]] — CIE-2 infrastructure pipeline and developer workspace.
+- [[devops-quick-revision]] — DevOps theory reused by microservices.

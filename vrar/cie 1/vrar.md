@@ -1,3 +1,7 @@
+---
+tags: [vrar, cie-1, notes]
+---
+
 ## todo
 - [ ] boom vs cave
 - [ ] qwerty
@@ -126,3 +130,14 @@ ar aims to create automatic, direct and intuitive links between the real world a
 - Q W E R T Y = Hand, Move, Rotate, Scale, Rect, Transform
 - adding place  - gameobject -> 3d object -> plane
 - 
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR CIE-1 Notes]] — structured notes built from these raw notes.
+- [[VRAR PYQ CIE-1]] — solved questions for the same topics.
+- [[sample progs]] — runnable Unity C# examples.
+- [[pyq cie 1]] — earlier quiz answers.
+- [[VRAR CIE-2 Notes]] — continuation into Prefabs and Unit III.

@@ -1,3 +1,7 @@
+---
+tags: [devops, unit-notes]
+---
+
 
 ## CHAPTER 1: REVOLUTION IN THE CLOUD
 ### 1. The Creation of the Cloud
@@ -174,3 +178,10 @@ kubectl port-forward deploy/demo 9999:8888
 
 ---
 
+## Related notes
+
+- [[DevOps MOC]] — subject index and reading order.
+- [[unit 2]] — Kubernetes objects, desired state, scheduling and cost.
+- [[devops-quick-revision]] — condensed revision of this unit.
+- [[devops-lab-answers]] — applied lab answers for containers and clusters.
+- [[cie2notes]] — Microservices CIE-2 coverage of IaC, Docker and Kubernetes.

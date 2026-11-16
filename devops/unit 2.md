@@ -1,3 +1,7 @@
+---
+tags: [devops, unit-notes]
+---
+
 
 ---
 ### 1. Working with Kubernetes Objects: Deployments, Pods, ReplicaSets
@@ -123,3 +127,11 @@
     - Use the **Descheduler** tool to evict duplicate Pods or rebalance workloads onto underutilized nodes to restore high availability.
 
 ---
+
+## Related notes
+
+- [[DevOps MOC]] — subject index and reading order.
+- [[unit 1]] — cloud, containers and orchestration foundations.
+- [[devops-quick-revision]] — condensed revision of this unit.
+- [[devops-lab-answers]] — applied lab answers for deployments and scaling.
+- [[cie2notes]] — Microservices CIE-2 coverage of Kubernetes and infrastructure.

@@ -1998,3 +1998,12 @@ Vastu principles guide orientation, ventilation, sunlight use and spatial zoning
 - Do not confuse **wootz steel** (a crucible-steel ingot) with the **Damascus blade** (forged from wootz), and do not offer the Delhi Iron Pillar as an example of wootz - the pillar is wrought iron.
 - In Pingala questions, always state the digit convention you are using (Laghu = 0, Guru = 1, or the reverse).
 - Zero as a **number** is Brahmagupta (628 CE); the **word** shunya for zero is Pingala.
+
+---
+
+## Related notes
+
+- [[IKS MOC]] — subject index and reading order.
+- [[IKS_CIE2_PYQ]] — solved CIE-2 paper, MCQs and rapid-fire revision.
+- [[IKS_CIE1]] — previous exam: Units I-II full notes.
+- [[IKS_CIE1_PYQ]] — solved CIE-1 paper.

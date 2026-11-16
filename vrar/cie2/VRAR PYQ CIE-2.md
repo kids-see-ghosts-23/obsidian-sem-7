@@ -1,4 +1,5 @@
 ---
+tags: [vrar, cie-2, pyq]
 share_link: https://share.note.sx/qux0hrrs#GhFNustg9EsMHOh3WAEHCWqru4a4OWfOqS/8Nt5Tf6g
 share_updated: 2026-11-16T01:24:34+05:30
 ---
@@ -1241,3 +1242,13 @@ Chaining the transformations means **multiplying the chain of matrices into one 
 ---
 
 *End of CIE-2 PYQ solutions. Companion notes: [[VRAR CIE-2 Notes]].*
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR CIE-2 Notes]] — full notes for every answer.
+- [[VRAR CIE-1 Notes]] — previous exam: Unit I and early Unit II.
+- [[VRAR PYQ CIE-1]] — previous exam: solved CIE-1 paper.
+- [[sample progs]] — Unity C# scripts for the programming questions.

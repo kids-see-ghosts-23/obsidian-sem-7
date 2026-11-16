@@ -770,3 +770,12 @@ These are built from the Unit 3 notes and the Unit 3 quiz material, in the same 
 - Aryabhata's radius 3438 arc-minutes; sine table at 3.75-degree intervals.
 - Madhava: infinite series for pi and trigonometric functions; Kerala school 1300-1600 CE.
 - Kuttaka: indeterminate linear equations. Chakravāla: Pell-type equations.
+
+---
+
+## Related notes
+
+- [[IKS MOC]] — subject index and reading order.
+- [[IKS_CIE2]] — full notes for the same syllabus.
+- [[IKS_CIE1]] — previous exam: Units I-II full notes.
+- [[IKS_CIE1_PYQ]] — solved CIE-1 paper.

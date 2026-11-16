@@ -1,4 +1,8 @@
-	# Microservices Architecture — Comprehensive Answers
+---
+tags: [microservices, cie-1, pyq]
+---
+
+# Microservices Architecture — Comprehensive Answers
 
 ---
 
@@ -376,3 +380,12 @@ Event Sourcing and CQRS offer robust solutions for three needs in complex micros
 3. **Distributed data:** CQRS separates the write path from the read path, so the event store can remain simple and consistent while query projections are optimized for specific reads and scale independently. Combined with saga-based coordination for multi-service workflows and careful data ownership, this avoids forcing services to share databases while still supporting cross-boundary views through event-driven projections.
 
 In a flight reservations example, these ideas let pricing and reservation state be represented as sequences of facts, let each service own its events and data, let read models be tailored per service and query, and let multi-service booking workflows be coordinated through sagas. The trade-off is complexity, so the guidance is to apply Event Sourcing and CQRS selectively where their benefits—state derived from facts, strong auditability, and flexible distributed read models—outweigh the added implementation cost.
+
+---
+
+## Related notes
+
+- [[Microservices MOC]] — subject index and reading order.
+- [[cie 1 - notes]] — full CIE-1 class notes.
+- [[microservices-quick-revision]] — condensed revision before attempting the paper.
+- [[cie2notes]] — CIE-2 infrastructure pipeline and developer workspace.

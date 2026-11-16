@@ -1,4 +1,5 @@
 ---
+tags: [iks, cie-1, notes]
 share_link: https://share.note.sx/i2armz5p#cpTU5tAh2q3i58cJIaXHCiGTbhZlBkGnV0ZOD7bV29M
 share_updated: 2026-10-08T18:04:21+05:30
 ---
@@ -568,3 +569,12 @@ Samsaya - doubt: ambiguity in existing knowledge; the state of uncertain cogniti
 - Astadhyayi: 3983 sutras, 8 chapters, 4 quarters each, 32 sections; Tri-Muni: Panini, Katyayana, Patanjali.
 - Brahmagupta: zero as a number, 628 CE, Brahmasphutasiddhanta. Pingala: binary, Chandahsastra, 2nd century BCE. Aryabhata: Aryabhatiya, eclipses, Earth's rotation.
 - Units: Angula (length, basic Vedic unit), Dhanus = 96 Angulas, Grihapatya-dhanus = 108 Angulas; bricks 4:2:1; Indus cubit ~51.8 cm.
+
+---
+
+## Related notes
+
+- [[IKS MOC]] — subject index and reading order.
+- [[IKS_CIE1_PYQ]] — solved CIE-1 paper and question bank.
+- [[IKS_CIE2]] — next exam: Units II-IV full notes.
+- [[IKS_CIE2_PYQ]] — solved CIE-2 paper.

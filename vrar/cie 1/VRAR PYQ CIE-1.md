@@ -1,3 +1,7 @@
+---
+tags: [vrar, cie-1, pyq]
+---
+
 # VR / AR (IS372IA) — PYQ Solutions & Quiz Bank
 
 > **Every question from both real question papers, in paper order, question followed by a complete exam-ready answer.** Followed by a full **quiz-question bank** (MCQs + short answers) built from the same syllabus.
@@ -3118,3 +3122,14 @@ MR applications · VR medical application · AR industrial application · VR ent
 
 **End of PYQ Solutions & Quiz Bank.**
 *Sources: QP 21IS72 (Mar/Apr 2025), QP IS372IA (Feb/March 2026), and `AR_VR (IS372IA) - CIE-1 & Quiz-1 Exam Notes.pdf`.*
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR CIE-1 Notes]] — theory notes for every answer.
+- [[vrar]] — raw lecture notes and keyword lists.
+- [[sample progs]] — Unity C# scripts asked in the paper.
+- [[pyq cie 1]] — earlier quiz answers on VR/AR basics.
+- [[VRAR CIE-2 Notes]] — next exam: Prefabs, geometry and motion.

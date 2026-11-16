@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4c05e54e55c9748",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vrar/cie2/VRAR PYQ CIE-2.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VRAR PYQ CIE-2"
-            }
-          },
-          {
-            "id": "da6c7a9ecfa19243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vrar/cie2/VRAR PYQ CIE-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VRAR PYQ CIE-2"
-            }
-          },
-          {
             "id": "8da8af2dde74673b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "iks/cie 2/IKS_CIE2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "IKS_CIE2"
+            }
+          },
+          {
+            "id": "b653311db90898c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iks/cie 2/IKS_CIE2_PYQ.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IKS_CIE2_PYQ"
             }
           },
           {
@@ -60,9 +46,29 @@
               "icon": "excalidraw-icon",
               "title": "board"
             }
+          },
+          {
+            "id": "5cd9feed61243df9",
+            "type": "leaf",
+            "state": {
+              "type": "terminal-view",
+              "state": {
+                "tabs": [
+                  {
+                    "name": "Terminal 1",
+                    "color": "",
+                    "cwd": "/home/karan/Downloads/sem-7/obsidian-sem-7",
+                    "bufferSerial": "\r\n\u001b[36;1mobsidian-sem-7\u001b[0m \u001b[36;3mmain\u001b[0m \u001b[36m \u001b[1m❯\u001b[0m opencode\r\nStarting background server...\u001b[1B\u001b[29D\u001b[?1049h\u001b[H\u001b[97;48;5;236m   \u001b[37mMicroservices CIE2 stud\u001b[38;5;249my\u001b[38;5;245m \u001b[38;5;241mn\u001b[38;5;237mo\u001b[38;5;251m✕\u001b[97m \u001b[40m   \u001b[38;5;248mVRAR notes and PYQ solutions\u001b[97m    \u001b[38;5;248mIKS CIE 2 notes/MCQs\u001b[97m         \u001b[48;5;236m \u001b[36;1m•\u001b[97;22m \u001b[37;1mRepo-wide Markdown backli\u001b[38;5;249mn\u001b[38;5;245mk\u001b[38;5;241ms\u001b[38;5;238m \u001b[38;5;248;49;22m + \u001b[97m                                   \r\n  \u001b[38;5;236;48;5;236m┃\u001b[97m  \u001b[38;5;248mvrar/cie 1/sample progs.md, vrar/cie 1/vrar.md, vrar/cie2/VRAR CIE-2 Notes.md, vrar/cie2/VRAR PYQ CIE-2.md, vrar/\u001b[97m    \u001b[49m  \u001b[48;5;236m                                          \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m  \u001b[38;5;248mpyqs/pyq cie 1.md\u001b[97m                                                                                                    \u001b[49m  \u001b[48;5;236m  \u001b[37;1mRepo-wide Markdown backlinks graph\u001b[97;22m      \r\n\u001b[49m  \u001b[38;5;236;48;5;236m┃\u001b[97m                                                                                                                       \u001b[49m  \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m  \u001b[37;1mContext\u001b[97;22m                                 \r\n\u001b[49m     \u001b[38;5;101m+\u001b[97m \u001b[38;5;101mThought · 4.3s\u001b[97m                                                                                                       \u001b[48;5;236m  \u001b[38;5;248m57,958 tokens\u001b[97m                           \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m  \u001b[38;5;248m29% used\u001b[97m                                \r\n\u001b[49m     \u001b[37mDone — the vault is now one fully connected graph: \u001b[1m25 notes, 91 unique link edges, 0 unresolved links, 0 orphans, 1 \u001b[97;22m   \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mconnected component.\u001b[97;22m                                                                                                   \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mWhat I added\u001b[97;22m                                                                                                           \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mNew hub / index notes\u001b[97;22m                                                                                                  \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[32mHome.md\u001b[37m — vault-wide index linking all four subjects + cross-subject overlaps\u001b[97m                                        \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[32mdevops/DevOps MOC.md\u001b[97m                                                                                                 \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[32miks/IKS MOC.md\u001b[97m                                                                                                       \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[32mmicroservices/Microservices MOC.md\u001b[97m                                                                                   \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[32mvrar/VRAR MOC.md\u001b[97m                                                                                                     \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mEvery existing note now has\u001b[97;22m                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mA \u001b[32m## Related notes\u001b[37m section linking its subject MOC and sibling notes (theory → PYQ → companion file, plus genuine \u001b[97m   \u001b[48;5;236m                                          \r\n\u001b[49m       \u001b[37mcross-subject links like DevOps ↔ Microservices).\u001b[97m                                                                    \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mFrontmatter tags (\u001b[32mdevops\u001b[37m, \u001b[32miks\u001b[37m, \u001b[32mmicroservices\u001b[37m, \u001b[32mvrar\u001b[37m, plus \u001b[32mpyq\u001b[37m, \u001b[32mnotes\u001b[37m, \u001b[32mquick-revision\u001b[37m, etc.) so the graph can colour-\u001b[97m  \u001b[48;5;236m                                          \r\n\u001b[49m       \u001b[37mcode notes.\u001b[97m                                                                                                          \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mCross-subject links wired up\u001b[97;22m                                                                                           \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mDevOps quick revision ↔ Microservices quick revision\u001b[97m                                                                 \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mKubernetes / IaC: \u001b[32munit 2\u001b[37m ↔ \u001b[32mcie2notes\u001b[37m, \u001b[32mdevops-lab-answers\u001b[37m ↔ \u001b[32mcie2notes\u001b[97m                                                 \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mIKS CIE-1 → CIE-2, VRAR CIE-1 → CIE-2\u001b[97m                                                                                \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mExcalidraw board linked from \u001b[32mHome\u001b[37m, \u001b[32mIKS MOC\u001b[37m, and \u001b[32mVRAR MOC\u001b[97m                                                             \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mGraph view styling\u001b[22m in \u001b[32m.obsidian/graph.json\u001b[97m                                                                             \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mColour groups: MOC (gold), DevOps (blue), IKS (orange), Microservices (green), VR/AR (purple), Excalidraw (grey)\u001b[97m     \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[34m- \u001b[37mArrows enabled, orphans shown, colour groups expanded\u001b[97m                                                                \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37;1mTo see it\u001b[97;22m                                                                                                              \u001b[48;5;236m                                          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37mOpen \u001b[1mGraph view\u001b[22m. If Obsidian is already running, close and reopen the graph pane (or reload the vault) so it picks up\u001b[97m  \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37mthe new \u001b[32mgraph.json\u001b[37m.\u001b[97m                                                                                                    \u001b[48;5;236m    \u001b[37m⬖\u001b[97m \u001b[37;1mGetting started\u001b[97;22m                \u001b[38;5;248m✕\u001b[97m    \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[37mNote: \u001b[32mExcalidraw/board.md\u001b[37m, \u001b[32m.obsidian/workspace.json\u001b[37m, and the pdf-plus data file had changes from Obsidian itself \u001b[97m      \u001b[48;5;236m      \u001b[38;5;248mOpenCode includes free models so\u001b[97m    \r\n\u001b[49m     \u001b[37mbeing open — I left those alone.\u001b[97m                                                                                       \u001b[48;5;236m      \u001b[38;5;248myou can start immediately.\u001b[97m          \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \r\n\u001b[49m     \u001b[35mBuild\u001b[38;5;248m · DeepSeek V4.1 Flash Free · 3m 16s · 103.6 tok/s\u001b[97m                                                                \u001b[48;5;236m      \u001b[38;5;248mConnect from 75+ providers to \u001b[97m      \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m      \u001b[38;5;248muse other models, including \u001b[97m        \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                       \u001b[49m  \u001b[48;5;236m      \u001b[38;5;248mClaude, GPT, Gemini etc\u001b[97m             \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                       \u001b[49m  \u001b[48;5;236m                                          \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m                                                                                                                       \u001b[49m  \u001b[48;5;236m      \u001b[37mConnect provider\u001b[97m        \u001b[38;5;248m/connect\u001b[97m    \r\n\u001b[49m  \u001b[35m┃\u001b[97;48;5;236m  \u001b[35mBuild\u001b[97m \u001b[38;5;248m·\u001b[97m \u001b[37mDeepSeek V4.1 Flash Free\u001b[97m \u001b[38;5;248mOpenCode\u001b[97m \u001b[38;5;248m·\u001b[97m \u001b[33;1mhigh\u001b[97;22m                                                                     \u001b[49m  \u001b[48;5;236m                                          \r\n\u001b[49m  \u001b[35m╹\u001b[38;5;236m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\u001b[97m  \u001b[48;5;236m                                          \r\n\u001b[49m  \u001b[38;5;248m~/Downloads/sem-7/obsidian-sem-7:main\u001b[97m                                                       \u001b[38;5;248m58.0K (29%)\u001b[97m  \u001b[37mctrl+p \u001b[38;5;248mcommands\u001b[97m  \u001b[48;5;236m  \u001b[38;5;248m~/Downloads/sem-7/obsidian-sem-7:main\u001b[97m   \r\n\u001b[49m                                                                                                                            \u001b[48;5;236m                                          \u001b[5A\u001b[161D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
+                  }
+                ],
+                "activeIndex": 0
+              },
+              "icon": "zap",
+              "title": "Terminal"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iks/cie 2/IKS_CIE2.md",
+                "file": "iks/cie 2/IKS_CIE2_PYQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -211,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iks/cie 2/IKS_CIE2.md",
+                "file": "iks/cie 2/IKS_CIE2_PYQ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -260,16 +266,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8da8af2dde74673b",
+  "active": "14b86850a0ac8451",
   "lastOpenFiles": [
-    "Excalidraw/board.md",
     "iks/cie 2/IKS_CIE2.md",
-    "iks/cie 2",
-    "iks/cie 1",
+    "Excalidraw/board.md",
+    "iks/cie 2/IKS_CIE2_PYQ.md",
+    "microservices/Microservices MOC.md",
+    "iks/IKS MOC.md",
+    "vrar/VRAR MOC.md",
+    "Home.md",
+    "devops/DevOps MOC.md",
     "vrar/cie2/VRAR PYQ CIE-2.md",
     "vrar/cie2/VRAR CIE-2 Notes.md",
+    "iks/cie 2",
+    "iks/cie 1",
     "iks/sedaHxyfX",
-    "iks/cie 2/IKS_CIE2_PYQ.md",
     "microservices/notes/unit3.pdf",
     "microservices/cie 2/cie2notes.md",
     "microservices/cie 1/microservices-quick-revision.md",
@@ -300,10 +311,6 @@
     "arvr/vrar.md",
     "pasted images/Pasted Image 20261009163153_560.png",
     "Pasted Image 20261009163153_560.png",
-    "arvr/pyqs/pyq cie 1.md",
-    "arvr/sample progs.md",
-    "vrar.md",
-    "arvr/VRAR CIE-1 Notes.md",
     "pasted images/Pasted Image 20261008173934_533.png",
     "pasted images/Pasted Image 20261008173922_212.png",
     "Pasted Image 20260924205002_707.png"

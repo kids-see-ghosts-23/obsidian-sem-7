@@ -1,4 +1,5 @@
 ---
+tags: [microservices, cie-2, notes]
 share_link: https://share.note.sx/9idtqr6r#ngUA8k9HJiTC7dot8pI+31Bxf40JewLFe5T7/naMC0Q
 share_updated: 2026-11-14T12:05:59+05:30
 ---
@@ -2296,3 +2297,14 @@ Unit 4's source material also includes Chapter 9 (Developing Microservices). The
 - Know the 3 goals, the 10 workspace guidelines, the Rule of Twos and the makefile targets.
 - Know the Docker installation sequence, the non-root fix, the MySQL test and the Cassandra compose file.
 - Know why local Kubernetes is discouraged, the three single-machine options, and what Skaffold solves.
+
+---
+
+## Related notes
+
+- [[Microservices MOC]] — subject index and reading order.
+- [[cie 1 - notes]] — CIE-1 architecture notes.
+- [[microservices-quick-revision]] — CIE-1 revision notes.
+- [[pyq cie 1]] — CIE-1 exam-style answers.
+- [[unit 2]] — DevOps Kubernetes objects and scheduling.
+- [[devops-lab-answers]] — Docker, Kubernetes and pipeline commands.

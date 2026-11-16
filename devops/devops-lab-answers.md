@@ -1,3 +1,7 @@
+---
+tags: [devops, lab]
+---
+
 # DevOps Lab Answers
 
 ---
@@ -1039,3 +1043,13 @@ Isolation:
 - Four elements: context, alternatives, choice, impact.
 - Lightweight Architectural Decision Record (LADR) is concise, written in Markdown, and managed in version control like source code.
 - LADR structure: title, status, context, decision, consequences.
+
+---
+
+## Related notes
+
+- [[DevOps MOC]] — subject index and reading order.
+- [[unit 1]] — container and cluster theory behind the labs.
+- [[unit 2]] — Kubernetes objects and scaling behind the labs.
+- [[devops-quick-revision]] — revision checklist for the theory.
+- [[cie2notes]] — Docker, EKS and IaC pipeline commands.

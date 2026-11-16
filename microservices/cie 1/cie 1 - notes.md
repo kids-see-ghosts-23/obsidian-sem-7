@@ -1,4 +1,5 @@
 ---
+tags: [microservices, cie-1, notes]
 share_link: https://share.note.sx/g7r2n4tc#abxVin3f2dEjIQ3YKtiuu0Yl2ZgWpnzBumIL7qlMCzQ
 share_updated: 2026-10-11T18:13:42+05:30
 ---
@@ -240,3 +241,12 @@ separate the write path(event store) from read path(query indices)
 event store prioritizes consistency where query projection prioritize availability and read speed
 
 ----------------------END OF CHAPTER 5-----------------------------------
+
+---
+
+## Related notes
+
+- [[Microservices MOC]] — subject index and reading order.
+- [[microservices-quick-revision]] — condensed revision of these notes.
+- [[pyq cie 1]] — exam-style answers for the CIE-1 paper.
+- [[cie2notes]] — CIE-2 infrastructure pipeline and developer workspace.

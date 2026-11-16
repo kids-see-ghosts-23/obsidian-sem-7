@@ -1,3 +1,7 @@
+---
+tags: [vrar, cie-1, notes]
+---
+
 # AR / VR (IS372IA) — CIE-1 & Quiz-1 Exam Notes
 
 > **Course:** IS372IA / 21IS72 — Virtual Reality and Augmented Reality · VII Sem B.E. ISE · RV College of Engineering
@@ -1479,3 +1483,15 @@ public class SimpleRotation : MonoBehaviour {
 **End of CIE-1 & Quiz-1 Notes.**
 *Content: `AR_VR (IS372IA) - CIE-1 & Quiz-1 Exam Notes.pdf` (45 pp). PYQ mapping from QP 21IS72 (Mar/Apr 2025) and QP IS372IA (Feb/March 2026).*
 *Companion file: `VRAR PYQ Solutions.md` — every PYQ from both papers solved, plus quiz questions.*
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR PYQ CIE-1]] — every CIE-1 PYQ solved.
+- [[vrar]] — raw lecture notes and keyword lists.
+- [[sample progs]] — Unity C# scripts used in Unit II.
+- [[pyq cie 1]] — earlier quiz answers on VR/AR basics.
+- [[VRAR CIE-2 Notes]] — next exam: Prefabs, geometry and motion.
+- [[board]] — rough sketches for VRAR topics.

@@ -1,3 +1,7 @@
+---
+tags: [devops, quick-revision]
+---
+
 # DevOps Quick Revision
 
 ---
@@ -207,3 +211,14 @@ Clusterless container services:
 - Preemptible/spot instances offer up to 80% savings for stateless, fault-tolerant workloads.
 - Use nodeAffinity to keep critical Pods off preemptible nodes.
 - Scheduler does not automatically relocate Pods when new nodes are added; use the Descheduler to rebalance.
+
+---
+
+## Related notes
+
+- [[DevOps MOC]] — subject index and reading order.
+- [[unit 1]] — full Chapter 1 notes.
+- [[unit 2]] — full Kubernetes operations notes.
+- [[devops-lab-answers]] — lab questions answered.
+- [[microservices-quick-revision]] — the same DevOps ideas applied to microservices.
+- [[cie2notes]] — IaC, AWS and pipeline material from the Microservices course.

@@ -1,4 +1,5 @@
 ---
+tags: [vrar, cie-2, notes]
 share_link: https://share.note.sx/ncymn5et#5LPvbJESg+AMQwa5CEVrgtNjbv0gvR72d9Xuq0QHmoE
 share_updated: 2026-11-16T01:22:24+05:30
 ---
@@ -3427,3 +3428,14 @@ $$
 ---
 
 *End of CIE-2 notes. Companion: [[VRAR PYQ CIE-2]] — full solutions to the CIE-2 paper.*
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR PYQ CIE-2]] — solved CIE-2 paper for these topics.
+- [[VRAR CIE-1 Notes]] — previous exam: Unit I and early Unit II.
+- [[VRAR PYQ CIE-1]] — previous exam: solved CIE-1 paper.
+- [[vrar]] — raw lecture notes.
+- [[sample progs]] — Unity C# scripts for movement and rotation.

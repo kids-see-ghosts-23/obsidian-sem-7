@@ -1,4 +1,5 @@
 ---
+tags: [vrar, cie-1, code]
 share_link: https://share.note.sx/r3kkm9jg#v/mrC50zbvyA7Y2ppBP2TDPfBARS1r9TXV5xeeS/n4Y
 share_updated: 2026-10-09T06:21:31+05:30
 ---
@@ -112,3 +113,13 @@ public class SmoothMove : MonoBehaviour
 3. Paste the code above and save
 4. Attach the script to the object
 5. Press **Play**, then use the arrow keys to move
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR CIE-1 Notes]] — Unity scripting theory behind these programs.
+- [[VRAR PYQ CIE-1]] — paper questions that ask for these scripts.
+- [[vrar]] — raw lecture notes.
+- [[VRAR CIE-2 Notes]] — more movement, camera and physics code.
