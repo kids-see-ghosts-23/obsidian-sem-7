@@ -16,6 +16,8 @@ Subject hub for Microservices Architecture. CIE-1 covers the architecture and de
 ## CIE-2
 
 - [[cie2notes]] — Unit 3 (DevOps principles, IaC environment, AWS, IaC pipeline) and Unit 4 (developer workspace, Docker, Cassandra, Kubernetes).
+- [[cie2-quick-revision]] — condensed revision of the CIE-2 material.
+- [[pyq cie 2]] — the actual Part B test paper solved in full, plus a compiled question bank with answers.
 
 ## Suggested reading order
 
