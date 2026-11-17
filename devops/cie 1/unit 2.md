@@ -132,6 +132,8 @@ tags: [devops, unit-notes]
 
 - [[DevOps MOC]] — subject index and reading order.
 - [[unit 1]] — cloud, containers and orchestration foundations.
+- [[unit 3]] — cluster sizing, conformance, chaos testing and kubectl power tools.
+- [[DevOps CIE-2 PYQ]] — solved paper for the unit 2 + unit 3 exam.
 - [[devops-quick-revision]] — condensed revision of this unit.
 - [[devops-lab-answers]] — applied lab answers for deployments and scaling.
 - [[cie2notes]] — Microservices CIE-2 coverage of Kubernetes and infrastructure.

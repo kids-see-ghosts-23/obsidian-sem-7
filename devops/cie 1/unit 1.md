@@ -182,6 +182,8 @@ kubectl port-forward deploy/demo 9999:8888
 
 - [[DevOps MOC]] — subject index and reading order.
 - [[unit 2]] — Kubernetes objects, desired state, scheduling and cost.
+- [[unit 3]] — operating clusters, conformance, chaos testing and kubectl power tools.
+- [[unit 4]] — running containers and managing Pods.
 - [[devops-quick-revision]] — condensed revision of this unit.
 - [[devops-lab-answers]] — applied lab answers for containers and clusters.
 - [[cie2notes]] — Microservices CIE-2 coverage of IaC, Docker and Kubernetes.

@@ -11,7 +11,7 @@ Central map of the vault. Every subject has a **MOC (map of content)**, every no
 
 | Subject | Map of content | What is inside |
 |---|---|---|
-| **DevOps** | [[DevOps MOC]] | Quick revision, Unit 1 (cloud/containers/Kubernetes), Unit 2 (Kubernetes objects/scaling/cost), lab answers |
+| **DevOps** | [[DevOps MOC]] | Quick revision, Unit 1 (cloud/containers/Kubernetes), Unit 2 (Kubernetes objects/scaling/cost), Unit 3 (operating clusters + kubectl power tools), Unit 4 (running containers/managing Pods), CIE-2 PYQ solutions, lab answers |
 | **IKS** | [[IKS MOC]] | CIE-1 notes + PYQ solutions, CIE-2 notes + PYQ solutions |
 | **Microservices** | [[Microservices MOC]] | CIE-1 notes, quick revision, PYQ answers, CIE-2 notes (Infrastructure as Code, AWS, Docker, Kubernetes) |
 | **VR / AR** | [[VRAR MOC]] | CIE-1 notes + PYQ solutions, CIE-2 notes + PYQ solutions, raw notes, Unity sample programs, quiz PYQs |
