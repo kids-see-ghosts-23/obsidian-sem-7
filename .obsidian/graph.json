@@ -5,8 +5,51 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#moc",
+      "color": {
+        "a": 1,
+        "rgb": 15911244
+      }
+    },
+    {
+      "query": "tag:#devops",
+      "color": {
+        "a": 1,
+        "rgb": 5016565
+      }
+    },
+    {
+      "query": "tag:#iks",
+      "color": {
+        "a": 1,
+        "rgb": 15898954
+      }
+    },
+    {
+      "query": "tag:#microservices",
+      "color": {
+        "a": 1,
+        "rgb": 2600544
+      }
+    },
+    {
+      "query": "tag:#vrar",
+      "color": {
+        "a": 1,
+        "rgb": 12282841
+      }
+    },
+    {
+      "query": "tag:#excalidraw",
+      "color": {
+        "a": 1,
+        "rgb": 10133670
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -0.1,
@@ -17,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6666666666666663,
+  "scale": 0.6666666666666636,
   "close": true
 }

@@ -23,5 +23,6 @@
   "copilot",
   "git-obsi-sync",
   "obsidian-git",
-  "obsidian-linter"
+  "obsidian-linter",
+  "open-in-terminal"
 ]

@@ -1,4 +1,5 @@
 ---
+tags: [vrar, cie-1, pyq]
 share_link: https://share.note.sx/fep21ahs#bm1wx3ybskiQ2ryaBD9HOe+bomCn0VOl40H7FfCz1RE
 share_updated: 2026-10-09T06:23:08+05:30
 ---
@@ -267,3 +268,13 @@ The value of **a** tells you whether perception *compresses*, *tracks linearly*,
         JPG
 
 **Conclusion:** Stevens' Power Law shows that human perception is **not a linear copy** of physical reality — different senses map stimulus intensity to perception with different exponents, which is why VR must account for perceptual scaling (e.g. brightness, haptic force, motion) rather than just raw physical values.
+
+---
+
+## Related notes
+
+- [[VRAR MOC]] — subject index and reading order.
+- [[VRAR CIE-1 Notes]] — structured notes for these questions.
+- [[VRAR PYQ CIE-1]] — the full CIE-1 paper solutions.
+- [[vrar]] — raw lecture notes.
+- [[VRAR CIE-2 Notes]] — next exam: Prefabs, geometry and motion.

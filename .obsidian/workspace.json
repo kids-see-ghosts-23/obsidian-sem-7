@@ -8,67 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "40afcebf5dee9f13",
+            "id": "8da8af2dde74673b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/cie 1 - notes.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cie 1 - notes"
-            }
-          },
-          {
-            "id": "d568e41f397ad1ca",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "microservices/notes/unit1.pdf",
-                "page": 17,
-                "left": -183,
-                "top": 628,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "unit1"
-            }
-          },
-          {
-            "id": "42f4309d6e9a3547",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "microservices/notes/unit2.pdf",
-                "page": 8,
-                "left": -70,
-                "top": 756,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "unit2"
-            }
-          },
-          {
-            "id": "43b329e4bcb1f226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vrar/VRAR PYQ CIE-1.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VRAR PYQ CIE-1"
+              "title": "Home"
             }
           },
           {
-            "id": "ce11bd2d7f419f64",
+            "id": "138c724afd17257a",
             "type": "leaf",
             "state": {
               "type": "terminal-view",
@@ -78,55 +32,41 @@
                     "name": "Terminal 1",
                     "color": "",
                     "cwd": "C:\\Users\\karan\\OneDrive\\Desktop\\sem 7",
-                    "bufferSerial": "Microsoft Windows [Version 10.0.26100.9168]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\karan\\OneDrive\\Desktop\\sem 7>freebuff\u001b[1B\u001b[46D\u001b[?1049h\u001b[H\u001b[38;2;255;255;255m                                                                                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mWhat I verified:\u001b[38;2;255;255;255m                                                                                                 \u001b[48;2;37;37;39m \u001b[38;2;172;179;191;49mting patterns include the data \u001b[38;2;255;255;255m         \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;255;133;52;48;2;55;65;81;1m devops/devops-lab-answers.md \u001b[38;2;241;245;249;49;22m now has all requested DevOps items as separate sections:\u001b[38;2;255;255;255m                        \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ1 container image build, including multi-stage build\u001b[38;2;255;255;255m                                                          \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ2 three pods from the Q1 image\u001b[38;2;255;255;255m                                                                                \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ3 delete a pod and check status of running pods\u001b[38;2;255;255;255m                                                               \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ4 list pods with \u001b[38;2;255;133;52;48;2;55;65;81;1m kubectl \u001b[38;2;255;255;255;49;22m                                                                                    \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ5 a one-page profile web app in Python, plus its Dockerfile\u001b[38;2;255;255;255m                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ6 running the image for version control and reflecting code changes\u001b[38;2;255;255;255m                                           \u001b[48;2;37;37;39m \u001b[38;2;172;179;191;49m─────────────────────────────────────╮\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ7 GitHub vs Docker Hub with two examples\u001b[38;2;255;255;255m                                                                      \u001b[48;2;37;37;39m \u001b[49m                                  \u001b[38;2;172;179;191mAd\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ8 i), ii), iii) created as Deployment, Service, and ReplicaSet-backed Pod management for the Q5/Q1 \u001b[38;2;255;255;255m           \u001b[48;2;37;37;39m \u001b[49m                       \u001b[38;2;172;179;191;4mtrigger.dev ↗\u001b[38;2;255;255;255;24m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mapplication\u001b[38;2;255;255;255m                                                                                                      \u001b[48;2;37;37;39m \u001b[38;2;172;179;191;49m─────────────────────────────────────╯\u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ9 Deployments, Pods, and ReplicaSets in detail\u001b[38;2;255;255;255m                                                                \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ10 complete functionality of the Kubernetes package manager (Helm)\u001b[38;2;255;255;255m                                            \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49mhe notes in \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/cie 1 - \u001b[38;2;255;255;255;49;22m     \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;255;133;52;48;2;55;65;81;1m devops/devops-quick-revision.md \u001b[38;2;241;245;249;49;22m consolidates the devops notes\u001b[38;2;255;255;255m                                                \u001b[48;2;37;37;39m \u001b[38;2;255;133;52;48;2;55;65;81;1mvices/notes/unit2.pdf \u001b[38;2;241;245;249;49;22m.\u001b[38;2;255;255;255m                 \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;255;133;52;48;2;55;65;81;1m microservices/microservices-quick-revision.md \u001b[38;2;241;245;249;49;22m consolidates the microservices notes\u001b[38;2;255;255;255m                           \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                   \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mChecks that passed:\u001b[38;2;255;255;255m                                                                                              \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mSection headings for all DevOps questions are present\u001b[38;2;255;255;255m                                                          \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mCode/command artifacts are present: \u001b[38;2;255;133;52;48;2;55;65;81;1m docker image build \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m replicas: 3 \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m kubectl delete pod \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m kubectl get \u001b[38;2;255;255;255;49;22m   \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49ming Formula, delegate service, data \u001b[38;2;255;255;255m    \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;255;133;52;48;2;55;65;81;1mpods \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m app.py \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m SimpleHTTPRequestHandler \u001b[38;2;241;245;249;49;22m, Helm/Chart/Release content\u001b[38;2;255;255;255m                                          \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49mabase cluster sharing, transactional \u001b[38;2;255;255;255m   \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mQ8 explicitly uses \u001b[38;2;255;133;52;48;2;55;65;81;1m ### i) Deployment \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m ### ii) Service \u001b[38;2;241;245;249;49;22m, \u001b[38;2;255;133;52;48;2;55;65;81;1m ### iii) ReplicaSet-backed Pod management \u001b[38;2;241;245;249;49;22m and \u001b[38;2;255;255;255m    \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mincludes matching manifests for Deployment, Service, and ReplicaSet\u001b[38;2;255;255;255m                                              \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mNo emojis found in the new deliverables\u001b[38;2;255;255;255m                                                                        \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m                                                                                                                   \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49mMarkdown linter/render check because \u001b[38;2;255;255;255m   \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;241;245;249mChecks that could not run cleanly:\u001b[38;2;255;255;255m                                                                               \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[48;2;37;37;39m \r\n\u001b[49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mOne emoji-scan regex errored in this environment; I re-ran a simpler no-emoji check and it reported no \u001b[38;2;255;255;255m        \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249memojis found, so the no-emoji requirement still held.\u001b[38;2;255;255;255m                                                            \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                                   \u001b[48;2;37;37;39m \u001b[38;2;241;245;249;49m notes. I verified that attribution \u001b[38;2;255;255;255m    \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mLimitation:\u001b[38;2;255;255;255m                                                                                                      \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;163;174;208m- \u001b[38;2;241;245;249mI interpreted the ambiguous \"Q. 1\" and unfinished \"i) ii) iii)\" in the user prompt using the surrounding lab \u001b[38;2;255;255;255m  \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mquestions, since that is the most natural reading. If you intended Q.1 to mean a different app or want \u001b[38;2;255;255;255m          \u001b[48;2;37;37;39m \u001b[49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mexplicit i/ii/iii labeling changed, I can adjust.\u001b[38;2;255;255;255m                                                                \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                 \u001b[38;2;172;179;191;2m⎘\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;163;174;208;2m3m 15s\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m△▽\u001b[38;2;255;255;255;22m   \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m                                                                                                                   \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                                        \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m  \u001b[38;2;241;245;249mNot now: we'll ask again in 7 days.\u001b[38;2;255;255;255m                                                                              \u001b[38;2;154;158;163;48;2;37;37;39m█\u001b[38;2;255;255;255;49m                      \u001b[38;2;172;179;191;2m⎘\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;163;174;208;2m2m 14s\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m•\u001b[38;2;255;255;255;22m \u001b[38;2;172;179;191;2m△▽\u001b[38;2;255;255;255;22m   \u001b[38;2;154;158;163;48;2;37;37;39m█\r\n\u001b[38;2;255;255;255;49m \u001b[38;2;172;179;191m╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m───────────────────────────────────────╮\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;241;245;249;1mKeep going\u001b[38;2;255;255;255;22m                                                                                                \u001b[38;2;172;179;191m  Ad\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m                                   \u001b[38;2;172;179;191m  Ad\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m$10 = 1,000 Freebucks.\u001b[38;2;255;255;255m                                                                                         \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m                                        \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \u001b[38;2;16;19;26;48;2;172;179;191;1m Top up \u001b[38;2;255;255;255;49;22m \u001b[38;2;172;179;191;4mfreebuff.com\u001b[38;2;255;255;255;24m                                                                                          \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m                                        \u001b[38;2;172;179;191m│\u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191m╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\u001b[38;2;255;255;255m \u001b[38;2;172;179;191m───────────────────────────────────────╯\u001b[38;2;255;255;255m \r\n\u001b[38;2;241;245;249m╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮────────────────────────────────────────╮\r\n│\u001b[38;2;255;255;255m                                                                                                                  \u001b[38;2;241;245;249m│\u001b[38;2;255;255;255m                                        \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m  \u001b[38;2;172;179;191mEnter a coding task or / for commands\u001b[38;2;255;255;255m                                                                           \u001b[38;2;241;245;249m│\u001b[38;2;255;255;255m                                        \u001b[38;2;241;245;249m│\r\n│\u001b[38;2;255;255;255m                                                                                                                  \u001b[38;2;241;245;249m│\u001b[38;2;255;255;255m                                        \u001b[38;2;241;245;249m│\r\n╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯────────────────────────────────────────╯\r\n\u001b[38;2;255;255;255m \u001b[38;2;158;252;98mSolar Pro 4\u001b[38;2;172;179;191m · ~\\OneDrive\\Desktop\\sem 7 · \u001b[38;2;158;252;98m/model\u001b[38;2;172;179;191m to change · Chat: Demonstrate the detailed \"Up and Running\" \u001b[38;2;255;255;255m       \u001b[38;2;172;179;191mrvices Model with neat diagram.Deseribe \u001b[38;2;255;255;255m \r\n \u001b[38;2;172;179;191mMicroservices Model with neat diagram.Deseribe the cons...\u001b[38;2;255;255;255m                                                                                                  \r\n \u001b[38;2;241;245;249m←\u001b[38;2;172;179;191m for history · \u001b[38;2;241;245;249m?\u001b[38;2;172;179;191m for help\u001b[38;2;255;255;255m                                                                                         \u001b[9A\u001b[75D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
+                    "bufferSerial": "Microsoft Windows [Version 10.0.26200.9974]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\karan\\OneDrive\\Desktop\\sem 7>opencode\r\nStarting background server...\u001b[1B\u001b[29D\u001b[?1049h\u001b[H\u001b[38;2;255;255;255;48;2;30;30;30m \u001b[38;2;157;124;216;1m•\u001b[38;2;255;255;255;22m \u001b[38;2;238;238;238;1mVRAR lab: 6 simple progra\u001b[38;2;196;196;196mm\u001b[38;2;146;146;146ms \u001b[38;2;47;47;47mw\u001b[38;2;128;128;128;48;2;10;10;10;22m +                                                                                  \u001b[38;2;255;255;255m     \u001b[38;2;250;178;131m- \u001b[38;2;238;238;238mProgram 1 uses one \u001b[38;2;127;216;143mUpdate() \u001b[38;2;238;238;238minstead of three helper methods.\u001b[47X\u001b[47C\u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;250;178;131m- \u001b[38;2;238;238;238mProgram 2 uses legacy \u001b[38;2;127;216;143mText \u001b[38;2;238;238;238mto avoid the TMP import; the note explains the TextMeshPro swap.\u001b[16X\u001b[16C\u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;250;178;131m- \u001b[38;2;238;238;238mProgram 5 uses free AR Foundation instead of Vuforia; the note mentions Vuforia as an alternative.\u001b[5X\u001b[5C  \u001b[38;2;136;136;136m \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;250;178;131m- \u001b[38;2;238;238;238mProgram 5 needs an Android\u001b[38;2;127;216;143m \u001b[38;2;238;238;238mphone and AR Foundation; Program 6 needs a video and audio clip imported into   \u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m       \u001b[38;2;238;238;238mUnity.\u001b[101X\u001b[101C\u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[107X\u001b[107C\u001b[38;2;238;238;238m \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;238;238;238mI also verified that every code block in the notes exactly matches its \u001b[38;2;127;216;143m.cs \u001b[38;2;238;238;238mfile, and that all braces/\u001b[7X\u001b[7C\u001b[38;2;255;255;255m \u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;238;238;238mparentheses are balanced.\u001b[84X\u001b[84C\u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[107X\u001b[107C\u001b[38;2;238;238;238m \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;92;156;245mBuild \u001b[38;2;128;128;128m· DeepSeek V4.1 Flash Free · 8m 39s · 90.0 tok/s\u001b[54X\u001b[54C\u001b[38;2;255;255;255m \u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m     \u001b[109X\u001b[109C\u001b[38;2;136;136;136m  \r\n\u001b[38;2;255;255;255m  \u001b[38;2;92;156;245;48;2;20;20;20m┃\u001b[111X\u001b[111C\u001b[38;2;136;136;136;48;2;10;10;10m  \r\n\u001b[38;2;255;255;255m  \u001b[38;2;92;156;245;48;2;20;20;20m┃  \u001b[38;2;238;238;238mok what are the 3 easiest programs to read rn\u001b[64X\u001b[64C\u001b[38;2;136;136;136;48;2;10;10;10m  \r\n\u001b[38;2;255;255;255m  \u001b[38;2;92;156;245;48;2;20;20;20m┃\u001b[111X\u001b[111C\u001b[38;2;255;255;255;48;2;10;10;10m  \r\n  \u001b[112X\u001b[112C\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;151;104;44m+ Thought · 12.8s\u001b[92X\u001b[92C\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m  \u001b[112X\u001b[112C  \r\n  \u001b[3X\u001b[3C\u001b[38;2;238;238;238mEasiest three to read right now, in this order:\u001b[62X\u001b[62C  \r\n\u001b[38;2;255;255;255m      \u001b[38;2;151;104;44m \u001b[38;2;255;255;255m       \u001b[100X\u001b[100C  \r\n  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m┌──────┬──────────────────────────────────┬─────────────────────────────────────────────────────────────────┐\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│\u001b[1X\u001b[1C\u001b[38;2;157;124;216;1mRank\u001b[1X\u001b[1C\u001b[38;2;136;136;136;22m│\u001b[1X\u001b[1C\u001b[38;2;157;124;216;1mProgram\u001b[26X\u001b[26C\u001b[38;2;136;136;136;22m│\u001b[1X\u001b[1C\u001b[38;2;157;124;216;1mWhy it is easy\u001b[50X\u001b[50C\u001b[38;2;136;136;136;22m│\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;136;136;136m├──────┼──────────────────────────────────┼─────────────────────────────────────────────────────────────────┤\u001b[38;2;255;255;255m  \r\n  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238m1   \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m│ \u001b[38;2;245;167;66;1mProgram 1 - \u001b[38;2;127;216;143;22mTransformController.\u001b[1X\u001b[1C\u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238mOnly uses \u001b[38;2;127;216;143mTranslate\u001b[38;2;238;238;238m, \u001b[38;2;127;216;143mRotate \u001b[38;2;238;238;238mand \u001b[38;2;127;216;143mlocalScale\u001b[38;2;238;238;238m. No extra packages, \u001b[1X\u001b[1C\u001b[38;2;136;136;136m│\u001b[38;2;238;238;238m  \u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│      │ \u001b[38;2;127;216;143mcs\u001b[31X\u001b[31C\u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238mno math, and the controls map directly to the code.\u001b[13X\u001b[13C\u001b[38;2;136;136;136m│\u001b[38;2;255;255;255m  \r\n     \u001b[38;2;136;136;136m├──────┼──────────────────────────────────┼─────────────────────────────────────────────────────────────────┤\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238m2   \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m│ \u001b[38;2;245;167;66;1mProgram 4 - \u001b[38;2;127;216;143;22mRaycast2DTarget.cs\u001b[3X\u001b[3C\u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238mShortest script. One main idea: \u001b[38;2;127;216;143mPhysics2D.Raycast(origin, \u001b[6X\u001b[6C\u001b[38;2;136;136;136m│\u001b[38;2;238;238;238m  \u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│      │                                  │ \u001b[38;2;127;216;143mdirection, distance)\u001b[38;2;238;238;238m. The rest is just checking the hit and     \u001b[38;2;136;136;136m│\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│ \u001b[38;2;255;255;255m \u001b[38;2;238;238;238m    \u001b[38;2;136;136;136m│ \u001b[30X\u001b[30C\u001b[38;2;127;216;143m   \u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238mchanging colour.\u001b[42X\u001b[42C\u001b[38;2;127;216;143m      \u001b[38;2;136;136;136m│\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;136;136;136m├──────┼──────────────────────────────────┼─────────────────────────────────────────────────────────────────┤\u001b[38;2;238;238;238m  \u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;136;136;136m│ \u001b[38;2;238;238;238m3\u001b[38;2;136;136;136m    │ \u001b[38;2;245;167;66;1mProgram 2 - \u001b[38;2;127;216;143;22mVRMenuController.cs\u001b[38;2;136;136;136m  │ \u001b[38;2;238;238;238mCode is just three \u001b[38;2;127;216;143monClick \u001b[38;2;238;238;238mlisteners and two UI changes. The    \u001b[38;2;136;136;136m│\u001b[38;2;255;255;255m       \u001b[38;2;136;136;136m│      │                                  │ \u001b[38;2;238;238;238monly heavy part is the Canvas/VR setup, not the C#.\u001b[13X\u001b[13C\u001b[38;2;136;136;136m│\u001b[38;2;238;238;238m  \r\n\u001b[38;2;255;255;255m     \u001b[38;2;136;136;136m└──────┴──────────────────────────────────┴─────────────────────────────────────────────────────────────────┘\u001b[38;2;238;238;238m  \u001b[38;2;255;255;255m      \u001b[38;2;136;136;136m \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m    \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m \u001b[31X\u001b[31C  \u001b[38;2;255;255;255m \u001b[38;2;136;136;136m \u001b[61X\u001b[61C\u001b[38;2;238;238;238m   \u001b[38;2;255;255;255m        \u001b[38;2;238;238;238mHonourable mention: \u001b[38;2;245;167;66;1mProgram 3 - \u001b[38;2;127;216;143mFirstPersonController.cs\u001b[38;2;238;238;238;22m. It is still short, but the mouse-look math (       \u001b[38;2;128;128;128m  \r\n\u001b[38;2;255;255;255m  \u001b[3X\u001b[3C\u001b[38;2;127;216;143mxRotation\u001b[38;2;238;238;238m, \u001b[38;2;127;216;143mMathf.Clamp\u001b[38;2;238;238;238m, \u001b[38;2;127;216;143mQuaternion.Euler\u001b[38;2;238;238;238m) takes a little more thought than the three above.\u001b[18X\u001b[18C\u001b[38;2;255;255;255m  \r\n     \u001b[108X\u001b[108C   \r\n  \u001b[3X\u001b[3C\u001b[38;2;238;238;238mIf you are revising in order, do \u001b[38;2;245;167;66;1m1 -> 4 -> 2\u001b[38;2;238;238;238;22m, then \u001b[38;2;245;167;66;1m3 -> 6 -> 5\u001b[38;2;238;238;238;22m. The last two have the most setup: Program 6  \u001b[38;2;255;255;255m  \r\n     \u001b[38;2;238;238;238mneeds video/audio, and Program 5 needs AR Foundation and a phone.\u001b[44X\u001b[44C\u001b[38;2;255;255;255m  \r\n     \u001b[108X\u001b[108C   \r\n     \u001b[38;2;92;156;245mBuild \u001b[38;2;128;128;128m· DeepSeek V4.1 Flash Free · 22.6s · 63.5 tok/s\u001b[56X\u001b[56C\u001b[38;2;238;238;238m  \u001b[38;2;255;255;255m                                                                                                                      \u001b[38;2;92;156;245m┃\u001b[38;2;255;255;255;48;2;30;30;30m                                                                                                               \u001b[48;2;10;10;10m    \u001b[38;2;92;156;245m┃\u001b[38;2;255;255;255;48;2;30;30;30m                                                                                                               \u001b[48;2;10;10;10m    \u001b[38;2;92;156;245m┃\u001b[38;2;255;255;255;48;2;30;30;30m                                                                                                               \u001b[48;2;10;10;10m    \u001b[38;2;92;156;245m┃\u001b[38;2;255;255;255;48;2;30;30;30m  \u001b[38;2;92;156;245mBuild \u001b[38;2;128;128;128m· \u001b[38;2;238;238;238mDeepSeek V4.1 Flash Free \u001b[38;2;128;128;128mOpenCode · \u001b[38;2;245;167;66;1mmax\u001b[38;2;255;255;255;22m                                                              \u001b[48;2;10;10;10m    \u001b[38;2;92;156;245m╹\u001b[38;2;30;30;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  \u001b[38;2;255;255;255m  \u001b[38;2;128;128;128m~/OneDrive/Desktop/sem 7:main                                                       73.1K (37%)  \u001b[38;2;238;238;238mctrl+p \u001b[38;2;128;128;128mcommands  \u001b[38;2;255;255;255m                                                                                                                    \u001b[5A\u001b[111D\u001b[0m\u001b[?2004h\u001b[?1004h\u001b[?1003h"
                   }
                 ],
                 "activeIndex": 0
               },
-              "icon": "lucide-ghost",
-              "title": "terminal-view"
+              "icon": "zap",
+              "title": "Terminal"
             }
           },
           {
-            "id": "174779da30d66905",
+            "id": "2f6f91d967cfd0f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/pyq cie 1.md",
+                "file": "vrar/lab/program-4-2d-raycaster/Program-4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pyq cie 1"
+              "title": "Program-4"
             }
           },
           {
-            "id": "3d97a28a45a63d34",
+            "id": "ec6ebaea43f6b2aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microservices/pyq cie 1.md",
+                "file": "vrar/lab/program-1-transformations/Program-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pyq cie 1"
-            }
-          },
-          {
-            "id": "8da8af2dde74673b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microservices/microservices-quick-revision.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "microservices-quick-revision"
+              "title": "Program-1"
             }
           }
         ],
@@ -314,7 +254,6 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "new-3d-graph:Open 3d graph": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-media-db-plugin:Add new Media DB entry": false,
       "lean-terminal:Open terminal": false,
@@ -327,51 +266,51 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43b329e4bcb1f226",
+  "active": "ec6ebaea43f6b2aa",
   "lastOpenFiles": [
-    "vrar/VRAR CIE-1 Notes.md",
-    "Excalidraw/board.md",
-    "microservices/pyq cie 1.md",
-    "microservices/microservices-quick-revision.md",
-    "devops/devops-quick-revision.md",
-    "devops/devops-lab-answers.md",
-    "Pasted Image 20261012061430_588.png",
-    "microservices/CIE-1 PYQ.md",
-    "microservices/cie 1 - notes.md",
-    "microservices/notes/unit1.pdf",
-    "microservices/notes/unit2.pdf",
-    "devops/unit 2.md",
-    "devops/unit 1.md",
-    "pasted images/Pasted Image 20261011210404_612.png",
-    "iks/IKS_CIE1_PYQ.md",
-    "devops",
-    "pasted images/Pasted Image 20261011111159_405.png",
-    "vrar/pyqs/pyq cie 1.md",
-    "vrar/pyqs/IS372IA_Virtual Reality and Augmented Reality_copy.pdf",
-    "vrar/pyqs/IKS_PYQ_Study_Guide_1.html",
-    "vrar/pyqs/21IS72_copy.pdf",
-    "vrar/vrar.md",
+    "vrar/lab/program-4-2d-raycaster/Program-4.md",
+    "vrar/lab/program-2-vr-ui-menu/Program-2.md",
+    "vrar/lab/program-1-transformations/Program-1.md",
+    "Home.md",
+    "vrar/lab/README.md",
+    "vrar/lab/program-5-marker-ar/Program-5.md",
+    "vrar/lab/program-6-immersive-scene/Program-6.md",
+    "vrar/lab/program-6-immersive-scene/ImmersiveScene.cs",
+    "vrar/lab/program-6-immersive-scene",
+    "vrar/lab/program-5-marker-ar/MarkerModelPlacer.cs",
+    "vrar/lab/program-5-marker-ar",
+    "vrar/lab/program-4-2d-raycaster/Raycast2DTarget.cs",
+    "vrar/lab/program-4-2d-raycaster",
+    "vrar/lab/program-3-first-person-controller/Program-3.md",
+    "vrar/lab/program-3-first-person-controller/FirstPersonController.cs",
+    "vrar/lab/program-3-first-person-controller",
+    "vrar/lab/program-2-vr-ui-menu/VRMenuController.cs",
+    "vrar/lab/program-1-transformations/TransformController.cs",
+    "vrar/cie2/VRAR CIE-2 Notes.md",
+    "vrar/cie2/VRAR PYQ CIE-2.md",
+    "vrar/cie 1/vrar.md",
+    "vrar/cie 1/VRAR PYQ CIE-1.md",
+    "vrar/cie 1/VRAR CIE-1 Notes.md",
+    "vrar/cie 1/sample progs.md",
+    "microservices/cie 2/pyq cie 2.md",
+    "microservices/cie 2/cie2notes.md",
+    "microservices/cie 2/cie2-quick-revision.md",
+    "microservices/cie 1/pyq cie 1.md",
+    "microservices/cie 1/microservices-quick-revision.md",
+    "microservices/cie 1/cie 1 - notes.md",
+    "iks/cie 2/IKS_CIE2_PYQ.md",
+    "iks/cie 2/IKS_CIE2.md",
+    "iks/cie 1/IKS_CIE1_PYQ.md",
+    "iks/cie 1/IKS_CIE1.md",
     "vrar/VRAR PYQ CIE-1.md",
-    "vrar/sample progs.md",
-    "vrar/pyqs",
-    "vrar/AR_VR (IS372IA) – CIE-1 & Quiz-1 Exam Notes.pdf",
-    "vrar/ARVR - 1 & 2.pdf",
-    "vrar",
-    "arvr/vrar.md",
+    "iks/IKS MOC.md",
+    "Pasted Image 20261012061430_588.png",
+    "pasted images/Pasted Image 20261011210404_612.png",
+    "pasted images/Pasted Image 20261011111159_405.png",
     "pasted images/Pasted Image 20261009163153_560.png",
     "Pasted Image 20261009163153_560.png",
-    "arvr/pyqs/pyq cie 1.md",
-    "arvr/sample progs.md",
-    "vrar.md",
-    "arvr/VRAR CIE-1 Notes.md",
-    "arvr/VRAR PYQ CIE-1.md",
-    "iks todo.md",
-    "iks/IKS_CIE1.md",
     "pasted images/Pasted Image 20261008173934_533.png",
     "pasted images/Pasted Image 20261008173922_212.png",
-    "hpe-networking-prep.md",
-    "telstra-ase-interview-prep.md",
-    "buzzwords.md",
     "Pasted Image 20260924205002_707.png",
     "Pasted image 20261001002352.png",
     "Pasted Image 20260924221811_169.png"
